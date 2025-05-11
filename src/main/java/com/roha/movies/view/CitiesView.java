@@ -1,7 +1,6 @@
-package com.example.starter.base;
+package com.roha.movies.view;
 
-import jakarta.inject.Inject;
-
+import com.roha.movies.GreetService;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
@@ -9,23 +8,24 @@ import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
+import jakarta.inject.Inject;
 
 /**
  * The main view contains a button and a click listener.
  */
 @Route("")
-public class MainView extends VerticalLayout {
+public class CitiesView extends VerticalLayout {
 
     @Inject
     GreetService greetService;
 
-    public MainView() {
+    public CitiesView() {
         // Use TextField for standard text input
-        TextField textField = new TextField("Your name");
+        TextField textField = new TextField("Stad");
         textField.addThemeName("bordered");
 
         // Button click listeners can be defined as lambda expressions
-        Button button = new Button("Say hello", e -> {
+        Button button = new Button("Zoeken", e -> {
             add(new Paragraph(greetService.greet(textField.getValue())));
         });
 

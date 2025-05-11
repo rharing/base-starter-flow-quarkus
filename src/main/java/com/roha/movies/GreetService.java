@@ -1,4 +1,4 @@
-package com.example.starter.base;
+package com.roha.movies;
 
 import jakarta.enterprise.context.Dependent;
 
