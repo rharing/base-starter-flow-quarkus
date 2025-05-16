@@ -1,15 +1,10 @@
 package com.roha.movies.fetcher;
 
-import com.roha.movies.config.BaseDataLoader;
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.MovieDTO;
 import com.roha.movies.domain.PlayDTO;
 import jakarta.enterprise.context.Dependent;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
-import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -40,8 +35,8 @@ public class Initializer {
             Instant.parse("2018-04-11T20:34:58Z"),
             ZoneOffset.UTC);
 
-    @EventListener(ApplicationReadyEvent.class)
-    void onStart() throws IOException {
+//    @EventListener(ApplicationReadyEvent.class)
+    public void init() throws IOException {
         DocumentLoader documentLoader;
         if (useLive) {
             documentLoader = new ExternalDocumentLoader("https://www.filmladder.nl/");

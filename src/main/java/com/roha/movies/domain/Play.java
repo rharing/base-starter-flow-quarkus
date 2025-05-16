@@ -5,7 +5,6 @@ import lombok.Builder;
 
 import java.time.LocalDateTime;
 
-@Builder
 public record Play(String id, Movie movie, LocalDateTime start, LocalDateTime End, String tickethref, String cinema, String titleAddOn) {
 
     public Boolean isOnTime(LocalDateTime now) {

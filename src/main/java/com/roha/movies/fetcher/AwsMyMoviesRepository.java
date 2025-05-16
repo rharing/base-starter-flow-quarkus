@@ -1,4 +1,4 @@
-package com.roha.movies.service;
+package com.roha.movies.fetcher;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
@@ -7,13 +7,11 @@ import com.amazonaws.services.s3.model.S3Object;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roha.movies.domain.MyMovies;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import java.io.IOException;
 import java.util.List;
 
-@Service
 public class AwsMyMoviesRepository implements MyMoviesRepository {
 
     String bucketName;
@@ -22,11 +20,11 @@ public class AwsMyMoviesRepository implements MyMoviesRepository {
     public AwsMyMoviesRepository() {
     }
 
-    public AwsMyMoviesRepository(@Value("s3_bucket") String bucketName) {
+    public AwsMyMoviesRepository(@ConfigProperty(name ="s3_bucket") String bucketName) {
         this.bucketName = bucketName;
     }
 
-    public AwsMyMoviesRepository(@Value("s3_bucket") String bucketName,@Value("s3_region") String region) {
+    public AwsMyMoviesRepository(@ConfigProperty(name ="s3_bucket") String bucketName,@ConfigProperty(name ="s3_region") String region) {
         this.bucketName = bucketName;
         this.region = region;
     }

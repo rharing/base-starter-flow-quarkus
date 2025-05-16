@@ -1,4 +1,4 @@
-package com.roha.movies.service;
+package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.City;
 import com.roha.movies.domain.IdCreator;

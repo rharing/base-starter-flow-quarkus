@@ -1,6 +1,7 @@
 package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.*;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -10,7 +11,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
-
 /**
  * uses a local json as mymovies repository and an local overview_haarlem  page to locate the cities and the movies
  */
@@ -35,7 +35,6 @@ public class MoviesFetcher {
         this.myMoviesRepository = myMoviesRepository;
     }
 
-    @Cacheable
     public List<City> loadCities() throws IOException {
         return moviesDocumentParser.loadCities();
     }

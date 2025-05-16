@@ -1,24 +1,17 @@
 package com.roha.movies.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Builder;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
  */
-@Builder
 public record Movie(String id, String title, String href, String rating, String content, String imageHref,
                     Integer duration, @JsonIgnore List<Play> plays, String titleAddOn) {
-
-    private static DateTimeFormatter TIMEFORMATTER = DateTimeFormatter.ofPattern("HH:mm");
-    private static DateTimeFormatter PLAY_ID_FORMATTER = DateTimeFormatter.ofPattern("MM-dd_HH:mm");
-    private static DateTimeFormatter DATETIMEFORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
 
     @Override
@@ -52,41 +45,26 @@ public record Movie(String id, String title, String href, String rating, String 
     }
 
     public void addPlay(LocalDateTime startDate, String title, String href, String cinema, String titleAddOn) {
-        Play play = Play.builder()
-                .id(this.id() + "_"+ PLAY_ID_FORMATTER.format(startDate))
-                .movie(this)
-                .start(startDate)
-                .End(startDate.plusMinutes(this.duration))
-                .cinema(cinema)
-                .tickethref(href)
-                .titleAddOn(titleAddOn)
-                .build();
+        String playId = this.id() + "_" + Formatters.PLAY_ID_FORMATTER.format(startDate);
+        Play play = new Play(playId,this, startDate, startDate.plusMinutes(this.duration),  href, cinema, titleAddOn);
         this.plays.add(play);
     }
 
     public Movie withDuration(LocalDateTime startDate, String titletimes) {
-        String vanTijd = TIMEFORMATTER.format(startDate);
-        String dateWithTime = DATETIMEFORMATTER.format(startDate);
+        String vanTijd = Formatters.TIMEFORMATTER.format(startDate);
+        String dateWithTime = Formatters.DATETIMEFORMATTER.format(startDate);
         String totTijd = titletimes.split("Van " + vanTijd + " tot")[1];
         LocalDateTime eindTijd = startDate;
         try {
             String endTime = dateWithTime.replace(vanTijd, totTijd.strip());
-            eindTijd = LocalDateTime.parse(endTime, DATETIMEFORMATTER);
+            eindTijd = LocalDateTime.parse(endTime, Formatters.DATETIMEFORMATTER);
         } catch (Exception e) {
             // hmm cant parse this so no way to calc the duration or the end time
         }
 
         Long duration = Duration.between(startDate, eindTijd).toMinutes();
 
-        return Movie.builder()
-                .duration(duration.intValue())
-                .id(this.id)
-                .content(this.content)
-                .href(this.href)
-                .rating(this.rating)
-                .imageHref(this.imageHref)
-                .plays(this.plays)
-                .title(this.title).build();
+        return new Movie(this.id, this.title, this.href, this.rating, this.content, this.imageHref, duration.intValue(), this.plays, this.titleAddOn);
 
 
     }
