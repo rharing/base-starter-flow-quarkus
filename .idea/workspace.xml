@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="033a2ef2-f1fb-4dd6-9d81-7ceccbcc662e" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/Formatters.java" afterDir="false" />
+    <list default="true" id="033a2ef2-f1fb-4dd6-9d81-7ceccbcc662e" name="Changes" comment="wip about to remove lombok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MovieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MovieDTO4MyMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MovieDTO4MyMovies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MyMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/MyMovies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/domain/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/AwsMyMoviesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/AwsMyMoviesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/LocalMyMoviesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/LocalMyMoviesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/LocalMyMoviesRepositoryForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/LocalMyMoviesRepositoryForTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesDocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesDocumentParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/CitiesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/GreetView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,10 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2wrA96DwfUCpb9dZZYy4HFcpEFL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +72,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -144,8 +152,21 @@
       <workItem from="1746789165755" duration="328000" />
       <workItem from="1746944944249" duration="737000" />
       <workItem from="1747379396604" duration="243000" />
-      <workItem from="1747379652541" duration="4258000" />
+      <workItem from="1747379652541" duration="5777000" />
+      <workItem from="1747386074530" duration="1359000" />
+      <workItem from="1747403824087" duration="608000" />
+      <workItem from="1747471570021" duration="4604000" />
+      <workItem from="1747483293710" duration="2914000" />
     </task>
+    <task id="LOCAL-00001" summary="wip about to remove lombok">
+      <option name="closed" value="true" />
+      <created>1747384557258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747384557258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,15 +174,39 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="wip about to remove lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip about to remove lombok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/Initializer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/Main.java</url>
           <line>19</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>44</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

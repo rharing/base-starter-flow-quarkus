@@ -3,7 +3,6 @@ package com.roha.movies.fetcher;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roha.movies.domain.MyMovies;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.springframework.core.io.AbstractResource;
 import org.springframework.core.io.ClassPathResource;
@@ -15,7 +14,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-@Slf4j
 public class LocalMyMoviesRepository implements MyMoviesRepository {
     private final String backendFile;
     private final AbstractResource storage;

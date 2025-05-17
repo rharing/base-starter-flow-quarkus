@@ -1,15 +1,19 @@
 package com.roha.movies.domain;
 
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 import java.util.HashMap;
 import java.util.Map;
 
-@AllArgsConstructor
-@NoArgsConstructor
 public class MyMovies {
+    public MyMovies() {
+    }
+
+    public MyMovies(Map<String, MovieDTO> wanted, Map<String, MovieDTO> seen, Map<String, MovieDTO> skipped) {
+        this.wanted = wanted;
+        this.seen = seen;
+        this.skipped = skipped;
+    }
+
     private Map<String, MovieDTO> wanted = new HashMap<>();
     private Map<String, MovieDTO> seen = new HashMap<>();
     private Map<String, MovieDTO> skipped = new HashMap<>();
@@ -27,11 +31,11 @@ public class MyMovies {
     }
 
     public boolean addWanted(MovieDTO movieDTO) {
-        if (movieDTO.getMovieId() != null) {
+        if (movieDTO.movieId() != null) {
 
-            boolean exists = wanted.containsKey(movieDTO.getMovieId());
+            boolean exists = wanted.containsKey(movieDTO.movieId());
             if (!exists) {
-                wanted.put(movieDTO.getMovieId(), movieDTO);
+                wanted.put(movieDTO.movieId(), movieDTO);
                 return true;
             }
         }
@@ -39,15 +43,15 @@ public class MyMovies {
     }
 
     public boolean addSeen(MovieDTO movieDTO) {
-        if (movieDTO.getMovieId() != null) {
+        if (movieDTO.movieId() != null) {
 
-            boolean exists = seen.containsKey(movieDTO.getMovieId());
+            boolean exists = seen.containsKey(movieDTO.movieId());
             if (!exists) {
-                seen.put(movieDTO.getMovieId(), movieDTO);
+                seen.put(movieDTO.movieId(), movieDTO);
                 return true;
             }
-            if (wanted.containsKey(movieDTO.getMovieId())) {
-                wanted.remove(movieDTO.getMovieId());
+            if (wanted.containsKey(movieDTO.movieId())) {
+                wanted.remove(movieDTO.movieId());
                 return true;
             }
         }
@@ -55,10 +59,10 @@ public class MyMovies {
     }
 
     public boolean addSkipped(MovieDTO movieDTO) {
-        if (movieDTO.getMovieId() != null) {
-            boolean exists = skipped.containsKey(movieDTO.getMovieId());
+        if (movieDTO.movieId() != null) {
+            boolean exists = skipped.containsKey(movieDTO.movieId());
             if (!exists) {
-                skipped.put(movieDTO.getMovieId(), movieDTO);
+                skipped.put(movieDTO.movieId(), movieDTO);
                 return true;
             }
         }

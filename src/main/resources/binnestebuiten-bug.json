@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "binnenstebuiten-2-(nl)_07-06_13:45",
+    "movie": {
+      "id": "binnenstebuiten-2-(nl)",
+      "title": "Binnenstebuiten 2 (NL)",
+      "href": "https://www.filmladder.nl/film/binnenstebuiten-2-nl-2024-378632/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/057/1035057/small_88c4b3132a50c3ff.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T13:45:00",
+    "End": "2024-07-06T15:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201061366",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_06-30_11:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T11:30:00",
+    "End": "2024-06-30T13:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902362",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_06-30_15:45",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T15:45:00",
+    "End": "2024-06-30T18:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902363",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_06-30_18:35",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T18:35:00",
+    "End": "2024-06-30T20:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902364",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_06-30_21:00",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T21:00:00",
+    "End": "2024-06-30T23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902365",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-01_16:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T16:30:00",
+    "End": "2024-07-01T18:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902366",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-01_18:35",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T18:35:00",
+    "End": "2024-07-01T20:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902367",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-02_15:45",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T15:45:00",
+    "End": "2024-07-02T18:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902368",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-02_18:35",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T18:35:00",
+    "End": "2024-07-02T20:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902369",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-02_21:00",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T21:00:00",
+    "End": "2024-07-02T23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902370",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-03_15:45",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T15:45:00",
+    "End": "2024-07-03T18:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902371",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-03_18:35",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T18:35:00",
+    "End": "2024-07-03T20:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902372",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "explanation-for-everything_07-03_21:00",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T21:00:00",
+    "End": "2024-07-03T23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902373",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "inside-out-2-(ov)_07-06_18:45",
+    "movie": {
+      "id": "inside-out-2-(ov)",
+      "title": "Inside Out 2 (OV)",
+      "href": "https://www.filmladder.nl/film/inside-out-2-ov-2024/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/033/1035033/small_75871e5f24bb0a79.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T18:45:00",
+    "End": "2024-07-06T20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201061368",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_06-30_13:45",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-06-30T13:45:00",
+    "End": "2024-06-30T15:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902256",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_06-30_21:00",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-06-30T21:00:00",
+    "End": "2024-06-30T23:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902257",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_07-01_14:15",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-01T14:15:00",
+    "End": "2024-07-01T16:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902258",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_07-02_14:15",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-02T14:15:00",
+    "End": "2024-07-02T16:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902259",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_07-02_21:00",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-02T21:00:00",
+    "End": "2024-07-02T23:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902260",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_07-03_13:45",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-03T13:45:00",
+    "End": "2024-07-03T15:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902261",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "joan-baez-i-am-a-noise_07-03_21:00",
+    "movie": {
+      "id": "joan-baez-i-am-a-noise",
+      "title": "Joan Baez I Am a Noise",
+      "href": "https://www.filmladder.nl/film/joan-baez-i-am-a-noise-2023/synopsis/haarlem",
+      "rating": "7.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/257/1039257/small_728c3937d4e4c1bb.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-03T21:00:00",
+    "End": "2024-07-03T23:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902262",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-01_19:15",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-01T19:15:00",
+    "End": "2024-07-01T22:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200797489",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-01_20:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-01T20:00:00",
+    "End": "2024-07-01T22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200430667",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-04_15:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-04T15:00:00",
+    "End": "2024-07-04T17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193399",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-04_18:30",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-04T18:30:00",
+    "End": "2024-07-04T21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193400",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-04_21:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-04T21:00:00",
+    "End": "2024-07-04T23:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193401",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-05_15:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-05T15:00:00",
+    "End": "2024-07-05T17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193402",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-05_18:30",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-05T18:30:00",
+    "End": "2024-07-05T21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193403",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-05_21:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-05T21:00:00",
+    "End": "2024-07-05T23:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193404",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-06_15:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-06T15:00:00",
+    "End": "2024-07-06T17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193406",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-06_18:30",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-06T18:30:00",
+    "End": "2024-07-06T21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193408",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "kinds-of-kindness_07-06_21:00",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-06T21:00:00",
+    "End": "2024-07-06T23:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200193410",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_06-30_16:30",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-06-30T16:30:00",
+    "End": "2024-06-30T18:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902244",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_06-30_18:45",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-06-30T18:45:00",
+    "End": "2024-06-30T20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902245",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-01_16:30",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-01T16:30:00",
+    "End": "2024-07-01T18:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902246",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-01_18:45",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-01T18:45:00",
+    "End": "2024-07-01T20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902247",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-02_16:30",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-02T16:30:00",
+    "End": "2024-07-02T18:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902248",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-02_18:45",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-02T18:45:00",
+    "End": "2024-07-02T20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902249",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-03_16:30",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-03T16:30:00",
+    "End": "2024-07-03T18:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902250",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "maria-montessori_07-03_18:45",
+    "movie": {
+      "id": "maria-montessori",
+      "title": "Maria Montessori",
+      "href": "https://www.filmladder.nl/film/maria-montessori-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/707/1035707/small_01f40b92ce9f78a2.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-03T18:45:00",
+    "End": "2024-07-03T20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902251",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "radical_06-30_14:00",
+    "movie": {
+      "id": "radical",
+      "title": "Radical",
+      "href": "https://www.filmladder.nl/film/radical-2023/synopsis/haarlem",
+      "rating": "7.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/033/317/1033317/small_98dff4ea99bea635.jpg",
+      "duration": 135
+    },
+    "start": "2024-06-30T14:00:00",
+    "End": "2024-06-30T16:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902314",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "radical_07-01_14:00",
+    "movie": {
+      "id": "radical",
+      "title": "Radical",
+      "href": "https://www.filmladder.nl/film/radical-2023/synopsis/haarlem",
+      "rating": "7.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/033/317/1033317/small_98dff4ea99bea635.jpg",
+      "duration": 135
+    },
+    "start": "2024-07-01T14:00:00",
+    "End": "2024-07-01T16:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902315",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "radical_07-02_14:00",
+    "movie": {
+      "id": "radical",
+      "title": "Radical",
+      "href": "https://www.filmladder.nl/film/radical-2023/synopsis/haarlem",
+      "rating": "7.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/033/317/1033317/small_98dff4ea99bea635.jpg",
+      "duration": 135
+    },
+    "start": "2024-07-02T14:00:00",
+    "End": "2024-07-02T16:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902317",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "radical_07-03_14:00",
+    "movie": {
+      "id": "radical",
+      "title": "Radical",
+      "href": "https://www.filmladder.nl/film/radical-2023/synopsis/haarlem",
+      "rating": "7.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/033/317/1033317/small_98dff4ea99bea635.jpg",
+      "duration": 135
+    },
+    "start": "2024-07-03T14:00:00",
+    "End": "2024-07-03T16:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902318",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "showing-up_06-30_19:10",
+    "movie": {
+      "id": "showing-up",
+      "title": "Showing Up",
+      "href": "https://www.filmladder.nl/film/showing-up-2022/synopsis/haarlem",
+      "rating": "6.3★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/931/1037931/small_28dd38a465ed7b3a.jpg",
+      "duration": 120
+    },
+    "start": "2024-06-30T19:10:00",
+    "End": "2024-06-30T21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902407",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "showing-up_07-01_19:10",
+    "movie": {
+      "id": "showing-up",
+      "title": "Showing Up",
+      "href": "https://www.filmladder.nl/film/showing-up-2022/synopsis/haarlem",
+      "rating": "6.3★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/931/1037931/small_28dd38a465ed7b3a.jpg",
+      "duration": 120
+    },
+    "start": "2024-07-01T19:10:00",
+    "End": "2024-07-01T21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902408",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "showing-up_07-02_19:10",
+    "movie": {
+      "id": "showing-up",
+      "title": "Showing Up",
+      "href": "https://www.filmladder.nl/film/showing-up-2022/synopsis/haarlem",
+      "rating": "6.3★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/931/1037931/small_28dd38a465ed7b3a.jpg",
+      "duration": 120
+    },
+    "start": "2024-07-02T19:10:00",
+    "End": "2024-07-02T21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902409",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "showing-up_07-03_19:10",
+    "movie": {
+      "id": "showing-up",
+      "title": "Showing Up",
+      "href": "https://www.filmladder.nl/film/showing-up-2022/synopsis/haarlem",
+      "rating": "6.3★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/931/1037931/small_28dd38a465ed7b3a.jpg",
+      "duration": 120
+    },
+    "start": "2024-07-03T19:10:00",
+    "End": "2024-07-03T21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902410",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-dead-don't-hurt_06-30_15:45",
+    "movie": {
+      "id": "the-dead-don't-hurt",
+      "title": "The Dead Don't Hurt",
+      "href": "https://www.filmladder.nl/film/the-dead-don-t-hurt-2023/synopsis/haarlem",
+      "rating": "6.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/221/1039221/small_f4fd18a7efc66ed2.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T15:45:00",
+    "End": "2024-06-30T18:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902323",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-dead-don't-hurt_07-01_16:15",
+    "movie": {
+      "id": "the-dead-don't-hurt",
+      "title": "The Dead Don't Hurt",
+      "href": "https://www.filmladder.nl/film/the-dead-don-t-hurt-2023/synopsis/haarlem",
+      "rating": "6.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/221/1039221/small_f4fd18a7efc66ed2.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T16:15:00",
+    "End": "2024-07-01T18:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902324",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-dead-don't-hurt_07-02_16:15",
+    "movie": {
+      "id": "the-dead-don't-hurt",
+      "title": "The Dead Don't Hurt",
+      "href": "https://www.filmladder.nl/film/the-dead-don-t-hurt-2023/synopsis/haarlem",
+      "rating": "6.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/221/1039221/small_f4fd18a7efc66ed2.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T16:15:00",
+    "End": "2024-07-02T18:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902325",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-dead-don't-hurt_07-03_16:15",
+    "movie": {
+      "id": "the-dead-don't-hurt",
+      "title": "The Dead Don't Hurt",
+      "href": "https://www.filmladder.nl/film/the-dead-don-t-hurt-2023/synopsis/haarlem",
+      "rating": "6.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/221/1039221/small_f4fd18a7efc66ed2.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T16:15:00",
+    "End": "2024-07-03T18:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902326",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-movie-teller_06-30_13:15",
+    "movie": {
+      "id": "the-movie-teller",
+      "title": "The Movie Teller",
+      "href": "https://www.filmladder.nl/film/the-movie-teller-2023/synopsis/haarlem",
+      "rating": "6.5★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/064/1036064/small_408ef787f41da84d.jpg",
+      "duration": 130
+    },
+    "start": "2024-06-30T13:15:00",
+    "End": "2024-06-30T15:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902213",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "the-movie-teller_07-02_13:45",
+    "movie": {
+      "id": "the-movie-teller",
+      "title": "The Movie Teller",
+      "href": "https://www.filmladder.nl/film/the-movie-teller-2023/synopsis/haarlem",
+      "rating": "6.5★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/064/1036064/small_408ef787f41da84d.jpg",
+      "duration": 130
+    },
+    "start": "2024-07-02T13:45:00",
+    "End": "2024-07-02T15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902214",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_06-30_11:15",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-06-30T11:15:00",
+    "End": "2024-06-30T13:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902268",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_06-30_18:45",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-06-30T18:45:00",
+    "End": "2024-06-30T20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902269",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_07-01_13:45",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-01T13:45:00",
+    "End": "2024-07-01T15:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902270",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_07-02_13:45",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-02T13:45:00",
+    "End": "2024-07-02T15:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902271",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_07-02_18:45",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-02T18:45:00",
+    "End": "2024-07-02T20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902272",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "treasure_07-03_18:45",
+    "movie": {
+      "id": "treasure",
+      "title": "Treasure",
+      "href": "https://www.filmladder.nl/film/treasure-2024/synopsis/haarlem",
+      "rating": "6.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/271/1039271/small_1bcb9be109543c8d.jpg",
+      "duration": 125
+    },
+    "start": "2024-07-03T18:45:00",
+    "End": "2024-07-03T20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200902273",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "wild-strawberries_07-06_19:00",
+    "movie": {
+      "id": "wild-strawberries",
+      "title": "Wild Strawberries",
+      "href": "https://www.filmladder.nl/film/wild-strawberries-1957/synopsis/haarlem",
+      "rating": "8.1★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/003/384/3384/small_fe68b2a13376ef53.jpg",
+      "duration": 105
+    },
+    "start": "2024-07-06T19:00:00",
+    "End": "2024-07-06T20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200544143",
+    "cinema": "FilmKoepel"
+  },
+  {
+    "id": "binnenstebuiten-2-(nl)_07-06_13:30",
+    "movie": {
+      "id": "binnenstebuiten-2-(nl)",
+      "title": "Binnenstebuiten 2 (NL)",
+      "href": "https://www.filmladder.nl/film/binnenstebuiten-2-nl-2024-378632/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/057/1035057/small_88c4b3132a50c3ff.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T13:30:00",
+    "End": "2024-07-06T15:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201065988",
+    "cinema": "Kinepolis Haarlem"
+  },
+  {
+    "id": "binnenstebuiten-2-(nl)_07-06_16:00",
+    "movie": {
+      "id": "binnenstebuiten-2-(nl)",
+      "title": "Binnenstebuiten 2 (NL)",
+      "href": "https://www.filmladder.nl/film/binnenstebuiten-2-nl-2024-378632/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/057/1035057/small_88c4b3132a50c3ff.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T16:00:00",
+    "End": "2024-07-06T17:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201065989",
+    "cinema": "Kinepolis Haarlem"
+  },
+  {
+    "id": "inside-out-2-(ov)_07-06_15:30",
+    "movie": {
+      "id": "inside-out-2-(ov)",
+      "title": "Inside Out 2 (OV)",
+      "href": "https://www.filmladder.nl/film/inside-out-2-ov-2024/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/033/1035033/small_75871e5f24bb0a79.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T15:30:00",
+    "End": "2024-07-06T17:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201066461",
+    "cinema": "Kinepolis Haarlem"
+  },
+  {
+    "id": "inside-out-2-(ov)_07-06_18:30",
+    "movie": {
+      "id": "inside-out-2-(ov)",
+      "title": "Inside Out 2 (OV)",
+      "href": "https://www.filmladder.nl/film/inside-out-2-ov-2024/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/033/1035033/small_75871e5f24bb0a79.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T18:30:00",
+    "End": "2024-07-06T20:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201066462",
+    "cinema": "Kinepolis Haarlem"
+  },
+  {
+    "id": "wicked-little-letters_07-02_13:15",
+    "movie": {
+      "id": "wicked-little-letters",
+      "title": "Wicked Little Letters",
+      "href": "https://www.filmladder.nl/film/wicked-little-letters-2023/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/030/863/1030863/small_0c9f759268ad999b.jpg",
+      "duration": 115
+    },
+    "start": "2024-07-02T13:15:00",
+    "End": "2024-07-02T15:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201067296",
+    "cinema": "Kinepolis Haarlem"
+  },
+  {
+    "id": "binnenstebuiten-2-(nl)_07-06_15:30",
+    "movie": {
+      "id": "binnenstebuiten-2-(nl)",
+      "title": "Binnenstebuiten 2 (NL)",
+      "href": "https://www.filmladder.nl/film/binnenstebuiten-2-nl-2024-378632/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/057/1035057/small_88c4b3132a50c3ff.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T15:30:00",
+    "End": "2024-07-06T17:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071026",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "binnenstebuiten-2-(nl)_07-06_13:10",
+    "movie": {
+      "id": "binnenstebuiten-2-(nl)",
+      "title": "Binnenstebuiten 2 (NL)",
+      "href": "https://www.filmladder.nl/film/binnenstebuiten-2-nl-2024-378632/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/057/1035057/small_88c4b3132a50c3ff.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T13:10:00",
+    "End": "2024-07-06T15:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071025",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "inside-out-2-(ov)_07-06_17:50",
+    "movie": {
+      "id": "inside-out-2-(ov)",
+      "title": "Inside Out 2 (OV)",
+      "href": "https://www.filmladder.nl/film/inside-out-2-ov-2024/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/033/1035033/small_75871e5f24bb0a79.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T17:50:00",
+    "End": "2024-07-06T19:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071021",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "inside-out-2-(ov)_07-06_20:10",
+    "movie": {
+      "id": "inside-out-2-(ov)",
+      "title": "Inside Out 2 (OV)",
+      "href": "https://www.filmladder.nl/film/inside-out-2-ov-2024/synopsis/haarlem",
+      "rating": "7.9★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/033/1035033/small_75871e5f24bb0a79.jpg",
+      "duration": 110
+    },
+    "start": "2024-07-06T20:10:00",
+    "End": "2024-07-06T22:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071022",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "kinds-of-kindness_07-02_20:30",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-07-02T20:30:00",
+    "End": "2024-07-02T23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071060",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "the-dead-don't-hurt_07-01_19:30",
+    "movie": {
+      "id": "the-dead-don't-hurt",
+      "title": "The Dead Don't Hurt",
+      "href": "https://www.filmladder.nl/film/the-dead-don-t-hurt-2023/synopsis/haarlem",
+      "rating": "6.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/039/221/1039221/small_f4fd18a7efc66ed2.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T19:30:00",
+    "End": "2024-07-01T21:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1201071073",
+    "cinema": "Pathé Haarlem"
+  },
+  {
+    "id": "amor-y-matemáticas_06-30_19:15",
+    "movie": {
+      "id": "amor-y-matemáticas",
+      "title": "Amor y Matemáticas",
+      "href": "https://www.filmladder.nl/film/amor-y-matematicas-2022/synopsis/haarlem",
+      "rating": "5.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/382/1036382/small_dc7500bc15909f06.jpg",
+      "duration": 95
+    },
+    "start": "2024-06-30T19:15:00",
+    "End": "2024-06-30T20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200803037",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "amor-y-matemáticas_07-01_19:30",
+    "movie": {
+      "id": "amor-y-matemáticas",
+      "title": "Amor y Matemáticas",
+      "href": "https://www.filmladder.nl/film/amor-y-matematicas-2022/synopsis/haarlem",
+      "rating": "5.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/382/1036382/small_dc7500bc15909f06.jpg",
+      "duration": 95
+    },
+    "start": "2024-07-01T19:30:00",
+    "End": "2024-07-01T21:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200823883",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "amor-y-matemáticas_07-02_15:15",
+    "movie": {
+      "id": "amor-y-matemáticas",
+      "title": "Amor y Matemáticas",
+      "href": "https://www.filmladder.nl/film/amor-y-matematicas-2022/synopsis/haarlem",
+      "rating": "5.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/382/1036382/small_dc7500bc15909f06.jpg",
+      "duration": 95
+    },
+    "start": "2024-07-02T15:15:00",
+    "End": "2024-07-02T16:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200843414",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "amor-y-matemáticas_07-03_19:15",
+    "movie": {
+      "id": "amor-y-matemáticas",
+      "title": "Amor y Matemáticas",
+      "href": "https://www.filmladder.nl/film/amor-y-matematicas-2022/synopsis/haarlem",
+      "rating": "5.8★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/036/382/1036382/small_dc7500bc15909f06.jpg",
+      "duration": 95
+    },
+    "start": "2024-07-03T19:15:00",
+    "End": "2024-07-03T20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200860615",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_06-30_16:45",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T16:45:00",
+    "End": "2024-06-30T19:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200802956",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_06-30_21:00",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-06-30T21:00:00",
+    "End": "2024-06-30T23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200803116",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-01_13:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T13:30:00",
+    "End": "2024-07-01T15:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200823725",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-01_20:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-01T20:30:00",
+    "End": "2024-07-01T22:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200823921",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-02_16:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T16:30:00",
+    "End": "2024-07-02T18:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200843424",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-02_20:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-02T20:30:00",
+    "End": "2024-07-02T22:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200843557",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-03_16:30",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T16:30:00",
+    "End": "2024-07-03T18:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200860583",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "explanation-for-everything_07-03_21:00",
+    "movie": {
+      "id": "explanation-for-everything",
+      "title": "Explanation for Everything",
+      "href": "https://www.filmladder.nl/film/explanation-for-everything-2023/synopsis/haarlem",
+      "rating": "7.7★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/037/907/1037907/small_0172649a9f9f8821.jpg",
+      "duration": 140
+    },
+    "start": "2024-07-03T21:00:00",
+    "End": "2024-07-03T23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200860646",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "i-am-the-river,-the-river-is-me_07-01_15:15",
+    "movie": {
+      "id": "i-am-the-river,-the-river-is-me",
+      "title": "I Am the River, The River is Me",
+      "href": "https://www.filmladder.nl/film/i-am-the-river-the-river-is-me-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/789/1035789/small_b777b607b324ff15.jpg",
+      "duration": 100
+    },
+    "start": "2024-07-01T15:15:00",
+    "End": "2024-07-01T16:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200823756",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "i-am-the-river,-the-river-is-me_07-02_11:00",
+    "movie": {
+      "id": "i-am-the-river,-the-river-is-me",
+      "title": "I Am the River, The River is Me",
+      "href": "https://www.filmladder.nl/film/i-am-the-river-the-river-is-me-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/035/789/1035789/small_b777b607b324ff15.jpg",
+      "duration": 100
+    },
+    "start": "2024-07-02T11:00:00",
+    "End": "2024-07-02T12:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200843344",
+    "cinema": "Schuur"
+  },
+  {
+    "id": "kinds-of-kindness_06-30_13:30",
+    "movie": {
+      "id": "kinds-of-kindness",
+      "title": "Kinds of Kindness",
+      "href": "https://www.filmladder.nl/film/kinds-of-kindness-2024/synopsis/haarlem",
+      "rating": "7.0★",
+      "content": null,
+      "imageHref": "https://assets.filmladder.nl/uploads/depot_image/asset/001/038/463/1038463/small_0978f38a48bb1b20.jpg",
+      "duration": 175
+    },
+    "start": "2024-06-30T13:30:00",
+    "End": "2024-06-30T16:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1200802812",
+    "cinema": "Schuur"
+  }
+]

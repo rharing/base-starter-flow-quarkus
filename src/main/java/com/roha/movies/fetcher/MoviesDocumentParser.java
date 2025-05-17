@@ -81,16 +81,16 @@ public class MoviesDocumentParser {
             String title = movieLink.attr("title");
             Elements titleAddOn = movieLink.select("span");
             String href = movieElement.select("a.text-link").get(0).attr("href");
-            Movie.MovieBuilder movieBuilder = Movie.builder().title(title).id(movieId).href(href).plays(new ArrayList<>());
-            movieBuilder.imageHref(movieElement.select("img").attr("data-src"));
-            String text = movieElement.select("span.star-rating>a.movie-link").text();
-            if(text.length()>=3) {
+//            Movie.MovieBuilder movieBuilder = Movie.builder().title(title).id(movieId).href(href).plays(new ArrayList<>());
+            String imageHref = movieElement.select("img").attr("data-src");
+            String rating = movieElement.select("span.star-rating>a.movie-link").text();
+            if(rating.length()>=3) {
                 // get rid of weird chars
-                text = convertRating(text);
+                rating = convertRating(rating);
             }
-            movieBuilder.rating(text);
-            Optional<Movie> optionalExistingMovie = movies.stream().filter(movie -> movie.title().equals(title)).findFirst();
-            Movie movie = movieBuilder.build();
+            Movie movie = new Movie(movieId, title, href, rating, null, imageHref, null, new ArrayList<>(), null);
+
+            Optional<Movie> optionalExistingMovie = movies.stream().filter(existingMovie -> existingMovie.title().equals(title)).findFirst();
             if (optionalExistingMovie.isPresent()) {
                 movie = optionalExistingMovie.get();
             }
@@ -124,19 +124,17 @@ public class MoviesDocumentParser {
     }
 
     public Movie loadMovie(String href) throws IOException {
-        Movie.MovieBuilder builder = Movie.builder();
         if (href != null) {
             documentLoader = new ExternalDocumentLoader(href);
         }
         Document document = documentLoader.parse();
-        builder.content(document.select("p.synopsis").text());
+        String content = document.select("p.synopsis").text();
 
         String title = document.select("div#short-details>h3").attr("title");
-        builder.id(IdCreator.create(title));
+        String movieId = IdCreator.create(title);
         if (title.startsWith("Details ")) {
             title = title.replace("Details ", "");
         }
-        builder.title(title);
         final Elements durationElement = document.select("p[itemprop=duration]");
         String duration = "";
         if (durationElement != null) {
@@ -145,19 +143,18 @@ public class MoviesDocumentParser {
                 duration = "";
             }
         }
-        builder.href(href);
+        Integer minuten =0;
         if (duration.endsWith("minuten")) {
-            builder.duration(Integer.valueOf(duration.replace("minuten", "").strip()));
+            minuten = Integer.valueOf(duration.replace("minuten", "").strip());
         }
+
         String rating = document.select("span[itemprop=ratingValue]").text();
         if (rating == null) {
             rating = "";
         }
-        builder.rating(rating);
 
-        builder.imageHref(document.select("img.poster").attr("src"));
-
-        return builder.build();
+        String imageHref = document.select("img.poster").attr("src");
+        return new Movie(movieId, title, href, rating, content, imageHref, minuten, new ArrayList<>(), null);
     }
 
     public List

@@ -1,11 +1,9 @@
 package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.MyMovies;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 
-@Slf4j
 public class LocalMyMoviesRepositoryForTest implements MyMoviesRepository {
     MyMovies myMovies = new MyMovies();
 

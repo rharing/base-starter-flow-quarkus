@@ -13,19 +13,19 @@ import jakarta.inject.Inject;
 /**
  * The main view contains a button and a click listener.
  */
-@Route("")
-public class CitiesView extends VerticalLayout {
+@Route("/greet")
+public class GreetView extends VerticalLayout {
 
     @Inject
     GreetService greetService;
 
-    public CitiesView() {
+    public GreetView() {
         // Use TextField for standard text input
-        TextField textField = new TextField("Stad");
+        TextField textField = new TextField("hello");
         textField.addThemeName("bordered");
 
         // Button click listeners can be defined as lambda expressions
-        Button button = new Button("Zoeken", e -> {
+        Button button = new Button("greet me", e -> {
             add(new Paragraph(greetService.greet(textField.getValue())));
         });
 

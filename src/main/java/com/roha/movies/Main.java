@@ -17,7 +17,6 @@ public class Main {
         Initializer initializer;
         @Override
         public int run(String... args) throws Exception {
-            System.out.println("Do startup logic here");
             initializer.init();
             Quarkus.waitForExit();
             return 0;

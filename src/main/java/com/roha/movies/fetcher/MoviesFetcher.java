@@ -1,7 +1,6 @@
 package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.*;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -14,7 +13,6 @@ import java.util.stream.Collectors;
 /**
  * uses a local json as mymovies repository and an local overview_haarlem  page to locate the cities and the movies
  */
-@Slf4j
 public class MoviesFetcher {
 
     private final MoviesDocumentParser moviesDocumentParser;
@@ -68,7 +66,7 @@ public class MoviesFetcher {
         }
 
         if(!result.isEmpty()) {
-            Collections.sort(result, Comparator.comparing(PlayDTO::start).thenComparing(o -> o.movieDTO().getMovieId().toLowerCase()).thenComparing((o1, o2) -> o1.cinema().compareTo(o2.cinema())));
+            Collections.sort(result, Comparator.comparing(PlayDTO::start).thenComparing(o -> o.movieDTO().movieId().toLowerCase()).thenComparing((o1, o2) -> o1.cinema().compareTo(o2.cinema())));
         }
         return result;
     }
@@ -108,9 +106,9 @@ public class MoviesFetcher {
     }
 
     public Movie loadMovie(MovieDTO movieDTO) throws IOException {
-        if (movieDTO != null && movieDTO.getHref() != null) {
+        if (movieDTO != null && movieDTO.href() != null) {
 
-            return moviesDocumentParser.loadMovie(movieDTO.getHref());
+            return moviesDocumentParser.loadMovie(movieDTO.href());
         }
         return moviesDocumentParser.loadMovie(null);
     }
@@ -134,8 +132,8 @@ public class MoviesFetcher {
     public void addSeen(MovieDTO movieDTO) throws IOException {
         MyMovies myMovies = myMoviesRepository.load();
         boolean updateMyMovies = myMovies.addSeen(movieDTO);
-        if(myMovies.getWanted().containsKey(movieDTO.getMovieId())){
-            myMovies.getWanted().remove(movieDTO.getMovieId());
+        if(myMovies.getWanted().containsKey(movieDTO.movieId())){
+            myMovies.getWanted().remove(movieDTO.movieId());
             updateMyMovies = true;
         }
         if (updateMyMovies) {
@@ -146,16 +144,16 @@ public class MoviesFetcher {
     public void reset(MovieDTO movieDTO) throws IOException {
         MyMovies myMovies = myMoviesRepository.load();
         boolean update = false;
-        if (myMovies.getSeen().containsKey(movieDTO.getMovieId())) {
-            myMovies.getSeen().remove(movieDTO.getMovieId());
+        if (myMovies.getSeen().containsKey(movieDTO.movieId())) {
+            myMovies.getSeen().remove(movieDTO.movieId());
             update = true;
         }
-        if (myMovies.getWanted().containsKey(movieDTO.getMovieId())) {
-            myMovies.getWanted().remove(movieDTO.getMovieId());
+        if (myMovies.getWanted().containsKey(movieDTO.movieId())) {
+            myMovies.getWanted().remove(movieDTO.movieId());
             update = true;
         }
-        if (myMovies.getSkipped().containsKey(movieDTO.getMovieId())) {
-            myMovies.getSkipped().remove(movieDTO.getMovieId());
+        if (myMovies.getSkipped().containsKey(movieDTO.movieId())) {
+            myMovies.getSkipped().remove(movieDTO.movieId());
             update = true;
         }
         if (update) {
@@ -164,9 +162,9 @@ public class MoviesFetcher {
     }
 
     public List<WhenPlayDTO> when(MovieDTO movieDTO) throws IOException {
-        if (movieDTO != null && movieDTO.getId() != null) {
+        if (movieDTO != null && movieDTO.id() != null) {
 
-            List<WhenPlayDTO> whenPlayDTOS = moviesDocumentParser.whenMovie(movieDTO.getId());
+            List<WhenPlayDTO> whenPlayDTOS = moviesDocumentParser.whenMovie(movieDTO.id());
             whenPlayDTOS.sort(new Comparator<WhenPlayDTO>() {
                 @Override
                 public int compare(WhenPlayDTO o1, WhenPlayDTO o2) {

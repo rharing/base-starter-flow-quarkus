@@ -3,17 +3,20 @@ package com.roha.movies.fetcher;
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.MovieDTO;
 import com.roha.movies.domain.PlayDTO;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.context.Dependent;
+import jakarta.inject.Singleton;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import java.io.IOException;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneOffset;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Dependent
+@ApplicationScoped
 public class Initializer {
 
     @ConfigProperty(name = "useLive",defaultValue = "true")
@@ -29,8 +32,7 @@ public class Initializer {
     private MoviesFetcher moviesFetcher;
     private MyMoviesRepository myMoviesRepository;
 
-
-    private com.roha.movies.fetcher.BaseDataLoader baseDataLoader = new BaseDataLoader();
+    private BaseDataLoader baseDataLoader = new BaseDataLoader();
     public static final Clock LONGTIMEAGO = Clock.fixed(
             Instant.parse("2018-04-11T20:34:58Z"),
             ZoneOffset.UTC);
@@ -42,10 +44,9 @@ public class Initializer {
             documentLoader = new ExternalDocumentLoader("https://www.filmladder.nl/");
         } else {
             Optional<String> optionalUrl = baseDataLoader.getExternalUrl("overview_haarlem.html");
-            if(optionalUrl.isPresent()) {
+            if (optionalUrl.isPresent()) {
                 documentLoader = new DocumentLoaderFromFile(optionalUrl.get());
-            }
-            else{
+            } else {
                 // wont happen
                 throw new RuntimeException("failed to load overview_haarlem.html");
             }
@@ -85,13 +86,8 @@ public class Initializer {
 
     public Movie loadMovie(MovieDTO movieDTO) throws IOException {
         if (fakeMovieContent) {
-            String movieId = movieDTO.getMovieId();
-            return Movie.builder().id(movieId).href(movieDTO.getHref())
-                    .content("bogus content for " + movieId)
-                    .rating("unknown")
-                    .title(movieId)
-                    .titleAddOn("")
-                    .duration(42).imageHref("").build();
+            String movieId = movieDTO.movieId();
+            return new Movie(movieId, movieId, movieDTO.href(), "unknown", "bogus content for " + movieId,"", 42, new ArrayList<>(), "");
         } else {
             return getMoviesFetcher().loadMovie(movieDTO);
         }

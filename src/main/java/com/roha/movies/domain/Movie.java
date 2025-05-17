@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,25 +27,12 @@ public record Movie(String id, String title, String href, String rating, String 
     }
 
     public MovieDTO asDTO() {
-        return MovieDTO.builder()
-                .id(id)
-                .movieId(id)
-                .title(title)
-                .href(href)
-                .rating(rating)
-                .image(imageHref)
-                .duration(duration)
-                .titleAddOn(titleAddOn)
-                .build();
-    }
-
-    public static class MovieBuilder {
-        private List<Play> plays = new ArrayList<>();
+        return new MovieDTO(id,id, title, titleAddOn, imageHref, href, rating, null, duration);
     }
 
     public void addPlay(LocalDateTime startDate, String title, String href, String cinema, String titleAddOn) {
         String playId = this.id() + "_" + Formatters.PLAY_ID_FORMATTER.format(startDate);
-        Play play = new Play(playId,this, startDate, startDate.plusMinutes(this.duration),  href, cinema, titleAddOn);
+        Play play = new Play(playId, this, startDate, startDate.plusMinutes(this.duration), href, cinema, titleAddOn);
         this.plays.add(play);
     }
 
@@ -65,8 +51,6 @@ public record Movie(String id, String title, String href, String rating, String 
         Long duration = Duration.between(startDate, eindTijd).toMinutes();
 
         return new Movie(this.id, this.title, this.href, this.rating, this.content, this.imageHref, duration.intValue(), this.plays, this.titleAddOn);
-
-
     }
 }
 
