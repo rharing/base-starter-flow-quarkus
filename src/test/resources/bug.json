@@ -1,0 +1,3895 @@
+[
+  {
+    "id": "juffrouw-pots-2024_02-09_11:20",
+    "start": "2025-02-09 11:20:00",
+    "End": "2025-02-09 12:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306299",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "l-histoire-de-souleymane-2024-432361_02-09_11:20",
+    "start": "2025-02-09 11:20:00",
+    "End": "2025-02-09 13:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127426",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "l-histoire-de-souleymane-2024-432361",
+      "title": "L'histoire de Souleymane",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/711/1050711/small_a65218a9bf41c726.jpg",
+      "href": "https://www.filmladder.nl/film/l-histoire-de-souleymane-2024-432361/popup/haarlem",
+      "rating": "7.8",
+      "duration": 105,
+      "movie-id": "l-histoire-de-souleymane-2024-432361"
+    }
+  },
+  {
+    "id": "flow-2024_02-09_11:45",
+    "start": "2025-02-09 11:45:00",
+    "End": "2025-02-09 13:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127326",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "red-de-jungle-2024_02-09_11:45",
+    "start": "2025-02-09 11:45:00",
+    "End": "2025-02-09 13:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127526",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "red-de-jungle-2024",
+      "title": "Red de jungle",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/223/1051223/small_cedfc8285aba2de8.jpg",
+      "href": "https://www.filmladder.nl/film/red-de-jungle-2024/popup/haarlem",
+      "rating": "7.0",
+      "duration": 100,
+      "movie-id": "red-de-jungle-2024"
+    }
+  },
+  {
+    "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025_02-09_11:45",
+    "start": "2025-02-09 11:45:00",
+    "End": "2025-02-09 13:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310857",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025",
+      "title": "Woezel & Pip op Avontuur in de Tovertuin",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/839/1053839/small_ce4bfa73e4a61c1e.jpg",
+      "href": "https://www.filmladder.nl/film/woezel-pip-op-avontuur-in-de-tovertuin-2025/popup/haarlem",
+      "rating": "",
+      "duration": 75,
+      "movie-id": "woezel-pip-op-avontuur-in-de-tovertuin-2025"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-09_12:20",
+    "start": "2025-02-09 12:20:00",
+    "End": "2025-02-09 14:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104406",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-09_13:00",
+    "start": "2025-02-09 13:00:00",
+    "End": "2025-02-09 14:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306298",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-09_13:00",
+    "start": "2025-02-09 13:00:00",
+    "End": "2025-02-09 15:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127385",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-09_13:10",
+    "start": "2025-02-09 13:10:00",
+    "End": "2025-02-09 14:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310860",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025_02-09_13:15",
+    "start": "2025-02-09 13:15:00",
+    "End": "2025-02-09 14:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127533",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025",
+      "title": "Woezel & Pip op Avontuur in de Tovertuin",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/839/1053839/small_ce4bfa73e4a61c1e.jpg",
+      "href": "https://www.filmladder.nl/film/woezel-pip-op-avontuur-in-de-tovertuin-2025/popup/haarlem",
+      "rating": "",
+      "duration": 75,
+      "movie-id": "woezel-pip-op-avontuur-in-de-tovertuin-2025"
+    }
+  },
+  {
+    "id": "maria-2024_02-09_13:30",
+    "start": "2025-02-09 13:30:00",
+    "End": "2025-02-09 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127492",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "merckx-2025_02-09_13:30",
+    "start": "2025-02-09 13:30:00",
+    "End": "2025-02-09 15:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104409",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "merckx-2025",
+      "title": "Merckx",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/533/1054533/small_df453d27bff4fd5e.jpg",
+      "href": "https://www.filmladder.nl/film/merckx-2025/popup/haarlem",
+      "rating": "7.4",
+      "duration": 95,
+      "movie-id": "merckx-2025"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-09_13:30",
+    "start": "2025-02-09 13:30:00",
+    "End": "2025-02-09 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127462",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-09_13:45",
+    "start": "2025-02-09 13:45:00",
+    "End": "2025-02-09 17:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127482",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-09_14:40",
+    "start": "2025-02-09 14:40:00",
+    "End": "2025-02-09 16:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310840",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "belle-de-jour-1967_02-09_15:00",
+    "start": "2025-02-09 15:00:00",
+    "End": "2025-02-09 16:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127521",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "belle-de-jour-1967",
+      "title": "Belle De Jour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/083/1054083/small_3d62084d7e8a4a61.jpg",
+      "href": "https://www.filmladder.nl/film/belle-de-jour-1967/popup/haarlem",
+      "rating": "7.6",
+      "duration": 115,
+      "movie-id": "belle-de-jour-1967"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-09_15:20",
+    "start": "2025-02-09 15:20:00",
+    "End": "2025-02-09 17:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310863",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-09_15:30",
+    "start": "2025-02-09 15:30:00",
+    "End": "2025-02-09 17:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306024",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "queer-2024_02-09_15:30",
+    "start": "2025-02-09 15:30:00",
+    "End": "2025-02-09 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127302",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-09_15:30",
+    "start": "2025-02-09 15:30:00",
+    "End": "2025-02-09 19:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104415",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-09_16:10",
+    "start": "2025-02-09 16:10:00",
+    "End": "2025-02-09 18:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310882",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "conclave-2024_02-09_16:15",
+    "start": "2025-02-09 16:15:00",
+    "End": "2025-02-09 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127475",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "conclave-2024",
+      "title": "Conclave",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/755/1050755/small_f06317a7fde34837.jpg",
+      "href": "https://www.filmladder.nl/film/conclave-2024/popup/haarlem",
+      "rating": "7.4",
+      "duration": 130,
+      "movie-id": "conclave-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-09_16:15",
+    "start": "2025-02-09 16:15:00",
+    "End": "2025-02-09 18:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127344",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "diamant-brut-2024_02-09_16:45",
+    "start": "2025-02-09 16:45:00",
+    "End": "2025-02-09 18:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104417",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "diamant-brut-2024",
+      "title": "Diamant brut",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/895/1050895/small_308f04129a1b7438.jpg",
+      "href": "https://www.filmladder.nl/film/diamant-brut-2024/popup/haarlem",
+      "rating": "6.4",
+      "duration": 115,
+      "movie-id": "diamant-brut-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-09_18:00",
+    "start": "2025-02-09 18:00:00",
+    "End": "2025-02-09 19:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127327",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-09_18:30",
+    "start": "2025-02-09 18:30:00",
+    "End": "2025-02-09 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127345",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-09_18:45",
+    "start": "2025-02-09 18:45:00",
+    "End": "2025-02-09 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127386",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-09_18:50",
+    "start": "2025-02-09 18:50:00",
+    "End": "2025-02-09 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127408",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-09_19:00",
+    "start": "2025-02-09 19:00:00",
+    "End": "2025-02-09 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127508",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-09_19:00",
+    "start": "2025-02-09 19:00:00",
+    "End": "2025-02-09 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208025744",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-09_19:15",
+    "start": "2025-02-09 19:15:00",
+    "End": "2025-02-09 21:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310864",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-09_19:30",
+    "start": "2025-02-09 19:30:00",
+    "End": "2025-02-09 23:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104422",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "braveheart-1995_02-09_20:00",
+    "start": "2025-02-09 20:00:00",
+    "End": "2025-02-09 23:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207590039",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "braveheart-1995",
+      "title": "Braveheart",
+      "image": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/003/803/3803/small_511c1c3ce04173a2.jpg",
+      "href": "https://www.filmladder.nl/film/braveheart-1995/popup/haarlem",
+      "rating": "8.3",
+      "duration": 190,
+      "movie-id": "braveheart-1995"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-09_20:00",
+    "start": "2025-02-09 20:00:00",
+    "End": "2025-02-09 23:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207450894",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-09_20:30",
+    "start": "2025-02-09 20:30:00",
+    "End": "2025-02-09 22:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306025",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-09_21:00",
+    "start": "2025-02-09 21:00:00",
+    "End": "2025-02-09 23:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104427",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-09_21:00",
+    "start": "2025-02-09 21:00:00",
+    "End": "2025-02-09 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127303",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "maria-2024_02-09_21:15",
+    "start": "2025-02-09 21:15:00",
+    "End": "2025-02-09 23:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127493",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "inheritance-2025_02-09_21:45",
+    "start": "2025-02-09 21:45:00",
+    "End": "2025-02-09 23:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310770",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "inheritance-2025",
+      "title": "Inheritance",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/231/1053231/small_fd933fa068a09b6e.jpg",
+      "href": "https://www.filmladder.nl/film/inheritance-2025/popup/haarlem",
+      "rating": "5.8",
+      "duration": 110,
+      "movie-id": "inheritance-2025"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-10_11:00",
+    "start": "2025-02-10 11:00:00",
+    "End": "2025-02-10 12:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127409",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-10_11:00",
+    "start": "2025-02-10 11:00:00",
+    "End": "2025-02-10 12:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104428",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "the-room-next-door-2024_02-10_11:10",
+    "start": "2025-02-10 11:10:00",
+    "End": "2025-02-10 13:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127399",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-room-next-door-2024",
+      "title": "The Room Next Door",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/783/1050783/small_d68e7476720b3dc8.jpg",
+      "href": "https://www.filmladder.nl/film/the-room-next-door-2024/popup/haarlem",
+      "rating": "6.9",
+      "duration": 120,
+      "movie-id": "the-room-next-door-2024"
+    }
+  },
+  {
+    "id": "no-other-land-2024_02-10_11:15",
+    "start": "2025-02-10 11:15:00",
+    "End": "2025-02-10 13:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104429",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "no-other-land-2024",
+      "title": "No Other Land",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/665/1050665/small_373a502893172cc9.jpg",
+      "href": "https://www.filmladder.nl/film/no-other-land-2024/popup/haarlem",
+      "rating": "8.3",
+      "duration": 105,
+      "movie-id": "no-other-land-2024"
+    }
+  },
+  {
+    "id": "l-histoire-de-souleymane-2024-432361_02-10_11:20",
+    "start": "2025-02-10 11:20:00",
+    "End": "2025-02-10 13:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127427",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "l-histoire-de-souleymane-2024-432361",
+      "title": "L'histoire de Souleymane",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/711/1050711/small_a65218a9bf41c726.jpg",
+      "href": "https://www.filmladder.nl/film/l-histoire-de-souleymane-2024-432361/popup/haarlem",
+      "rating": "7.8",
+      "duration": 105,
+      "movie-id": "l-histoire-de-souleymane-2024-432361"
+    }
+  },
+  {
+    "id": "better-man-2024_02-10_11:40",
+    "start": "2025-02-10 11:40:00",
+    "End": "2025-02-10 14:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310833",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "better-man-2024",
+      "title": "Better Man",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/405/1050405/small_45621fa2d6a93907.jpg",
+      "href": "https://www.filmladder.nl/film/better-man-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 150,
+      "movie-id": "better-man-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-10_11:45",
+    "start": "2025-02-10 11:45:00",
+    "End": "2025-02-10 13:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127328",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-10_11:45",
+    "start": "2025-02-10 11:45:00",
+    "End": "2025-02-10 13:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127509",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-10_13:00",
+    "start": "2025-02-10 13:00:00",
+    "End": "2025-02-10 15:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127387",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-10_13:00",
+    "start": "2025-02-10 13:00:00",
+    "End": "2025-02-10 14:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310865",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-10_13:15",
+    "start": "2025-02-10 13:15:00",
+    "End": "2025-02-10 17:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104431",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "maria-2024_02-10_13:30",
+    "start": "2025-02-10 13:30:00",
+    "End": "2025-02-10 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127494",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-10_13:30",
+    "start": "2025-02-10 13:30:00",
+    "End": "2025-02-10 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127463",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-10_13:30",
+    "start": "2025-02-10 13:30:00",
+    "End": "2025-02-10 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310883",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-10_13:45",
+    "start": "2025-02-10 13:45:00",
+    "End": "2025-02-10 17:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127483",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-10_14:00",
+    "start": "2025-02-10 14:00:00",
+    "End": "2025-02-10 15:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310861",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "inheritance-2025_02-10_14:40",
+    "start": "2025-02-10 14:40:00",
+    "End": "2025-02-10 16:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310771",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "inheritance-2025",
+      "title": "Inheritance",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/231/1053231/small_fd933fa068a09b6e.jpg",
+      "href": "https://www.filmladder.nl/film/inheritance-2025/popup/haarlem",
+      "rating": "5.8",
+      "duration": 110,
+      "movie-id": "inheritance-2025"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-10_14:40",
+    "start": "2025-02-10 14:40:00",
+    "End": "2025-02-10 16:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104434",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-10_15:30",
+    "start": "2025-02-10 15:30:00",
+    "End": "2025-02-10 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127304",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "conclave-2024_02-10_16:15",
+    "start": "2025-02-10 16:15:00",
+    "End": "2025-02-10 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127476",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "conclave-2024",
+      "title": "Conclave",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/755/1050755/small_f06317a7fde34837.jpg",
+      "href": "https://www.filmladder.nl/film/conclave-2024/popup/haarlem",
+      "rating": "7.4",
+      "duration": 130,
+      "movie-id": "conclave-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-10_16:15",
+    "start": "2025-02-10 16:15:00",
+    "End": "2025-02-10 18:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306064",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-10_16:15",
+    "start": "2025-02-10 16:15:00",
+    "End": "2025-02-10 18:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127346",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-10_16:20",
+    "start": "2025-02-10 16:20:00",
+    "End": "2025-02-10 18:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310866",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "diamant-brut-2024_02-10_16:45",
+    "start": "2025-02-10 16:45:00",
+    "End": "2025-02-10 18:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104435",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "diamant-brut-2024",
+      "title": "Diamant brut",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/895/1050895/small_308f04129a1b7438.jpg",
+      "href": "https://www.filmladder.nl/film/diamant-brut-2024/popup/haarlem",
+      "rating": "6.4",
+      "duration": 115,
+      "movie-id": "diamant-brut-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-10_17:15",
+    "start": "2025-02-10 17:15:00",
+    "End": "2025-02-10 19:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104436",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-10_18:00",
+    "start": "2025-02-10 18:00:00",
+    "End": "2025-02-10 19:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127329",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-10_18:30",
+    "start": "2025-02-10 18:30:00",
+    "End": "2025-02-10 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127347",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-10_18:45",
+    "start": "2025-02-10 18:45:00",
+    "End": "2025-02-10 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127388",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-10_18:50",
+    "start": "2025-02-10 18:50:00",
+    "End": "2025-02-10 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127410",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-10_19:00",
+    "start": "2025-02-10 19:00:00",
+    "End": "2025-02-10 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127510",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "merckx-2025_02-10_19:00",
+    "start": "2025-02-10 19:00:00",
+    "End": "2025-02-10 20:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208050140",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "merckx-2025",
+      "title": "Merckx",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/533/1054533/small_df453d27bff4fd5e.jpg",
+      "href": "https://www.filmladder.nl/film/merckx-2025/popup/haarlem",
+      "rating": "7.4",
+      "duration": 95,
+      "movie-id": "merckx-2025"
+    }
+  },
+  {
+    "id": "paths-of-glory-1957_02-10_19:00",
+    "start": "2025-02-10 19:00:00",
+    "End": "2025-02-10 20:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207590041",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "paths-of-glory-1957",
+      "title": "Paths of Glory",
+      "image": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/003/474/3474/small_4b31b2234a800782.jpg",
+      "href": "https://www.filmladder.nl/film/paths-of-glory-1957/popup/haarlem",
+      "rating": "8.4",
+      "duration": 100,
+      "movie-id": "paths-of-glory-1957"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-10_19:30",
+    "start": "2025-02-10 19:30:00",
+    "End": "2025-02-10 21:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310884",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-10_19:30",
+    "start": "2025-02-10 19:30:00",
+    "End": "2025-02-10 23:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104437",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-10_19:40",
+    "start": "2025-02-10 19:40:00",
+    "End": "2025-02-10 21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310867",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-10_20:00",
+    "start": "2025-02-10 20:00:00",
+    "End": "2025-02-10 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306065",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-10_20:00",
+    "start": "2025-02-10 20:00:00",
+    "End": "2025-02-10 23:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207450895",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "misericorde-2024_02-10_20:45",
+    "start": "2025-02-10 20:45:00",
+    "End": "2025-02-10 22:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104441",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "misericorde-2024",
+      "title": "Miséricorde",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/637/1054637/small_af07b9b2d2a009af.jpg",
+      "href": "https://www.filmladder.nl/film/misericorde-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 115,
+      "movie-id": "misericorde-2024"
+    }
+  },
+  {
+    "id": "belle-de-jour-1967_02-10_21:00",
+    "start": "2025-02-10 21:00:00",
+    "End": "2025-02-10 22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127522",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "belle-de-jour-1967",
+      "title": "Belle De Jour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/083/1054083/small_3d62084d7e8a4a61.jpg",
+      "href": "https://www.filmladder.nl/film/belle-de-jour-1967/popup/haarlem",
+      "rating": "7.6",
+      "duration": 115,
+      "movie-id": "belle-de-jour-1967"
+    }
+  },
+  {
+    "id": "queer-2024_02-10_21:00",
+    "start": "2025-02-10 21:00:00",
+    "End": "2025-02-10 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127305",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "maria-2024_02-10_21:15",
+    "start": "2025-02-10 21:15:00",
+    "End": "2025-02-10 23:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127495",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "inheritance-2025_02-10_21:50",
+    "start": "2025-02-10 21:50:00",
+    "End": "2025-02-10 23:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310772",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "inheritance-2025",
+      "title": "Inheritance",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/231/1053231/small_fd933fa068a09b6e.jpg",
+      "href": "https://www.filmladder.nl/film/inheritance-2025/popup/haarlem",
+      "rating": "5.8",
+      "duration": 110,
+      "movie-id": "inheritance-2025"
+    }
+  },
+  {
+    "id": "best-of-idfa-on-tour-2025-2024_02-11_10:30",
+    "start": "2025-02-11 10:30:00",
+    "End": "2025-02-11 10:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208071878",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "best-of-idfa-on-tour-2025-2024",
+      "title": "Best of IDFA on Tour 2025",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/052/328/1052328/small_e30a48d4dda4434b.jpg",
+      "href": "https://www.filmladder.nl/film/best-of-idfa-on-tour-2025-2024/popup/haarlem",
+      "rating": "",
+      "duration": 0,
+      "movie-id": "best-of-idfa-on-tour-2025-2024"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-11_11:00",
+    "start": "2025-02-11 11:00:00",
+    "End": "2025-02-11 12:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127411",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-11_11:00",
+    "start": "2025-02-11 11:00:00",
+    "End": "2025-02-11 13:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104444",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "the-room-next-door-2024_02-11_11:10",
+    "start": "2025-02-11 11:10:00",
+    "End": "2025-02-11 13:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127400",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-room-next-door-2024",
+      "title": "The Room Next Door",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/783/1050783/small_d68e7476720b3dc8.jpg",
+      "href": "https://www.filmladder.nl/film/the-room-next-door-2024/popup/haarlem",
+      "rating": "6.9",
+      "duration": 120,
+      "movie-id": "the-room-next-door-2024"
+    }
+  },
+  {
+    "id": "l-histoire-de-souleymane-2024-432361_02-11_11:20",
+    "start": "2025-02-11 11:20:00",
+    "End": "2025-02-11 13:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127428",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "l-histoire-de-souleymane-2024-432361",
+      "title": "L'histoire de Souleymane",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/711/1050711/small_a65218a9bf41c726.jpg",
+      "href": "https://www.filmladder.nl/film/l-histoire-de-souleymane-2024-432361/popup/haarlem",
+      "rating": "7.8",
+      "duration": 105,
+      "movie-id": "l-histoire-de-souleymane-2024-432361"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-11_11:20",
+    "start": "2025-02-11 11:20:00",
+    "End": "2025-02-11 13:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310885",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025_02-11_11:30",
+    "start": "2025-02-11 11:30:00",
+    "End": "2025-02-11 12:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310858",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025",
+      "title": "Woezel & Pip op Avontuur in de Tovertuin",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/839/1053839/small_ce4bfa73e4a61c1e.jpg",
+      "href": "https://www.filmladder.nl/film/woezel-pip-op-avontuur-in-de-tovertuin-2025/popup/haarlem",
+      "rating": "",
+      "duration": 75,
+      "movie-id": "woezel-pip-op-avontuur-in-de-tovertuin-2025"
+    }
+  },
+  {
+    "id": "better-man-2024_02-11_11:40",
+    "start": "2025-02-11 11:40:00",
+    "End": "2025-02-11 14:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310834",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "better-man-2024",
+      "title": "Better Man",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/405/1050405/small_45621fa2d6a93907.jpg",
+      "href": "https://www.filmladder.nl/film/better-man-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 150,
+      "movie-id": "better-man-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-11_11:45",
+    "start": "2025-02-11 11:45:00",
+    "End": "2025-02-11 13:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127330",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-11_11:45",
+    "start": "2025-02-11 11:45:00",
+    "End": "2025-02-11 13:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127511",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-11_13:00",
+    "start": "2025-02-11 13:00:00",
+    "End": "2025-02-11 15:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127389",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "seven-1995_02-11_13:00",
+    "start": "2025-02-11 13:00:00",
+    "End": "2025-02-11 15:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208307332",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "KineCafe",
+    "movie": {
+      "id": "seven-1995",
+      "title": "Seven",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/507/1053507/small_064273ca8b10c889.jpg",
+      "href": "https://www.filmladder.nl/film/seven-1995/popup/haarlem",
+      "rating": "8.6",
+      "duration": 140,
+      "movie-id": "seven-1995"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-11_13:10",
+    "start": "2025-02-11 13:10:00",
+    "End": "2025-02-11 14:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310868",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "better-man-2024_02-11_13:15",
+    "start": "2025-02-11 13:15:00",
+    "End": "2025-02-11 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208307369",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "KineCafe",
+    "movie": {
+      "id": "better-man-2024",
+      "title": "Better Man",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/405/1050405/small_45621fa2d6a93907.jpg",
+      "href": "https://www.filmladder.nl/film/better-man-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 150,
+      "movie-id": "better-man-2024"
+    }
+  },
+  {
+    "id": "maria-2024_02-11_13:30",
+    "start": "2025-02-11 13:30:00",
+    "End": "2025-02-11 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127496",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-11_13:30",
+    "start": "2025-02-11 13:30:00",
+    "End": "2025-02-11 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127464",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "schitterend-2024_02-11_13:30",
+    "start": "2025-02-11 13:30:00",
+    "End": "2025-02-11 15:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310781",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "schitterend-2024",
+      "title": "Schitterend",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/048/741/1048741/small_713d6f8dc4400955.jpg",
+      "href": "https://www.filmladder.nl/film/schitterend-2024/popup/haarlem",
+      "rating": "6.4",
+      "duration": 115,
+      "movie-id": "schitterend-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-11_13:45",
+    "start": "2025-02-11 13:45:00",
+    "End": "2025-02-11 17:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127484",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "merckx-2025_02-11_14:00",
+    "start": "2025-02-11 14:00:00",
+    "End": "2025-02-11 15:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104445",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "merckx-2025",
+      "title": "Merckx",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/533/1054533/small_df453d27bff4fd5e.jpg",
+      "href": "https://www.filmladder.nl/film/merckx-2025/popup/haarlem",
+      "rating": "7.4",
+      "duration": 95,
+      "movie-id": "merckx-2025"
+    }
+  },
+  {
+    "id": "flow-2024_02-11_14:10",
+    "start": "2025-02-11 14:10:00",
+    "End": "2025-02-11 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310862",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-11_15:10",
+    "start": "2025-02-11 15:10:00",
+    "End": "2025-02-11 17:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310886",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-11_15:20",
+    "start": "2025-02-11 15:20:00",
+    "End": "2025-02-11 16:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310841",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-11_15:30",
+    "start": "2025-02-11 15:30:00",
+    "End": "2025-02-11 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127306",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-11_16:10",
+    "start": "2025-02-11 16:10:00",
+    "End": "2025-02-11 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310869",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "conclave-2024_02-11_16:15",
+    "start": "2025-02-11 16:15:00",
+    "End": "2025-02-11 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127477",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "conclave-2024",
+      "title": "Conclave",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/755/1050755/small_f06317a7fde34837.jpg",
+      "href": "https://www.filmladder.nl/film/conclave-2024/popup/haarlem",
+      "rating": "7.4",
+      "duration": 130,
+      "movie-id": "conclave-2024"
+    }
+  },
+  {
+    "id": "misericorde-2024_02-11_16:15",
+    "start": "2025-02-11 16:15:00",
+    "End": "2025-02-11 18:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104448",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "misericorde-2024",
+      "title": "Miséricorde",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/637/1054637/small_af07b9b2d2a009af.jpg",
+      "href": "https://www.filmladder.nl/film/misericorde-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 115,
+      "movie-id": "misericorde-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-11_16:15",
+    "start": "2025-02-11 16:15:00",
+    "End": "2025-02-11 18:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127348",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-11_16:40",
+    "start": "2025-02-11 16:40:00",
+    "End": "2025-02-11 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306105",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-11_17:00",
+    "start": "2025-02-11 17:00:00",
+    "End": "2025-02-11 19:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104449",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "flow-2024_02-11_18:00",
+    "start": "2025-02-11 18:00:00",
+    "End": "2025-02-11 19:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127331",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "from-here-to-eternity-1953_02-11_18:30",
+    "start": "2025-02-11 18:30:00",
+    "End": "2025-02-11 20:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207590037",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "from-here-to-eternity-1953",
+      "title": "From Here to Eternity",
+      "image": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/007/498/7498/small_d7bc532046e6112d.jpg",
+      "href": "https://www.filmladder.nl/film/from-here-to-eternity-1953/popup/haarlem",
+      "rating": "7.6",
+      "duration": 130,
+      "movie-id": "from-here-to-eternity-1953"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-11_18:30",
+    "start": "2025-02-11 18:30:00",
+    "End": "2025-02-11 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127349",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-11_18:45",
+    "start": "2025-02-11 18:45:00",
+    "End": "2025-02-11 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127390",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-11_18:50",
+    "start": "2025-02-11 18:50:00",
+    "End": "2025-02-11 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127412",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-11_19:00",
+    "start": "2025-02-11 19:00:00",
+    "End": "2025-02-11 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127512",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-11_19:00",
+    "start": "2025-02-11 19:00:00",
+    "End": "2025-02-11 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104450",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-11_19:00",
+    "start": "2025-02-11 19:00:00",
+    "End": "2025-02-11 21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310887",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-11_19:30",
+    "start": "2025-02-11 19:30:00",
+    "End": "2025-02-11 23:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104453",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-11_19:40",
+    "start": "2025-02-11 19:40:00",
+    "End": "2025-02-11 21:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310870",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "a-complete-unknown-2024-419175_02-11_20:00",
+    "start": "2025-02-11 20:00:00",
+    "End": "2025-02-11 22:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310838",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-complete-unknown-2024-419175",
+      "title": "A Complete Unknown",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/409/1055409/small_5157a1ef23a27ab3.jpg",
+      "href": "https://www.filmladder.nl/film/a-complete-unknown-2024-419175/popup/haarlem",
+      "rating": "7.6",
+      "duration": 155,
+      "movie-id": "a-complete-unknown-2024-419175"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-11_20:00",
+    "start": "2025-02-11 20:00:00",
+    "End": "2025-02-11 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306106",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-11_20:00",
+    "start": "2025-02-11 20:00:00",
+    "End": "2025-02-11 23:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207450896",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "belle-de-jour-1967_02-11_21:00",
+    "start": "2025-02-11 21:00:00",
+    "End": "2025-02-11 22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127523",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "belle-de-jour-1967",
+      "title": "Belle De Jour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/083/1054083/small_3d62084d7e8a4a61.jpg",
+      "href": "https://www.filmladder.nl/film/belle-de-jour-1967/popup/haarlem",
+      "rating": "7.6",
+      "duration": 115,
+      "movie-id": "belle-de-jour-1967"
+    }
+  },
+  {
+    "id": "diamant-brut-2024_02-11_21:00",
+    "start": "2025-02-11 21:00:00",
+    "End": "2025-02-11 22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104492",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "diamant-brut-2024",
+      "title": "Diamant brut",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/895/1050895/small_308f04129a1b7438.jpg",
+      "href": "https://www.filmladder.nl/film/diamant-brut-2024/popup/haarlem",
+      "rating": "6.4",
+      "duration": 115,
+      "movie-id": "diamant-brut-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-11_21:00",
+    "start": "2025-02-11 21:00:00",
+    "End": "2025-02-11 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127307",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "maria-2024_02-11_21:15",
+    "start": "2025-02-11 21:15:00",
+    "End": "2025-02-11 23:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127497",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "inheritance-2025_02-11_21:50",
+    "start": "2025-02-11 21:50:00",
+    "End": "2025-02-11 23:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310773",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "inheritance-2025",
+      "title": "Inheritance",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/231/1053231/small_fd933fa068a09b6e.jpg",
+      "href": "https://www.filmladder.nl/film/inheritance-2025/popup/haarlem",
+      "rating": "5.8",
+      "duration": 110,
+      "movie-id": "inheritance-2025"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-12_11:00",
+    "start": "2025-02-12 11:00:00",
+    "End": "2025-02-12 12:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127413",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_11:00",
+    "start": "2025-02-12 11:00:00",
+    "End": "2025-02-12 13:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310722",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "l-histoire-de-souleymane-2024-432361_02-12_11:00",
+    "start": "2025-02-12 11:00:00",
+    "End": "2025-02-12 12:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127429",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "l-histoire-de-souleymane-2024-432361",
+      "title": "L'histoire de Souleymane",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/711/1050711/small_a65218a9bf41c726.jpg",
+      "href": "https://www.filmladder.nl/film/l-histoire-de-souleymane-2024-432361/popup/haarlem",
+      "rating": "7.8",
+      "duration": 105,
+      "movie-id": "l-histoire-de-souleymane-2024-432361"
+    }
+  },
+  {
+    "id": "the-room-next-door-2024_02-12_11:10",
+    "start": "2025-02-12 11:10:00",
+    "End": "2025-02-12 13:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127401",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-room-next-door-2024",
+      "title": "The Room Next Door",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/783/1050783/small_d68e7476720b3dc8.jpg",
+      "href": "https://www.filmladder.nl/film/the-room-next-door-2024/popup/haarlem",
+      "rating": "6.9",
+      "duration": 120,
+      "movie-id": "the-room-next-door-2024"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-12_11:45",
+    "start": "2025-02-12 11:45:00",
+    "End": "2025-02-12 13:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127513",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_12:30",
+    "start": "2025-02-12 12:30:00",
+    "End": "2025-02-12 14:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310723",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-12_13:00",
+    "start": "2025-02-12 13:00:00",
+    "End": "2025-02-12 14:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306338",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "le-royaume-2024_02-12_13:00",
+    "start": "2025-02-12 13:00:00",
+    "End": "2025-02-12 15:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127391",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "le-royaume-2024",
+      "title": "Le Royaume",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/124/1053124/small_73a609ba74819c29.jpg",
+      "href": "https://www.filmladder.nl/film/le-royaume-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 120,
+      "movie-id": "le-royaume-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_13:10",
+    "start": "2025-02-12 13:10:00",
+    "End": "2025-02-12 15:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304414",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "maria-2024_02-12_13:15",
+    "start": "2025-02-12 13:15:00",
+    "End": "2025-02-12 15:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127498",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "maria-2024",
+      "title": "Maria",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/669/1050669/small_86d24d8189ff81fb.jpg",
+      "href": "https://www.filmladder.nl/film/maria-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 135,
+      "movie-id": "maria-2024"
+    }
+  },
+  {
+    "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025_02-12_13:15",
+    "start": "2025-02-12 13:15:00",
+    "End": "2025-02-12 14:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306840",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025",
+      "title": "Woezel & Pip op Avontuur in de Tovertuin",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/839/1053839/small_ce4bfa73e4a61c1e.jpg",
+      "href": "https://www.filmladder.nl/film/woezel-pip-op-avontuur-in-de-tovertuin-2025/popup/haarlem",
+      "rating": "",
+      "duration": 75,
+      "movie-id": "woezel-pip-op-avontuur-in-de-tovertuin-2025"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-12_13:30",
+    "start": "2025-02-12 13:30:00",
+    "End": "2025-02-12 15:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104554",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "monsieur-aznavour-2024_02-12_13:30",
+    "start": "2025-02-12 13:30:00",
+    "End": "2025-02-12 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127465",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "monsieur-aznavour-2024",
+      "title": "Monsieur Aznavour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/314/1047314/small_e7dde628cd6049c9.jpg",
+      "href": "https://www.filmladder.nl/film/monsieur-aznavour-2024/popup/haarlem",
+      "rating": "7.5",
+      "duration": 145,
+      "movie-id": "monsieur-aznavour-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_13:45",
+    "start": "2025-02-12 13:45:00",
+    "End": "2025-02-12 15:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310724",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-12_14:00",
+    "start": "2025-02-12 14:00:00",
+    "End": "2025-02-12 15:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310842",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025_02-12_14:30",
+    "start": "2025-02-12 14:30:00",
+    "End": "2025-02-12 15:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310859",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "woezel-pip-op-avontuur-in-de-tovertuin-2025",
+      "title": "Woezel & Pip op Avontuur in de Tovertuin",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/839/1053839/small_ce4bfa73e4a61c1e.jpg",
+      "href": "https://www.filmladder.nl/film/woezel-pip-op-avontuur-in-de-tovertuin-2025/popup/haarlem",
+      "rating": "",
+      "duration": 75,
+      "movie-id": "woezel-pip-op-avontuur-in-de-tovertuin-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_15:10",
+    "start": "2025-02-12 15:10:00",
+    "End": "2025-02-12 17:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310725",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "juffrouw-pots-2024_02-12_15:30",
+    "start": "2025-02-12 15:30:00",
+    "End": "2025-02-12 17:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208306337",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "juffrouw-pots-2024",
+      "title": "Juffrouw Pots",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/184/1053184/small_2edff39953422608.jpg",
+      "href": "https://www.filmladder.nl/film/juffrouw-pots-2024/popup/haarlem",
+      "rating": "8.6",
+      "duration": 90,
+      "movie-id": "juffrouw-pots-2024"
+    }
+  },
+  {
+    "id": "queer-2024_02-12_15:30",
+    "start": "2025-02-12 15:30:00",
+    "End": "2025-02-12 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127308",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "red-de-jungle-2024_02-12_15:30",
+    "start": "2025-02-12 15:30:00",
+    "End": "2025-02-12 17:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104596",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "red-de-jungle-2024",
+      "title": "Red de jungle",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/223/1051223/small_cedfc8285aba2de8.jpg",
+      "href": "https://www.filmladder.nl/film/red-de-jungle-2024/popup/haarlem",
+      "rating": "7.0",
+      "duration": 100,
+      "movie-id": "red-de-jungle-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-12_15:40",
+    "start": "2025-02-12 15:40:00",
+    "End": "2025-02-12 19:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104598",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "iedereen-is-van-de-wereld-2024_02-12_15:45",
+    "start": "2025-02-12 15:45:00",
+    "End": "2025-02-12 17:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310889",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "iedereen-is-van-de-wereld-2024",
+      "title": "Iedereen is van de wereld",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/180/1053180/small_f1db048258af0ac5.jpg",
+      "href": "https://www.filmladder.nl/film/iedereen-is-van-de-wereld-2024/popup/haarlem",
+      "rating": "",
+      "duration": 105,
+      "movie-id": "iedereen-is-van-de-wereld-2024"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-12_15:45",
+    "start": "2025-02-12 15:45:00",
+    "End": "2025-02-12 19:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127485",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_16:00",
+    "start": "2025-02-12 16:00:00",
+    "End": "2025-02-12 18:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304413",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-12_16:00",
+    "start": "2025-02-12 16:00:00",
+    "End": "2025-02-12 18:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127350",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-12_16:10",
+    "start": "2025-02-12 16:10:00",
+    "End": "2025-02-12 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208305987",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-12_16:10",
+    "start": "2025-02-12 16:10:00",
+    "End": "2025-02-12 17:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310871",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "conclave-2024_02-12_16:15",
+    "start": "2025-02-12 16:15:00",
+    "End": "2025-02-12 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127478",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "conclave-2024",
+      "title": "Conclave",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/050/755/1050755/small_f06317a7fde34837.jpg",
+      "href": "https://www.filmladder.nl/film/conclave-2024/popup/haarlem",
+      "rating": "7.4",
+      "duration": 130,
+      "movie-id": "conclave-2024"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_16:45",
+    "start": "2025-02-12 16:45:00",
+    "End": "2025-02-12 18:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310726",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-12_17:15",
+    "start": "2025-02-12 17:15:00",
+    "End": "2025-02-12 18:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104621",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-12_17:50",
+    "start": "2025-02-12 17:50:00",
+    "End": "2025-02-12 19:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310872",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_18:00",
+    "start": "2025-02-12 18:00:00",
+    "End": "2025-02-12 20:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310727",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_18:20",
+    "start": "2025-02-12 18:20:00",
+    "End": "2025-02-12 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310728",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "flow-2024_02-12_18:30",
+    "start": "2025-02-12 18:30:00",
+    "End": "2025-02-12 20:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127332",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "flow-2024",
+      "title": "Flow",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/047/390/1047390/small_7a67e23e57dbe354.jpg",
+      "href": "https://www.filmladder.nl/film/flow-2024/popup/haarlem",
+      "rating": "7.9",
+      "duration": 95,
+      "movie-id": "flow-2024"
+    }
+  },
+  {
+    "id": "sing-sing-2024_02-12_18:30",
+    "start": "2025-02-12 18:30:00",
+    "End": "2025-02-12 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127351",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/491/1055491/small_149d1710bccaeddd.jpg",
+      "href": "https://www.filmladder.nl/film/sing-sing-2024/popup/haarlem",
+      "rating": "7.7",
+      "duration": 120,
+      "movie-id": "sing-sing-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_18:35",
+    "start": "2025-02-12 18:35:00",
+    "End": "2025-02-12 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310843",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "a-real-pain-2024_02-12_18:50",
+    "start": "2025-02-12 18:50:00",
+    "End": "2025-02-12 20:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127414",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-real-pain-2024",
+      "title": "A Real Pain",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/189/1054189/small_169bae3de9d96055.jpg",
+      "href": "https://www.filmladder.nl/film/a-real-pain-2024/popup/haarlem",
+      "rating": "7.1",
+      "duration": 100,
+      "movie-id": "a-real-pain-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_19:00",
+    "start": "2025-02-12 19:00:00",
+    "End": "2025-02-12 21:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310844",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "julie-zwijgt-2024_02-12_19:00",
+    "start": "2025-02-12 19:00:00",
+    "End": "2025-02-12 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127514",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "julie-zwijgt-2024",
+      "title": "Julie Zwijgt",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/007/1054007/small_bf150ca35d514c80.jpg",
+      "href": "https://www.filmladder.nl/film/julie-zwijgt-2024/popup/haarlem",
+      "rating": "6.7",
+      "duration": 110,
+      "movie-id": "julie-zwijgt-2024"
+    }
+  },
+  {
+    "id": "paths-of-glory-1957_02-12_19:00",
+    "start": "2025-02-12 19:00:00",
+    "End": "2025-02-12 20:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207590042",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "paths-of-glory-1957",
+      "title": "Paths of Glory",
+      "image": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/003/474/3474/small_4b31b2234a800782.jpg",
+      "href": "https://www.filmladder.nl/film/paths-of-glory-1957/popup/haarlem",
+      "rating": "8.4",
+      "duration": 100,
+      "movie-id": "paths-of-glory-1957"
+    }
+  },
+  {
+    "id": "merckx-2025_02-12_19:10",
+    "start": "2025-02-12 19:10:00",
+    "End": "2025-02-12 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104657",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "merckx-2025",
+      "title": "Merckx",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/533/1054533/small_df453d27bff4fd5e.jpg",
+      "href": "https://www.filmladder.nl/film/merckx-2025/popup/haarlem",
+      "rating": "7.4",
+      "duration": 95,
+      "movie-id": "merckx-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_19:30",
+    "start": "2025-02-12 19:30:00",
+    "End": "2025-02-12 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208305761",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "Ladies Night",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_19:30",
+    "start": "2025-02-12 19:30:00",
+    "End": "2025-02-12 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310845",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-12_19:40",
+    "start": "2025-02-12 19:40:00",
+    "End": "2025-02-12 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104669",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_20:00",
+    "start": "2025-02-12 20:00:00",
+    "End": "2025-02-12 22:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208305760",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "Ladies Night",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_20:00",
+    "start": "2025-02-12 20:00:00",
+    "End": "2025-02-12 22:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310846",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "the-brutalist-2024_02-12_20:00",
+    "start": "2025-02-12 20:00:00",
+    "End": "2025-02-12 23:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207450897",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/725/1054725/small_49d00ce9bab150b6.jpg",
+      "href": "https://www.filmladder.nl/film/the-brutalist-2024/popup/haarlem",
+      "rating": "8.0",
+      "duration": 225,
+      "movie-id": "the-brutalist-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_20:20",
+    "start": "2025-02-12 20:20:00",
+    "End": "2025-02-12 22:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310847",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-12_20:20",
+    "start": "2025-02-12 20:20:00",
+    "End": "2025-02-12 22:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304412",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_20:30",
+    "start": "2025-02-12 20:30:00",
+    "End": "2025-02-12 22:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207655741",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-12_20:30",
+    "start": "2025-02-12 20:30:00",
+    "End": "2025-02-12 22:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208305988",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_20:40",
+    "start": "2025-02-12 20:40:00",
+    "End": "2025-02-12 22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310848",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "belle-de-jour-1967_02-12_21:00",
+    "start": "2025-02-12 21:00:00",
+    "End": "2025-02-12 22:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127524",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "belle-de-jour-1967",
+      "title": "Belle De Jour",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/083/1054083/small_3d62084d7e8a4a61.jpg",
+      "href": "https://www.filmladder.nl/film/belle-de-jour-1967/popup/haarlem",
+      "rating": "7.6",
+      "duration": 115,
+      "movie-id": "belle-de-jour-1967"
+    }
+  },
+  {
+    "id": "blue-velvet-1986_02-12_21:00",
+    "start": "2025-02-12 21:00:00",
+    "End": "2025-02-12 23:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208090319",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "blue-velvet-1986",
+      "title": "Blue Velvet",
+      "image": "https://assets.filmladder.nl/uploads/imdb_poster/asset/000/007/358/7358/small_ec02d8a48918990c.jpg",
+      "href": "https://www.filmladder.nl/film/blue-velvet-1986/popup/haarlem",
+      "rating": "7.7",
+      "duration": 130,
+      "movie-id": "blue-velvet-1986"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_21:00",
+    "start": "2025-02-12 21:00:00",
+    "End": "2025-02-12 23:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310849",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "queer-2024_02-12_21:00",
+    "start": "2025-02-12 21:00:00",
+    "End": "2025-02-12 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208127309",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "queer-2024",
+      "title": "Queer",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/267/1053267/small_61d515be38271bcb.jpg",
+      "href": "https://www.filmladder.nl/film/queer-2024/popup/haarlem",
+      "rating": "6.5",
+      "duration": 145,
+      "movie-id": "queer-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_21:20",
+    "start": "2025-02-12 21:20:00",
+    "End": "2025-02-12 23:35:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310850",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-12_21:45",
+    "start": "2025-02-12 21:45:00",
+    "End": "2025-02-13 00:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310851",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_11:00",
+    "start": "2025-02-13 11:00:00",
+    "End": "2025-02-13 13:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995447",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_13:00",
+    "start": "2025-02-13 13:00:00",
+    "End": "2025-02-13 15:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995448",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_15:45",
+    "start": "2025-02-13 15:45:00",
+    "End": "2025-02-13 18:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995449",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-13_16:00",
+    "start": "2025-02-13 16:00:00",
+    "End": "2025-02-13 18:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304024",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_16:10",
+    "start": "2025-02-13 16:10:00",
+    "End": "2025-02-13 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304613",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-13_18:15",
+    "start": "2025-02-13 18:15:00",
+    "End": "2025-02-13 20:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310729",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_18:30",
+    "start": "2025-02-13 18:30:00",
+    "End": "2025-02-13 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995450",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "alpha-2024_02-13_19:00",
+    "start": "2025-02-13 19:00:00",
+    "End": "2025-02-13 20:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208104891",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "alpha-2024",
+      "title": "Alpha",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/053/683/1053683/small_02d83f654e16fe27.jpg",
+      "href": "https://www.filmladder.nl/film/alpha-2024/popup/haarlem",
+      "rating": "7.2",
+      "duration": 115,
+      "movie-id": "alpha-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_19:15",
+    "start": "2025-02-13 19:15:00",
+    "End": "2025-02-13 21:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310852",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_19:40",
+    "start": "2025-02-13 19:40:00",
+    "End": "2025-02-13 21:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304614",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-13_20:00",
+    "start": "2025-02-13 20:00:00",
+    "End": "2025-02-13 22:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304026",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-13_21:00",
+    "start": "2025-02-13 21:00:00",
+    "End": "2025-02-13 23:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310730",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-13_21:10",
+    "start": "2025-02-13 21:10:00",
+    "End": "2025-02-13 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995451",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_11:00",
+    "start": "2025-02-14 11:00:00",
+    "End": "2025-02-14 13:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995452",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_13:00",
+    "start": "2025-02-14 13:00:00",
+    "End": "2025-02-14 15:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995453",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_15:45",
+    "start": "2025-02-14 15:45:00",
+    "End": "2025-02-14 18:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995454",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-14_16:00",
+    "start": "2025-02-14 16:00:00",
+    "End": "2025-02-14 18:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304130",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_16:10",
+    "start": "2025-02-14 16:10:00",
+    "End": "2025-02-14 18:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304662",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_18:30",
+    "start": "2025-02-14 18:30:00",
+    "End": "2025-02-14 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995455",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-14_19:00",
+    "start": "2025-02-14 19:00:00",
+    "End": "2025-02-14 21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310731",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_19:30",
+    "start": "2025-02-14 19:30:00",
+    "End": "2025-02-14 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310853",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_19:40",
+    "start": "2025-02-14 19:40:00",
+    "End": "2025-02-14 21:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304663",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-14_20:00",
+    "start": "2025-02-14 20:00:00",
+    "End": "2025-02-14 22:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304131",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-14_20:20",
+    "start": "2025-02-14 20:20:00",
+    "End": "2025-02-14 22:05:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310873",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "marked-men-2025_02-14_20:30",
+    "start": "2025-02-14 20:30:00",
+    "End": "2025-02-14 22:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208305960",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "marked-men-2025",
+      "title": "Marked Men",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/820/1051820/small_f03d8c49a972bc1a.jpg",
+      "href": "https://www.filmladder.nl/film/marked-men-2025/popup/haarlem",
+      "rating": "5.3",
+      "duration": 105,
+      "movie-id": "marked-men-2025"
+    }
+  },
+  {
+    "id": "a-complete-unknown-2024-419175_02-14_20:45",
+    "start": "2025-02-14 20:45:00",
+    "End": "2025-02-14 23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208281122",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-complete-unknown-2024-419175",
+      "title": "A Complete Unknown",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/409/1055409/small_5157a1ef23a27ab3.jpg",
+      "href": "https://www.filmladder.nl/film/a-complete-unknown-2024-419175/popup/haarlem",
+      "rating": "7.6",
+      "duration": 155,
+      "movie-id": "a-complete-unknown-2024-419175"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-14_21:10",
+    "start": "2025-02-14 21:10:00",
+    "End": "2025-02-14 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995456",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-14_21:45",
+    "start": "2025-02-14 21:45:00",
+    "End": "2025-02-14 23:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310732",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "best-of-idfa-on-tour-2025-2024_02-15_10:30",
+    "start": "2025-02-15 10:30:00",
+    "End": "2025-02-15 10:30:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208191116",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "best-of-idfa-on-tour-2025-2024",
+      "title": "Best of IDFA on Tour 2025",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/052/328/1052328/small_e30a48d4dda4434b.jpg",
+      "href": "https://www.filmladder.nl/film/best-of-idfa-on-tour-2025-2024/popup/haarlem",
+      "rating": "",
+      "duration": 0,
+      "movie-id": "best-of-idfa-on-tour-2025-2024"
+    }
+  },
+  {
+    "id": "red-de-jungle-2024_02-15_10:45",
+    "start": "2025-02-15 10:45:00",
+    "End": "2025-02-15 12:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208191149",
+    "cinema": "Schuur",
+    "titleAddOn": "",
+    "movie": {
+      "id": "red-de-jungle-2024",
+      "title": "Red de jungle",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/051/223/1051223/small_cedfc8285aba2de8.jpg",
+      "href": "https://www.filmladder.nl/film/red-de-jungle-2024/popup/haarlem",
+      "rating": "7.0",
+      "duration": 100,
+      "movie-id": "red-de-jungle-2024"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_11:00",
+    "start": "2025-02-15 11:00:00",
+    "End": "2025-02-15 13:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995457",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_13:00",
+    "start": "2025-02-15 13:00:00",
+    "End": "2025-02-15 15:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995458",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_15:45",
+    "start": "2025-02-15 15:45:00",
+    "End": "2025-02-15 18:00:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995459",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_18:30",
+    "start": "2025-02-15 18:30:00",
+    "End": "2025-02-15 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995460",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_18:30",
+    "start": "2025-02-15 18:30:00",
+    "End": "2025-02-15 20:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304715",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-15_18:40",
+    "start": "2025-02-15 18:40:00",
+    "End": "2025-02-15 20:50:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304231",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-15_19:00",
+    "start": "2025-02-15 19:00:00",
+    "End": "2025-02-15 21:10:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310733",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_19:30",
+    "start": "2025-02-15 19:30:00",
+    "End": "2025-02-15 21:45:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310854",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "a-complete-unknown-2024-419175_02-15_20:45",
+    "start": "2025-02-15 20:45:00",
+    "End": "2025-02-15 23:20:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208281123",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "a-complete-unknown-2024-419175",
+      "title": "A Complete Unknown",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/055/409/1055409/small_5157a1ef23a27ab3.jpg",
+      "href": "https://www.filmladder.nl/film/a-complete-unknown-2024-419175/popup/haarlem",
+      "rating": "7.6",
+      "duration": 155,
+      "movie-id": "a-complete-unknown-2024-419175"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_21:00",
+    "start": "2025-02-15 21:00:00",
+    "End": "2025-02-15 23:15:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304714",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "bridget-jones-mad-about-the-boy-2025_02-15_21:10",
+    "start": "2025-02-15 21:10:00",
+    "End": "2025-02-15 23:25:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1207995461",
+    "cinema": "FilmKoepel",
+    "titleAddOn": "",
+    "movie": {
+      "id": "bridget-jones-mad-about-the-boy-2025",
+      "title": "Bridget Jones: Mad About the Boy",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/809/1054809/small_b6387bec24a50fe2.jpg",
+      "href": "https://www.filmladder.nl/film/bridget-jones-mad-about-the-boy-2025/popup/haarlem",
+      "rating": "",
+      "duration": 135,
+      "movie-id": "bridget-jones-mad-about-the-boy-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-15_21:30",
+    "start": "2025-02-15 21:30:00",
+    "End": "2025-02-15 23:40:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208304232",
+    "cinema": "Kinepolis Haarlem",
+    "titleAddOn": "2D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  },
+  {
+    "id": "captain-america-brave-new-world-2025_02-15_21:45",
+    "start": "2025-02-15 21:45:00",
+    "End": "2025-02-15 23:55:00",
+    "tickethref": "https://www.filmladder.nl/kaartjes/1208310734",
+    "cinema": "Pathé Haarlem",
+    "titleAddOn": "3D",
+    "movie": {
+      "id": "captain-america-brave-new-world-2025",
+      "title": "Captain America: Brave New World",
+      "image": "https://assets.filmladder.nl/uploads/depot_image/asset/001/054/736/1054736/small_963a4eac7bd7d915.jpg",
+      "href": "https://www.filmladder.nl/film/captain-america-brave-new-world-2025/popup/haarlem",
+      "rating": "",
+      "duration": 130,
+      "movie-id": "captain-america-brave-new-world-2025"
+    }
+  }
+]
