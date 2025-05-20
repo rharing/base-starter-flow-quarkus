@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="033a2ef2-f1fb-4dd6-9d81-7ceccbcc662e" name="Changes" comment="initial lookup of cities works">
+    <list default="true" id="033a2ef2-f1fb-4dd6-9d81-7ceccbcc662e" name="Changes" comment="copied tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my_movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my_movies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/fetcher/MoviesFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/roha/movies/domain/PlayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/roha/movies/domain/PlayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,29 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BaseDataLoaderTest.shouldLocateMyBaseData.executor": "Run",
-    "JUnit.MoviesDocumentParserTest.shouldLocateLiveCities.executor": "Debug",
-    "JUnit.java in base-starter-flow-quarkus.executor": "Run",
-    "Quarkus.base-starter-flow-quarkus.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "v24",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BaseDataLoaderTest.shouldLocateMyBaseData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoviesDocumentParserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoviesDocumentParserTest.shouldLocateLiveCities.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.java in base-starter-flow-quarkus.executor&quot;: &quot;Run&quot;,
+    &quot;Quarkus.base-starter-flow-quarkus.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v24&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -80,7 +82,7 @@
       <recent name="com.roha.movies.view" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoviesDocumentParserTest">
+  <component name="RunManager" selected="Quarkus.base-starter-flow-quarkus">
     <configuration name="BaseDataLoaderTest.shouldLocateMyBaseData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="base-starter-flow-quarkus" />
       <extension name="coverage">
@@ -195,9 +197,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoviesDocumentParserTest" />
-        <item itemvalue="JUnit.MoviesDocumentParserTest.shouldLocateLiveCities" />
         <item itemvalue="JUnit.java in base-starter-flow-quarkus" />
+        <item itemvalue="JUnit.MoviesDocumentParserTest.shouldLocateLiveCities" />
+        <item itemvalue="JUnit.MoviesDocumentParserTest" />
         <item itemvalue="JUnit.BaseDataLoaderTest.shouldLocateMyBaseData" />
       </list>
     </recent_temporary>
@@ -225,7 +227,12 @@
       <workItem from="1747386074530" duration="1359000" />
       <workItem from="1747403824087" duration="608000" />
       <workItem from="1747471570021" duration="4604000" />
-      <workItem from="1747483293710" duration="4212000" />
+      <workItem from="1747483293710" duration="5161000" />
+      <workItem from="1747553382993" duration="2206000" />
+      <workItem from="1747576054528" duration="979000" />
+      <workItem from="1747578921836" duration="3238000" />
+      <workItem from="1747758482828" duration="60000" />
+      <workItem from="1747758579107" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="wip about to remove lombok">
       <option name="closed" value="true" />
@@ -243,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747486436150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="copied tests">
+      <option name="closed" value="true" />
+      <created>1747487710286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747487710286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,20 +268,49 @@
     <MESSAGE value="wip" />
     <MESSAGE value="wip about to remove lombok" />
     <MESSAGE value="initial lookup of cities works" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial lookup of cities works" />
+    <MESSAGE value="copied tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="copied tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/roha/movies/fetcher/MoviesDocumentParserTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>68</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/MainView.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/CityView.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/roha/movies/view/CityView.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

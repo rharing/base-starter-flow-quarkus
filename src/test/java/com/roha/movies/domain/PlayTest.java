@@ -10,6 +10,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class PlayTest {
 
+    /**
+     * A play is "on time" if its start time is in the future.
+     */
     @Test
     public void shouldBeIsOnTime(){
         LocalDateTime now = LocalDateTime.of(2024, Month.APRIL, 20, 17, 0, 0);
@@ -19,6 +22,8 @@ class PlayTest {
         Play futurePlay = play.withStart(now.plusMinutes(1));
         assertThat(playAlreadyStarted.isOnTime(now)).isFalse();
         assertThat(futurePlay.isOnTime(now)).isTrue();
+
+        // hmm this fails when the server is on utc time
     }
 
 }

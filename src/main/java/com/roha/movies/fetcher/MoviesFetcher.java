@@ -5,6 +5,7 @@ import com.roha.movies.domain.*;
 import java.io.IOException;
 import java.time.Clock;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -13,23 +14,30 @@ import java.util.stream.Collectors;
 /**
  * uses a local json as mymovies repository and an local overview_haarlem  page to locate the cities and the movies
  */
-public class MoviesFetcher {
+public class MoviesFetcher implements WithLogger{
 
     private final MoviesDocumentParser moviesDocumentParser;
-    private Clock clock = Clock.systemDefaultZone();
+    private Clock clock = null;
     private final MyMoviesRepository myMoviesRepository;
 
     public MoviesFetcher(DocumentLoader documentLoader) {
         this(new MoviesDocumentParser(documentLoader), new LocalMyMoviesRepository("my_movies.json"));
+        logger().info("using localmoviesrepo...");
     }
 
     public MoviesFetcher(MoviesDocumentParser moviesDocumentParser, MyMoviesRepository myMoviesRepository) {
-        this(moviesDocumentParser, myMoviesRepository, Clock.systemDefaultZone());
+        this(moviesDocumentParser, myMoviesRepository, null);
     }
 
     public MoviesFetcher(MoviesDocumentParser moviesDocumentParser, MyMoviesRepository myMoviesRepository, Clock clock) {
         this.moviesDocumentParser = moviesDocumentParser;
-        this.clock = clock;
+        if(clock == null){
+            this.clock = Clock.system(ZoneId.of("Europe/Amsterdam"));
+            logger().info("changed clock to amsterdam so its now " + Formatters.TIMEFORMATTER.format(LocalDateTime.now(this.clock)));
+        }
+        else{
+            this.clock = clock;
+        }
         this.myMoviesRepository = myMoviesRepository;
     }
 
