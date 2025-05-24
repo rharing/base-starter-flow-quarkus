@@ -25,20 +25,21 @@ public class MovieWithPlaysDiv extends Div {
         movieOverview.add(new Image(movie.imageHref(), "poster"));
         horizontalLayout.add(movieOverview);
         VerticalLayout load = new VerticalLayout();
-        Button content1 = new Button("Load");
+        Button loadButton = new Button("Load");
         Div movieContent = new Div();
         movieContent.setVisible(false);
-        content1.addClickListener(e -> {
+        loadButton.addClickListener(e -> {
                     Movie movie1 = null;
                     try {
                         movie1 = initializer.loadMovie(movie.asDTO());
                         movieContent.setText(movie1.content());
+                        loadButton.setVisible(false);
                     } catch (IOException ex) {
                         movieContent.setText("Could not load content");
                     }
                     movieContent.setVisible(true);
                 });
-        load.add(content1);
+        load.add(loadButton);
         load.add(movieContent);
         horizontalLayout.add(load);
         add(horizontalLayout);
