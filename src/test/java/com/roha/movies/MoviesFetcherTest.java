@@ -89,7 +89,7 @@ class MoviesFetcherTest {
         MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
         // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
         Clock clock = (Clock) InstantSource.fixed(Instant.parse("2024-04-13T08:00:00+02:00"));
-        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
+        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
         MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
         try {
             List<PlayDTO> plays = moviesFetcher.loadPlays(null);
@@ -140,7 +140,7 @@ class MoviesFetcherTest {
             MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
             // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
             Clock clock = LONGTIMEAGO;
-            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
+            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
             MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
 
             Movie movie = moviesFetcher.loadMovie(new MovieDTO("movieId", "movieId", "title", "", "image", "https://www.filmladder.nl/film/before-sunset-2004", "rating", null, null));
@@ -165,7 +165,7 @@ class MoviesFetcherTest {
             MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
             // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
             Clock clock = (Clock) InstantSource.fixed(Instant.parse("2024-04-13T08:00:00+02:00"));
-            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
+            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
             MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
             Movie movie = moviesFetcher.loadMovie();
             assertThat(movie.content()).isEqualTo("Negen jaar nadat Jesse en Celine een paar onvergetelijke uren in Wenen hebben doorgebracht komen ze elkaar opnieuw tegen in Parijs. Jesse is inmiddels schrijver en in Parijs in een boekhandel om zijn boek te promoten. Dan ziet hij Celine staan. Al snel blijkt hoeveel indruk hun eerste ontmoeting heeft achtergelaten. Opnieuw raken zij in gesprek en brengen ze wandelend en pratend met elkaar door en opnieuw is er een tikkende klok voor Jesse's vliegtuig vertrekt. Before Sunset is het vervolg op Before Sunrise uit 1995.");
@@ -185,7 +185,7 @@ class MoviesFetcherTest {
             MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
             // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
             Clock clock = (Clock) InstantSource.fixed(Instant.parse("2024-04-13T08:00:00+02:00"));
-            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
+            MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
             MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
             Movie movie = moviesFetcher.loadMovie();
             assertThat(movie.content()).isEqualTo("Als ik mijn ogen sluit is een documentaire over de vrouwen en meisjes die de Japanse kampen overleefden en hoe zij hier later in hun leven mee omgingen. De Japanse kampen lieten grote littekens na en veel van die littekens zijn nog niet genezen of verdwenen. Als de vrouwen hun ogen sluiten, komen deze verhalen bovendrijven. Wij als kijker kruipen hiermee in de hoofden van de vrouwen die de kampen hebben overleefd. Van de kampen bestaan weinig foto's en er is haast geen filmmateriaal. Wel zijn er door de vrouwen en kinderen in het kamp honderden tekeningen gemaakt.");
@@ -217,7 +217,7 @@ class MoviesFetcherTest {
         LocalDateTime when = LocalDateTime.of(2024, 4, 20, 18, 20);
         Clock clock = (Clock) InstantSource.fixed(Instant.parse("2024-04-20T18:20:00+00:00"));
         movie.addPlay(when.plusMinutes(3), "firstPlay", "firstPlay", "schuur", "");
-        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
+        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
         try {
             ExternalDocumentLoader documentLoader = new ExternalDocumentLoader("");
             MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader) {

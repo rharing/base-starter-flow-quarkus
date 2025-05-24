@@ -17,6 +17,8 @@ import java.nio.charset.StandardCharsets;
 public class LocalMyMoviesRepository implements MyMoviesRepository {
     private final String backendFile;
     private final AbstractResource storage;
+    private MyMovies myMovies = null;
+    private Boolean useMemory = false;
 
     public LocalMyMoviesRepository() {
         this("my_movies.json");
@@ -24,14 +26,18 @@ public class LocalMyMoviesRepository implements MyMoviesRepository {
 
     public LocalMyMoviesRepository(String backendFile) {
         this.backendFile = backendFile;
-        if(backendFile != null && backendFile.startsWith("file:")){
-            this.storage= new FileSystemResource(backendFile.substring(5));
-        }
-        else {
+        if (backendFile != null && backendFile.startsWith("file:")) {
+            this.storage = new FileSystemResource(backendFile.substring(5));
+        } else {
             this.storage = new ClassPathResource(backendFile);
         }
         try {
             File storageFile = this.storage.getFile();
+            if (storageFile == null || !storageFile.exists()) {
+                // just use in memory storage;
+                this.myMovies = new MyMovies();
+                this.useMemory = true;
+            }
             String absolutePath = storageFile.getAbsolutePath();
         } catch (IOException e) {
 //            log.info("could not get the file, yet the storage was found", e);
@@ -49,7 +55,9 @@ public class LocalMyMoviesRepository implements MyMoviesRepository {
                 throw new RuntimeException(e);
             }
         }
-        return new MyMovies();
+        this.myMovies = new MyMovies();
+        this.useMemory = true;
+        return this.myMovies;
     }
 
     @Override
@@ -68,13 +76,15 @@ public class LocalMyMoviesRepository implements MyMoviesRepository {
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
+        this.myMovies = myMovies;
     }
+
 
     @Override
     public void clean() {
         String root = this.getClass().getClassLoader().getResource("").getPath();
         File storage = new File(root, backendFile);
         storage.delete();
-
+        this.myMovies = new MyMovies();
     }
 }
