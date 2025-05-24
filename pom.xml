@@ -52,11 +52,7 @@
             <artifactId>vaadin-quarkus-extension</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
-        <dependency>
-            <groupId>pl.unforgiven</groupId>
-            <artifactId>superfields</artifactId>
-            <version>0.19.2</version>
-        </dependency>
+
 
         <!-- Uncomment the following if you are using any of the Pro components -->
         <!--
@@ -117,7 +113,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>5.17.0</version>
+            <version>5.18.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

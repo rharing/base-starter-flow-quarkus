@@ -219,14 +219,19 @@ class MoviesFetcherTest {
         movie.addPlay(when.plusMinutes(3), "firstPlay", "firstPlay", "schuur", "");
         MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepository("my_movies_example.json");
         try {
-            MoviesDocumentParser moviesDocumentParser = Mockito.mock(MoviesDocumentParser.class);
+            ExternalDocumentLoader documentLoader = new ExternalDocumentLoader("");
+            MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader) {
+                @Override
+                public List<Movie> locateMoviesWithPlays(String city) throws IOException {
+                    return List.of(movie);
+                }
+            };
             MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
 
-            Mockito.when(moviesDocumentParser.locateMoviesWithPlays(null)).thenReturn(List.of(movie));
             List<PlayDTO> plays = moviesFetcher.loadPlays(null);
             assertThat(plays).hasSize(1);
             movie.addPlay(when.minusMinutes(3), "secondPlay", "secondPlay", "schuur", "");
-            Mockito.when(moviesDocumentParser.locateMoviesWithPlays(null)).thenReturn(List.of(movie));
+//            Mockito.when(moviesDocumentParser.locateMoviesWithPlays(null)).thenReturn(List.of(movie));
             plays = moviesFetcher.loadPlays(null);
             assertThat(plays).hasSize(1);
             assertThat(plays.get(0).id()).isEqualTo("someMovie_04-20_18:23");
