@@ -23,4 +23,8 @@ public record PlayDTO(String id, @JsonProperty("movie") MovieDTO movieDTO, @Json
     public int hashCode() {
         return new HashCodeBuilder(17, 37).append(movieDTO).append(start).append(End).append(tickethref).append(titleAddOn).toHashCode();
     }
+
+    public Play withMovie(Movie movie) {
+        return new Play(id(), movie, start, End, tickethref, cinema, titleAddOn);
+    }
 }

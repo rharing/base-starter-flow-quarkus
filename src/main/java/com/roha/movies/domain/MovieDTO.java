@@ -3,6 +3,7 @@ package com.roha.movies.domain;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -15,5 +16,9 @@ public record MovieDTO(String id, @JsonProperty("movie-id") String movieId, Stri
 
     public MovieDTO withMovieId(String movieId) {
         return new MovieDTO(id, movieId, title, titleAddOn, image, href, rating, createdAt, duration);
+    }
+
+    public Movie asMovie() {
+        return new Movie(id(), title(), href(), rating(), null, image(), duration(), new ArrayList<>(), titleAddOn());
     }
 }
