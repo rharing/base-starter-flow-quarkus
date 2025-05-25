@@ -1,10 +1,15 @@
 package com.roha.movies.view;
 
 import com.roha.movies.components.MovieWithPlaysDiv;
+import com.roha.movies.components.ReloadMoviesEvent;
 import com.roha.movies.domain.PlayDTO;
 import com.roha.movies.fetcher.Initializer;
 import com.roha.movies.view.domain.CityOverView;
+import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.ComponentUtil;
 import com.vaadin.flow.component.html.H3;
+import com.vaadin.flow.component.notification.Notification;
+import com.vaadin.flow.component.notification.NotificationVariant;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.BeforeEvent;
@@ -32,8 +37,21 @@ public class CityView extends VerticalLayout implements HasUrlParameter<String> 
             add(header);
             VerticalLayout movies = new VerticalLayout();
             CityOverView cityOverView = new CityOverView(initializer, this.city);
-            cityOverView.getMovies().forEach(movie -> movies.add(new MovieWithPlaysDiv(initializer,movie)));
+            cityOverView.getMovies().forEach(movie -> movies.add(new MovieWithPlaysDiv(initializer, movie, this)));
             add(header, movies);
+            ComponentUtil.addListener(this, ReloadMoviesEvent.class, event -> {
+                        try {
+                            initializer.getMoviesFetcher().handleMyMovie(event.getMovie().asDTO(), event.getMyMoviesAction());
+                            Notification notification = new Notification("handled " + event.getMyMoviesAction(), 3, Notification.Position.MIDDLE);
+                            notification.addThemeVariants(NotificationVariant.LUMO_SUCCESS);
+                            notification.open();
+                        } catch (IOException e) {
+                            Notification notification = new Notification("oeps " + e.getMessage(), 3, Notification.Position.MIDDLE);
+                            notification.addThemeVariants(NotificationVariant.LUMO_ERROR);
+                            notification.open();
+                        }
+                    }
+            );
 
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -1,6 +1,7 @@
 package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.*;
+import com.roha.movies.view.domain.MyMoviesAction;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -11,10 +12,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+
 /**
  * uses a local json as mymovies repository and an local overview_haarlem  page to locate the cities and the movies
  */
-public class MoviesFetcher implements WithLogger{
+public class MoviesFetcher implements WithLogger {
 
     private final MoviesDocumentParser moviesDocumentParser;
     private Clock clock = null;
@@ -31,11 +33,10 @@ public class MoviesFetcher implements WithLogger{
 
     public MoviesFetcher(MoviesDocumentParser moviesDocumentParser, MyMoviesRepository myMoviesRepository, Clock clock) {
         this.moviesDocumentParser = moviesDocumentParser;
-        if(clock == null){
+        if (clock == null) {
             this.clock = Clock.system(ZoneId.of("Europe/Amsterdam"));
             logger().info("changed clock to amsterdam so its now " + Formatters.TIMEFORMATTER.format(LocalDateTime.now(this.clock)));
-        }
-        else{
+        } else {
             this.clock = clock;
         }
         this.myMoviesRepository = myMoviesRepository;
@@ -73,7 +74,7 @@ public class MoviesFetcher implements WithLogger{
             }
         }
 
-        if(!result.isEmpty()) {
+        if (!result.isEmpty()) {
             Collections.sort(result, Comparator.comparing(PlayDTO::start).thenComparing(o -> o.movieDTO().movieId().toLowerCase()).thenComparing((o1, o2) -> o1.cinema().compareTo(o2.cinema())));
         }
         return result;
@@ -81,17 +82,17 @@ public class MoviesFetcher implements WithLogger{
 
     public void seenMovie(String id) throws IOException {
         MyMovies myMovies = myMoviesRepository.load();
-        myMovies.getSeen().put(id,empty(id));
+        myMovies.getSeen().put(id, empty(id));
         myMoviesRepository.save(myMovies);
     }
 
     private MovieDTO empty(String id) {
-        return new MovieDTO(id, id, id,id, id, id, id, null,null);
+        return new MovieDTO(id, id, id, id, id, id, id, null, null);
     }
 
     public void wantedMovie(String id) throws IOException {
         MyMovies myMovies = myMoviesRepository.load();
-        myMovies.getSeen().put(id,empty(id));
+        myMovies.getSeen().put(id, empty(id));
         myMoviesRepository.save(myMovies);
     }
 
@@ -140,7 +141,7 @@ public class MoviesFetcher implements WithLogger{
     public void addSeen(MovieDTO movieDTO) throws IOException {
         MyMovies myMovies = myMoviesRepository.load();
         boolean updateMyMovies = myMovies.addSeen(movieDTO);
-        if(myMovies.getWanted().containsKey(movieDTO.movieId())){
+        if (myMovies.getWanted().containsKey(movieDTO.movieId())) {
             myMovies.getWanted().remove(movieDTO.movieId());
             updateMyMovies = true;
         }
@@ -176,7 +177,7 @@ public class MoviesFetcher implements WithLogger{
             whenPlayDTOS.sort(new Comparator<WhenPlayDTO>() {
                 @Override
                 public int compare(WhenPlayDTO o1, WhenPlayDTO o2) {
-                    int compare =o1.city().compareTo(o2.city());
+                    int compare = o1.city().compareTo(o2.city());
                     if (compare == 0) {
                         compare = o2.start().compareTo(o1.start());
                     }
@@ -186,5 +187,13 @@ public class MoviesFetcher implements WithLogger{
             return whenPlayDTOS;
         }
         return null;
+    }
+
+    public void handleMyMovie(MovieDTO dto, MyMoviesAction myMoviesAction) throws IOException {
+        MyMovies myMovies = myMoviesRepository.load();
+        boolean updated = myMovies.handle(dto, myMoviesAction);
+        if (updated) {
+            myMoviesRepository.save(myMovies);
+        }
     }
 }

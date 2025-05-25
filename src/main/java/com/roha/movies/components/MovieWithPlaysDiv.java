@@ -1,14 +1,16 @@
 package com.roha.movies.components;
 
 import com.roha.movies.domain.Movie;
-import com.roha.movies.domain.MovieDTO;
 import com.roha.movies.fetcher.Initializer;
+import com.roha.movies.view.CityView;
+import com.roha.movies.view.domain.MyMoviesAction;
+import com.vaadin.flow.component.ComponentUtil;
+import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.card.Card;
 import com.vaadin.flow.component.html.*;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
-import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import java.io.IOException;
 
@@ -16,7 +18,7 @@ public class MovieWithPlaysDiv extends Card {
     private Movie movie;
     private Initializer initializer;
 
-    public MovieWithPlaysDiv(Initializer initializer, Movie movie) {
+    public MovieWithPlaysDiv(Initializer initializer, Movie movie, CityView parent) {
         super();
         this.movie = movie;
         this.initializer = initializer;
@@ -37,39 +39,20 @@ public class MovieWithPlaysDiv extends Card {
         });
         this.setMedia(span);
         this.add(movieContent);
-        Button skipButton = new Button("Skip");
-        skipButton.addClickListener(event -> {
-            try {
-                initializer.getMoviesFetcher().addSkipped(movie.asDTO());
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        });
-        Button seenButton = new Button("Seen");
-        skipButton.addClickListener(event -> {
-            try {
-                initializer.getMoviesFetcher().addSeen(movie.asDTO());
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        });
-        Button wantedButton = new Button("Yessss");
-        skipButton.addClickListener(event -> {
-            try {
-                initializer.getMoviesFetcher().addSeen(movie.asDTO());
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        });
-        Button resetButton = new Button("Reset");
-        skipButton.addClickListener(event -> {
-            try {
-                initializer.getMoviesFetcher().reset(movie.asDTO());
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        });
+        Button skipButton = createButton("Skip", parent, MyMoviesAction.SKIPPED);
+        Button seenButton = createButton("Seen", parent, MyMoviesAction.SEEN);
+        Button wantedButton = createButton("Wanted", parent, MyMoviesAction.WANTED);
+        Button resetButton = createButton("Reset", parent, MyMoviesAction.RESET);
         HorizontalLayout buttons = new HorizontalLayout(FlexComponent.Alignment.START,skipButton, seenButton, wantedButton, resetButton);
         setSubtitle(buttons);
+    }
+
+    private Button createButton(String text, CityView parent, MyMoviesAction action) {
+        Button button = new Button(text);
+        button.addClickListener(event -> {
+            ComponentUtil.fireEvent(parent, new ReloadMoviesEvent(this, movie, action));
+            this.setVisible(false);
+        });
+        return button;
     }
 }
