@@ -11,6 +11,7 @@ import com.vaadin.flow.component.card.Card;
 import com.vaadin.flow.component.html.*;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import java.io.IOException;
 
@@ -23,22 +24,25 @@ public class MovieWithPlaysDiv extends Card {
         this.movie = movie;
         this.initializer = initializer;
         setTitle(movie.title() + " - " + movie.rating());
-        Paragraph movieContent = new Paragraph();
-        movieContent.setText("");
+        VerticalLayout movieCard = new VerticalLayout();
+        Paragraph movieText = new Paragraph();
+        movieText.setText("");
+        movieCard.add(movieText);
+        movieCard.add(new PlaysDiv( movie, parent));
         Image media = new Image(movie.imageHref(), movie.title());
-        Span span = new Span(media);
-        span.addClickListener(event -> {
+        Span moviePoster = new Span(media);
+        moviePoster.addClickListener(event -> {
             Movie movie1 = null;
             try {
                 movie1 = initializer.loadMovie(movie.asDTO());
-                movieContent.setText(movie1.content());
+                movieText.setText(movie1.content());
             } catch (IOException ex) {
-                movieContent.setText("Could not load content");
+                movieText.setText("Could not load content");
             }
             ;
         });
-        this.setMedia(span);
-        this.add(movieContent);
+        this.setMedia(moviePoster);
+        this.add(movieCard);
         Button skipButton = createButton("Skip", parent, MyMoviesAction.SKIPPED);
         Button seenButton = createButton("Seen", parent, MyMoviesAction.SEEN);
         Button wantedButton = createButton("Wanted", parent, MyMoviesAction.WANTED);
@@ -53,6 +57,7 @@ public class MovieWithPlaysDiv extends Card {
             ComponentUtil.fireEvent(parent, new ReloadMoviesEvent(this, movie, action));
             this.setVisible(false);
         });
+        button.addClassName("button44");
         return button;
     }
 }
