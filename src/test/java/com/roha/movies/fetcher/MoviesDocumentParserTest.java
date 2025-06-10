@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roha.movies.domain.*;
-import com.roha.movies.view.domain.PlayPerDay;
+import com.roha.movies.view.domain.DayOverview;
 import org.apache.commons.lang3.StringUtils;
 import org.assertj.core.api.Assertions;
 import org.hamcrest.collection.IsIterableContainingInOrder;
@@ -16,8 +16,6 @@ import org.springframework.core.io.ClassPathResource;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -37,16 +35,6 @@ class MoviesDocumentParserTest {
     }
 
 
-    private static void testWeek(LinkedHashMap<String, List<PlayPerDay>> overview, List<String> expected) {
-        List<String> alleDagen = new ArrayList<>();
-        Iterator<String> iterator = overview.keySet().iterator();
-        while (iterator.hasNext()) {
-            String dag = (String) iterator.next();
-            alleDagen.add(dag);
-        }
-        assertThat(alleDagen,
-                IsIterableContainingInOrder.contains(expected));
-    }
 
     @Test
     public void get_rid_of_weird_rating_char() {
