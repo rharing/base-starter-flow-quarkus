@@ -23,6 +23,7 @@ public class MovieWithPlaysDiv extends Card {
         super();
         this.movie = movie;
         this.initializer = initializer;
+
         setTitle(movie.title() + " - " + movie.rating());
         VerticalLayout movieCard = new VerticalLayout();
         Paragraph movieText = new Paragraph();
@@ -48,7 +49,8 @@ public class MovieWithPlaysDiv extends Card {
         Button wantedButton = createButton("Wanted", parent, MyMoviesAction.WANTED);
         Button resetButton = createButton("Reset", parent, MyMoviesAction.RESET);
         HorizontalLayout buttons = new HorizontalLayout(FlexComponent.Alignment.START,skipButton, seenButton, wantedButton, resetButton);
-        setSubtitle(buttons);
+        this.addToFooter(buttons);
+//        setSubtitle(buttons);
     }
 
     private Button createButton(String text, CityView parent, MyMoviesAction action) {

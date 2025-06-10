@@ -4,8 +4,6 @@ import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.MovieDTO;
 import com.roha.movies.domain.PlayDTO;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.context.Dependent;
-import jakarta.inject.Singleton;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import java.io.IOException;
@@ -13,21 +11,22 @@ import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneOffset;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Optional;
 
 @ApplicationScoped
 public class Initializer {
 
-    @ConfigProperty(name = "useLive",defaultValue = "true")
+    @ConfigProperty(name = "useLive", defaultValue = "true")
     Boolean useLive;
-    @ConfigProperty(name = "fakeMovieContent",defaultValue = "true")
+    @ConfigProperty(name = "fakeMovieContent", defaultValue = "true")
     Boolean fakeMovieContent;
-    @ConfigProperty(name ="useAws", defaultValue = "false")
+    @ConfigProperty(name = "useAws", defaultValue = "false")
     Boolean useAws;
     @ConfigProperty(name = "s3_bucket")
     String bucket_name;
-    @ConfigProperty(name ="s3_region")
+    @ConfigProperty(name = "s3_region")
     String region;
     private MoviesFetcher moviesFetcher;
     private MyMoviesRepository myMoviesRepository;
@@ -37,7 +36,7 @@ public class Initializer {
             Instant.parse("2018-04-11T20:34:58Z"),
             ZoneOffset.UTC);
 
-//    @EventListener(ApplicationReadyEvent.class)
+    //    @EventListener(ApplicationReadyEvent.class)
     public void init() throws IOException {
         DocumentLoader documentLoader;
         if (useLive) {
@@ -67,6 +66,10 @@ public class Initializer {
         }
     }
 
+    public void setMoviesFetcher(MoviesFetcher moviesFetcher) {
+        this.moviesFetcher = moviesFetcher;
+    }
+
     public MoviesFetcher getMoviesFetcher() {
         return moviesFetcher;
     }
@@ -87,9 +90,36 @@ public class Initializer {
     public Movie loadMovie(MovieDTO movieDTO) throws IOException {
         if (fakeMovieContent) {
             String movieId = movieDTO.movieId();
-            return new Movie(movieId, movieId, movieDTO.href(), "unknown", "bogus content for " + movieId,"", 42, new ArrayList<>(), "");
+            return new Movie(movieId, movieId, movieDTO.href(), "unknown", "bogus content for " + movieId, "", 42, new ArrayList<>(), "");
         } else {
             return getMoviesFetcher().loadMovie(movieDTO);
         }
+    }
+
+    /**
+     * Loads plays by movie for a specified city, organizing them into a map of movies.
+     * This method fetches the plays for a given city and groups them by their respective movies.
+     * If a movie is not already in the map, it is created from its DTO and added to the map.
+     * Plays for each movie are also added to the corresponding movie's play list.
+     *
+     * @param city the name of the city for which plays are to be loaded
+     * @return a list of PlayDTO objects representing the plays for the specified city
+     * @throws IOException if an I/O error occurs during the loading of plays
+     */
+    public List<Movie> loadPlaysByMovie(String city) throws IOException {
+        List<PlayDTO> playDTOS = this.loadPlays(city);
+        LinkedHashMap<String, Movie> movies = new LinkedHashMap<>();
+        for (int i = 0; i < playDTOS.size(); i++) {
+
+            PlayDTO playDTO = playDTOS.get(i);
+            Movie movie = movies.get(playDTO.movieDTO().movieId());
+            if (movie == null) {
+                movie = playDTO.movieDTO().asMovie();
+            }
+            movie.plays().add(playDTO.withMovie(movie));
+            movies.put(playDTO.movieDTO().movieId(), movie);
+        }
+
+        return new ArrayList<>(movies.values());
     }
 }

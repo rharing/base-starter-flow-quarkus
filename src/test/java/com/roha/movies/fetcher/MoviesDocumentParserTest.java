@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roha.movies.domain.*;
+import com.roha.movies.view.domain.PlayPerDay;
 import org.apache.commons.lang3.StringUtils;
 import org.assertj.core.api.Assertions;
 import org.hamcrest.collection.IsIterableContainingInOrder;
@@ -15,6 +16,8 @@ import org.springframework.core.io.ClassPathResource;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -33,10 +36,22 @@ class MoviesDocumentParserTest {
         this.moviesDocumentParser = new MoviesDocumentParser(documentLoader);
     }
 
+
+    private static void testWeek(LinkedHashMap<String, List<PlayPerDay>> overview, List<String> expected) {
+        List<String> alleDagen = new ArrayList<>();
+        Iterator<String> iterator = overview.keySet().iterator();
+        while (iterator.hasNext()) {
+            String dag = (String) iterator.next();
+            alleDagen.add(dag);
+        }
+        assertThat(alleDagen,
+                IsIterableContainingInOrder.contains(expected));
+    }
+
     @Test
-    public void get_rid_of_weird_rating_char(){
+    public void get_rid_of_weird_rating_char() {
         String convertedRating = this.moviesDocumentParser.convertRating("6.4*");
-        assertThat(convertedRating,is("6.4"));
+        assertThat(convertedRating, is("6.4"));
     }
 
     @Test
@@ -61,6 +76,7 @@ class MoviesDocumentParserTest {
             assertThat(playDTO.movieDTO().href(), is("https://www.filmladder.nl/film/kung-fu-panda-4-ov-2024/popup/haarlem"));
         }
     }
+
     @Test
     public void shouldLocateVoorstellingen() throws IOException {
         ClassPathResource resource = new ClassPathResource("when_istanbul.html");
@@ -71,6 +87,7 @@ class MoviesDocumentParserTest {
         assertThat(whenPlayDTOS, hasSize(157));
         assertThat(whenPlayDTOS.get(154).city(), is("Zaandam"));
     }
+
     @Test
     public void shouldLocateVoorstellingenBambi() throws IOException {
         ClassPathResource resource = new ClassPathResource("when_bambi.html");
@@ -80,10 +97,10 @@ class MoviesDocumentParserTest {
         List<WhenPlayDTO> whenPlayDTOS = moviesDocumentParser.whenMovie(null);
         List<WhenPlayDTO> bambiInHaarlem = whenPlayDTOS.stream().filter(whenPlayDTO -> whenPlayDTO.city().equalsIgnoreCase("haarlem")).toList();
         assertThat(bambiInHaarlem, hasSize(2));
-        assertThat(bambiInHaarlem.get(0).start(),is(notNullValue()));
-        assertThat(bambiInHaarlem.get(0).start().toString(),is("2024-11-10T14:15"));
-        assertThat(bambiInHaarlem.get(0).end(),is(notNullValue()));
-        assertThat(bambiInHaarlem.get(0).end().toString(),is("2024-11-10T15:45"));
+        assertThat(bambiInHaarlem.get(0).start(), is(notNullValue()));
+        assertThat(bambiInHaarlem.get(0).start().toString(), is("2024-11-10T14:15"));
+        assertThat(bambiInHaarlem.get(0).end(), is(notNullValue()));
+        assertThat(bambiInHaarlem.get(0).end().toString(), is("2024-11-10T15:45"));
 
     }
 
@@ -102,7 +119,7 @@ class MoviesDocumentParserTest {
     public void shouldLocateEndTijdEnDuration() {
         String title = "Koop een kaartje voor A Streetcar Named Desire in FilmKoepel. Van 16:00 tot 18:15";
         LocalDateTime start = LocalDateTime.of(2024, 5, 19, 16, 0, 0);
-        Movie movie = new Movie("id","title","href","rating","content","imageHref", 0, new ArrayList<>(), "");
+        Movie movie = new Movie("id", "title", "href", "rating", "content", "imageHref", 0, new ArrayList<>(), "");
 
         movie = movie.withDuration(start, title);
         assertThat(movie.duration(), is(135));

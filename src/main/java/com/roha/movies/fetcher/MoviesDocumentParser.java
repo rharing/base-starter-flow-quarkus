@@ -6,6 +6,7 @@ import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.WhenPlayDTO;
 import com.roha.movies.fetcher.DocumentLoader;
 import com.roha.movies.fetcher.ExternalDocumentLoader;
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -187,8 +188,10 @@ public class MoviesDocumentParser {
                             String[] vanTot = fields[1].split("tot");
                             String van = vanTot[0].strip();
                             String tot = vanTot[1].strip();
-                            String end = startAt.replace(van, tot);
-                            endDate = LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME);
+                            if(StringUtils.isNotEmpty(tot)) {
+                                String end = startAt.replace(van, tot);
+                                endDate = LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME);
+                            }
                         }
                     }
 
