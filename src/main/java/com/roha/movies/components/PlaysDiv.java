@@ -1,5 +1,9 @@
 package com.roha.movies.components;
 
+import java.time.Clock;
+import java.time.LocalDate;
+import java.util.List;
+
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.Play;
 import com.roha.movies.view.CityView;
@@ -9,13 +13,10 @@ import com.roha.movies.view.domain.WeekOverView;
 import com.vaadin.flow.component.HtmlContainer;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.checkbox.Checkbox;
+import com.vaadin.flow.component.html.Anchor;
 import com.vaadin.flow.component.html.H3;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
-
-import java.time.Clock;
-import java.time.LocalDate;
-import java.util.List;
 
 @Tag("plays-div")
 public class PlaysDiv extends HtmlContainer {
@@ -45,6 +46,12 @@ public class PlaysDiv extends HtmlContainer {
 
             dayLayout.add(new H3(dayOverview.getDag()));
             day.add(dayLayout);
+            // Textual link
+            dayOverview.getPlays().forEach(playPerDay -> {
+                Anchor link = new Anchor(playPerDay.ticket(), playPerDay.toString());
+                link.setTarget("_blank");
+                dayLayout.add(link);
+            });
             days.add(day);
         }
         layout.add(days);
