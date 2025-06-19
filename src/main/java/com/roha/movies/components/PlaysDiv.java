@@ -2,7 +2,10 @@ package com.roha.movies.components;
 
 import java.time.Clock;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.Play;
@@ -14,12 +17,17 @@ import com.vaadin.flow.component.HtmlContainer;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.checkbox.Checkbox;
 import com.vaadin.flow.component.html.Anchor;
+import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.H3;
+import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 @Tag("plays-div")
 public class PlaysDiv extends HtmlContainer {
+
+    private final Map<String, List<Anchor>> cinemaLinks;
+    private HorizontalLayout days;
 
     public PlaysDiv(Movie movie, CityView parent) {
         VerticalLayout layout = new VerticalLayout();
@@ -32,13 +40,21 @@ public class PlaysDiv extends HtmlContainer {
         }
 
         HorizontalLayout cinemas = new HorizontalLayout();
+        cinemaLinks = new HashMap<>();
+
         for (String cinema : result.getCinemas()) {
             Checkbox checkbox = new Checkbox(cinema);
+            cinemaLinks.put(cinema, new ArrayList<>());
+            checkbox.setValue(true);
+            checkbox.addValueChangeListener(event -> {
+//                ComponentUtil.fireEvent(this, new CinemaSelectedEvent(checkbox, event.getValue(), false));
+                showDays(new CinemaSelectedEvent(checkbox, cinema, true));
+            });
             cinemas.add(checkbox);
         }
         layout.add(cinemas);
 
-        HorizontalLayout days = new HorizontalLayout();
+        days = new HorizontalLayout();
         List<DayOverview> overview = result.getOverview(LocalDate.now(clock()));
         for (DayOverview dayOverview : overview) {
             HorizontalLayout day = new HorizontalLayout();
@@ -49,6 +65,8 @@ public class PlaysDiv extends HtmlContainer {
             // Textual link
             dayOverview.getPlays().forEach(playPerDay -> {
                 Anchor link = new Anchor(playPerDay.ticket(), playPerDay.toString());
+
+                cinemaLinks.get(playPerDay.cinema()).add(link);
                 link.setTarget("_blank");
                 dayLayout.add(link);
             });
@@ -56,6 +74,12 @@ public class PlaysDiv extends HtmlContainer {
         }
         layout.add(days);
     }
+
+    private void showDays(final CinemaSelectedEvent event) {
+        cinemaLinks.get(event.getCinema()).forEach(anchor -> anchor.setVisible(event.getSelected()));
+    }
+
+
 
     private Clock clock() {
             return Clock.systemDefaultZone();
