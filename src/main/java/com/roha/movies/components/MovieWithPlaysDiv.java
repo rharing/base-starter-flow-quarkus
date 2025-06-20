@@ -57,7 +57,9 @@ public class MovieWithPlaysDiv extends Card {
         Button button = new Button(text);
         button.addClickListener(event -> {
             ComponentUtil.fireEvent(parent, new ReloadMoviesEvent(this, movie, action));
-            this.setVisible(false);
+            if(action == MyMoviesAction.SKIPPED) {
+                this.setVisible(false);
+            }
         });
         button.addClassName("button44");
         return button;
