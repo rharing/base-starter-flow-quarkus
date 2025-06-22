@@ -1,6 +1,7 @@
 package com.roha.movies.view.domain;
 
 import com.roha.movies.domain.Play;
+import com.vaadin.flow.component.html.Div;
 
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
@@ -21,6 +22,12 @@ public record PlayPerDay(DayOfWeek day, LocalDateTime start,LocalDateTime end, S
     @Override
     public String toString() {
         return format.format(start)+"-"+ format.format(end);
+    }
+
+    public Div render() {
+        Div div = new Div();
+        div.add(toString());
+        return div;
     }
 }
 

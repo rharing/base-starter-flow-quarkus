@@ -2,7 +2,9 @@ package com.roha.movies.fetcher;
 
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.MovieDTO;
+import com.roha.movies.domain.MyMovies;
 import com.roha.movies.domain.PlayDTO;
+import com.roha.movies.view.domain.MyMoviesAction;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
@@ -30,6 +32,7 @@ public class Initializer {
     String region;
     private MoviesFetcher moviesFetcher;
     private MyMoviesRepository myMoviesRepository;
+
 
     private BaseDataLoader baseDataLoader = new BaseDataLoader();
     public static final Clock LONGTIMEAGO = Clock.fixed(
@@ -87,6 +90,16 @@ public class Initializer {
         }
     }
 
+    public Movie updateMyMovie(MovieDTO movieDTO, MyMoviesAction action) throws IOException {
+        Movie movie = loadMovie(movieDTO);
+        MyMovies myMovies = myMoviesRepository.load();
+        if(action != null) {
+            action.handle(myMovies, movie.asDTO());
+        }
+        myMoviesRepository.save(myMovies);
+        return movie;
+    }
+
     public Movie loadMovie(MovieDTO movieDTO) throws IOException {
         if (fakeMovieContent) {
             String movieId = movieDTO.movieId();
@@ -121,5 +134,49 @@ public class Initializer {
         }
 
         return new ArrayList<>(movies.values());
+    }
+
+    public MyMovies getMyMovies() {
+        return myMoviesRepository.load();
+    }
+
+    public static final class InitializerBuilder {
+        private Boolean useLive;
+        private Boolean fakeMovieContent;
+        private Boolean useAws;
+
+        private InitializerBuilder() {
+        }
+
+        public static InitializerBuilder anInitializer() {
+            return new InitializerBuilder();
+        }
+
+        public static InitializerBuilder InitializerForTesting() {
+            return new InitializerBuilder().withUseLive(false).withUseAws(false).withFakeMovieContent(true);
+        }
+
+        public InitializerBuilder withUseLive(Boolean useLive) {
+            this.useLive = useLive;
+            return this;
+        }
+
+        public InitializerBuilder withFakeMovieContent(Boolean fakeMovieContent) {
+            this.fakeMovieContent = fakeMovieContent;
+            return this;
+        }
+
+        public InitializerBuilder withUseAws(Boolean useAws) {
+            this.useAws = useAws;
+            return this;
+        }
+
+        public Initializer build() {
+            Initializer initializer = new Initializer();
+            initializer.fakeMovieContent = this.fakeMovieContent;
+            initializer.useAws = this.useAws;
+            initializer.useLive = this.useLive;
+            return initializer;
+        }
     }
 }

@@ -1,9 +1,11 @@
 package com.roha.movies.domain;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public interface WithLogger {
     default Logger logger() {
-        return Logger.getLogger(getClass().getName());
+        return LoggerFactory.getLogger(this.getClass().getClass());
     }
 }

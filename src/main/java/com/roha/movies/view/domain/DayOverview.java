@@ -21,6 +21,10 @@ public class DayOverview {
         return dag;
     }
 
+    public DayOfWeek getDay() {
+        return day;
+    }
+
     public List<PlayPerDay> getPlays() {
         return plays;
     }

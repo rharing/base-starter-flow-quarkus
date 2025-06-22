@@ -65,4 +65,16 @@ public class WeekOverView {
         overview.get(1).setDag("morgen");
         return overview;
     }
+
+    public void resetDagen(){
+        Locale locale = Locale.forLanguageTag("nl");
+        DayOfWeek firstDayOfWeek = WeekFields.of(locale).getFirstDayOfWeek();
+
+        List<DayOfWeek> dows = IntStream.range(0, 7)
+                .mapToObj(firstDayOfWeek::plus)
+                .collect(Collectors.toList());
+        for (DayOverview dayOverview : days) {
+            dayOverview.setDag(dayOverview.getDay().getDisplayName(TextStyle.FULL, locale));
+        }
+    }
 }

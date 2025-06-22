@@ -1,16 +1,7 @@
 package com.roha.movies.components;
 
-import java.time.Clock;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.Play;
-import com.roha.movies.view.CityView;
 import com.roha.movies.view.domain.DayOverview;
 import com.roha.movies.view.domain.PlayPerDay;
 import com.roha.movies.view.domain.WeekOverView;
@@ -22,16 +13,18 @@ import com.vaadin.flow.component.html.H3;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
+import java.time.Clock;
+import java.time.LocalDate;
+import java.util.*;
+
 @Tag("plays-div")
 public class PlaysDiv extends HtmlContainer {
 
     private final Map<String, List<Anchor>> cinemaLinks;
-    private final CityView parent;
 
-    public PlaysDiv(Movie movie, CityView parent) {
-        this.parent = parent;
+    public PlaysDiv(Movie movie) {
         VerticalLayout layout = new VerticalLayout();
-        layout.add(new H3("Plays for " + movie.title()));
+        layout.add(new H3("Tijden voor " + movie.title()));
         this.add(layout);
 
         WeekOverView result = new WeekOverView();

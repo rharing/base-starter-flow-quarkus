@@ -5,7 +5,6 @@ import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.Play;
 import com.roha.movies.domain.WhenPlayDTO;
 import com.roha.movies.fetcher.MoviesDocumentParser;
-import org.hamcrest.collection.IsIterableContainingInOrder;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -18,6 +17,8 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.is;
+
 class WeekOverViewTest {
 
     @Test
@@ -32,24 +33,30 @@ class WeekOverViewTest {
             List<Play> plays = movie.plays();
             weekOverview.addPlays(plays);
         });
-//        assertThat(weekOverview.
         assertThat(weekOverview.getCinemas(), hasSize(3));
         // start with saturday
-                LocalDate when = LocalDateTime.of(2025, Month.MAY, 31, 0, 0).toLocalDate();
+        LocalDate when = LocalDateTime.of(2025, Month.MAY, 31, 0, 0).toLocalDate();
 
         List<DayOverview> overview = weekOverview.getOverview(when);
-        testWeek(overview, Arrays.asList("vandaag", "morgen", "maandag", "dinsdag", "woensdag", "donderdag","vrijdag"));
-
-        when = LocalDateTime.of(2025, Month.MAY, 30, 0, 0).toLocalDate();
+        testWeek(overview, Arrays.asList("vandaag", "morgen", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag"));
+        weekOverview.resetDagen();
+        when = LocalDateTime.of(2025, Month.MAY, 30, 0, 0).toLocalDate(); //vrijdag
         overview = weekOverview.getOverview(when);
         testWeek(overview, Arrays.asList("vandaag", "morgen", "zondag", "maandag", "dinsdag", "woensdag", "donderdag"));
+        weekOverview.resetDagen();
+        when = LocalDateTime.of(2025, Month.JUNE, 1, 0, 0).toLocalDate(); //Zondag
+        overview = weekOverview.getOverview(when);
+        testWeek(overview, Arrays.asList("vandaag", "morgen", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"));
     }
 
-   private void testWeek(List<DayOverview> daysOverview, List<String> expected) {
+    private void testWeek(List<DayOverview> daysOverview, List<String> expected) {
         List<String> alleDagen = new ArrayList<>();
         daysOverview.forEach(dayOverview -> alleDagen.add(dayOverview.getDag()));
-        assertThat(alleDagen,
-                IsIterableContainingInOrder.contains(expected));
+//        assertThat(alleDagen, IsIterableContainingInOrder.contains(expected));
+        for (int i = 0; i < alleDagen.size(); i++) {
+            String dag = alleDagen.get(i);
+            assertThat(dag, is(expected.get(i)));
+        }
     }
 
 }
