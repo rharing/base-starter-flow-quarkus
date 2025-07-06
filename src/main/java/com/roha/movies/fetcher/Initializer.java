@@ -1,9 +1,11 @@
 package com.roha.movies.fetcher;
 
+import com.google.common.base.Strings;
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.MovieDTO;
 import com.roha.movies.domain.MyMovies;
 import com.roha.movies.domain.PlayDTO;
+import com.roha.movies.service.MailService;
 import com.roha.movies.view.domain.MyMoviesAction;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
@@ -97,6 +99,14 @@ public class Initializer {
             action.handle(myMovies, movie.asDTO());
         }
         myMoviesRepository.save(myMovies);
+        return movie;
+    }
+
+    public Movie loadMovie(final MovieDTO dto, final MailService mailService) throws IOException {
+        final Movie movie = loadMovie(dto);
+        if(Strings.isNullOrEmpty(movie.content())) {
+            mailService.sendNoContentMovie(movie);
+        }
         return movie;
     }
 

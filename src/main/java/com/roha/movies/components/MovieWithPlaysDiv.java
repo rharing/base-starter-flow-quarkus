@@ -1,8 +1,10 @@
 package com.roha.movies.components;
 
+import com.google.common.base.Strings;
 import com.roha.movies.domain.Movie;
 import com.roha.movies.domain.WithLogger;
 import com.roha.movies.fetcher.Initializer;
+import com.roha.movies.service.MailService;
 import com.roha.movies.view.CityView;
 import com.roha.movies.view.domain.MyMoviesAction;
 import com.vaadin.flow.component.ComponentUtil;
@@ -18,11 +20,14 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import java.io.IOException;
+import jakarta.inject.Inject;
 
 public class MovieWithPlaysDiv extends Card implements WithLogger {
     private Movie movie;
     private Initializer initializer;
 
+    @Inject
+    MailService mailService;
     public MovieWithPlaysDiv(Initializer initializer, Movie movie) {
         this(initializer, movie, null, null);
     }
@@ -47,8 +52,12 @@ public class MovieWithPlaysDiv extends Card implements WithLogger {
         moviePoster.addClickListener(event -> {
             Movie movie1 = null;
             try {
-                movie1 = initializer.loadMovie(movie.asDTO());
-                movieText.setText(movie1.content());
+                movie1 = initializer.loadMovie(movie.asDTO(), mailService);
+                 String content = movie1.content();
+                if(Strings.isNullOrEmpty(content)) {
+                    content = "niet gevonden";
+                }
+                movieText.setText(content);
             } catch (IOException ex) {
                 logger().error("could not load movie content", ex);
                 movieText.setText("Could not load content");
@@ -57,13 +66,35 @@ public class MovieWithPlaysDiv extends Card implements WithLogger {
         });
         this.setMedia(moviePoster);
         this.add(movieCard);
+
         Button skipButton = createButton("Skip", parent, MyMoviesAction.SKIPPED);
         Button seenButton = createButton("Seen", parent, MyMoviesAction.SEEN);
         Button wantedButton = createButton("Wanted", parent, MyMoviesAction.WANTED);
         Button resetButton = createButton("Reset", parent, MyMoviesAction.RESET);
         HorizontalLayout buttons = new HorizontalLayout(FlexComponent.Alignment.START, skipButton, seenButton, wantedButton, resetButton);
+        if(action != null) {
+            switch (action) {
+                case SKIPPED:
+                    skipButton.setVisible(false);
+                    break;
+                case SEEN:
+                    seenButton.setVisible(false);
+                    break;
+                case WANTED:
+                    wantedButton.setVisible(false);
+                    break;
+                case RESET:
+                    resetButton.click();
+                    break;
+            }
+
+        }
         this.addToFooter(buttons);
 //        setSubtitle(buttons);
+    }
+
+    public MovieWithPlaysDiv(final Initializer initializer, final Movie movie, final MyMoviesAction myMoviesAction) {
+        this(initializer, movie, null, myMoviesAction);
     }
 
     private Image locatePosterImage(Movie movie, MyMoviesAction action) {

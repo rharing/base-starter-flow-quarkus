@@ -20,7 +20,7 @@ import java.util.*;
 @Tag("plays-div")
 public class PlaysDiv extends HtmlContainer {
 
-    private final Map<String, List<Anchor>> cinemaLinks;
+    private final Map<String, List<PlayLink>> cinemaLinks;
 
     public PlaysDiv(Movie movie) {
         VerticalLayout layout = new VerticalLayout();
@@ -57,11 +57,10 @@ public class PlaysDiv extends HtmlContainer {
             day.add(dayLayout);
             // Textual link
             dayOverview.getPlays().forEach(playPerDay -> {
-                Anchor link = new Anchor(playPerDay.ticket(), playPerDay.toString());
-                link.setVisible(preferredCinemas().contains(playPerDay.cinema()));
-                cinemaLinks.get(playPerDay.cinema()).add(link);
-                link.setTarget("_blank");
-                dayLayout.add(link);
+                PlayLink playLink = new PlayLink(playPerDay);
+                playLink.setVisible(preferredCinemas().contains(playPerDay.cinema()));
+                cinemaLinks.get(playPerDay.cinema()).add(playLink);
+                dayLayout.add(playLink);
             });
             days.add(day);
         }

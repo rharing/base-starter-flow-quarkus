@@ -1,7 +1,12 @@
 package com.roha.movies.fetcher;
 
+import com.fasterxml.jackson.databind.ser.impl.StringArraySerializer;
+import com.google.common.base.Strings;
 import com.roha.movies.domain.*;
 import com.roha.movies.view.domain.MyMoviesAction;
+import org.jobrunr.configuration.JobRunr;
+import org.jobrunr.scheduling.JobScheduler;
+import org.jobrunr.storage.InMemoryStorageProvider;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -117,7 +122,13 @@ public class MoviesFetcher implements WithLogger {
     public Movie loadMovie(MovieDTO movieDTO) throws IOException {
         if (movieDTO != null && movieDTO.href() != null) {
 
-            return moviesDocumentParser.loadMovie(movieDTO.href());
+            final Movie movie = moviesDocumentParser.loadMovie(movieDTO.href());
+            if(Strings.isNullOrEmpty(movie.content())) {
+// content empty seems not ok so layout has probaly changed again
+
+
+            }
+            return movie;
         }
         return moviesDocumentParser.loadMovie(null);
     }
