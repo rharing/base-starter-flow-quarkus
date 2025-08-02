@@ -4,10 +4,12 @@ import com.roha.movies.GreetService;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
+import com.vaadin.flow.theme.lumo.LumoUtility;
 import jakarta.inject.Inject;
 
 /**
@@ -20,6 +22,13 @@ public class GreetView extends VerticalLayout {
     GreetService greetService;
 
     public GreetView() {
+        Div div = new Div(
+                new TextField("First name"),
+                new TextField("Last name")
+        );
+        div.addClassNames(LumoUtility.Display.FLEX, LumoUtility.FlexDirection.COLUMN,
+                LumoUtility.FlexDirection.Breakpoint.Medium.ROW, LumoUtility.Gap.MEDIUM);
+        this.add(div);
         // Use TextField for standard text input
         TextField textField = new TextField("hello");
         textField.addThemeName("bordered");

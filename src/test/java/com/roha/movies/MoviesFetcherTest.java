@@ -8,7 +8,6 @@ import com.roha.movies.fetcher.*;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.IOException;
@@ -118,6 +117,22 @@ class MoviesFetcherTest {
         } finally {
             myMoviesRepository.clean();
         }
+    }
+
+    @Test
+    public void loadMovieContentNewLayout() throws IOException {
+        ClassPathResource resource = new ClassPathResource("peacock.html");
+        String filename = resource.getURL().toExternalForm();
+        DocumentLoader documentLoader = DocumentLoader.create(filename);
+        MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
+        // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
+        Clock clock = LONGTIMEAGO;
+        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
+        MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
+
+        Movie movie = moviesDocumentParser.loadMovie(null);
+        assertThat(movie.content()).isEqualTo("Matthias is de perfecte +1. Ben je op zoek naar de perfecte zoon om indruk mee te maken? Een gesprekspartner die de juiste wijn kent en de juiste boeken heeft gelezen? Of zoek je iemand om mee te leren ruziën? Boek Matthias. Hij speelt iedereen met gemak. Behalve zichzelf.");
+        assertThat(movie.rating()).isEqualTo("7.2");
     }
 
     @Nested

@@ -1,11 +1,8 @@
 package com.roha.movies.fetcher;
 
-import com.roha.movies.domain.City;
-import com.roha.movies.domain.IdCreator;
-import com.roha.movies.domain.Movie;
-import com.roha.movies.domain.WhenPlayDTO;
-import com.roha.movies.fetcher.DocumentLoader;
-import com.roha.movies.fetcher.ExternalDocumentLoader;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.roha.movies.domain.*;
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -84,7 +81,7 @@ public class MoviesDocumentParser {
 //            Movie.MovieBuilder movieBuilder = Movie.builder().title(title).id(movieId).href(href).plays(new ArrayList<>());
             String imageHref = movieElement.select("img").attr("data-src");
             String rating = movieElement.select("span.star-rating>a.movie-link").text();
-            if(rating.length()>=3) {
+            if (rating.length() >= 3) {
                 // get rid of weird chars
                 rating = convertRating(rating);
             }
@@ -116,7 +113,7 @@ public class MoviesDocumentParser {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < chars.length; i++) {
             char aChar = chars[i];
-            if(aChar >='0' && aChar <='9' || aChar == '.' ) {
+            if (aChar >= '0' && aChar <= '9' || aChar == '.') {
                 result.append(aChar);
             }
         }
@@ -125,40 +122,52 @@ public class MoviesDocumentParser {
 
     public Movie loadMovie(String href) throws IOException {
         if (href != null) {
-            documentLoader = new ExternalDocumentLoader(href);
+            String movieId = href.split("/popup/")[0];
+            movieId = movieId.replace("www", "next");
+            documentLoader = new ExternalDocumentLoader(movieId);
+            //https://next.filmladder.nl/film/peacock-2024
         }
         Document document = documentLoader.parse();
-        String content = document.select("p.synopsis").text();
-
+        String json = document.select("script[type=application/ld+json]").get(0).getAllElements().get(0).data();
+        ObjectMapper objectMapper = new ObjectMapper();
+        FilmLadderContent filmLadderContent = objectMapper.readValue(json, FilmLadderContent.class);
+        String content = filmLadderContent.getDescription();
         String title = document.select("div#short-details>h3").attr("title");
-        String movieId = IdCreator.create(title);
         if (title.startsWith("Details ")) {
             title = title.replace("Details ", "");
         }
+        if (StringUtils.isEmpty(title)) {
+            title = filmLadderContent.getName();
+        }
+        String movieId = IdCreator.create(title);
+
         final Elements durationElement = document.select("p[itemprop=duration]");
         String duration = "";
         if (durationElement != null) {
             duration = durationElement.text();
-            if (duration == null) {
+            if (duration == null || duration.isBlank()) {
                 duration = "";
             }
         }
-        Integer minuten =0;
+        Integer minuten = 0;
         if (duration.endsWith("minuten")) {
             minuten = Integer.valueOf(duration.replace("minuten", "").strip());
         }
-
+        if (StringUtils.isEmpty(duration)) {
+            duration = "" + filmLadderContent.loadDuration();
+        }
         String rating = document.select("span[itemprop=ratingValue]").text();
-        if (rating == null) {
-            rating = "";
+        if (rating == null || rating.isEmpty()) {
+            if (filmLadderContent.getAggregateRating() != null) {
+                rating = "" + filmLadderContent.getAggregateRating().getRatingValue();
+            }
         }
 
         String imageHref = document.select("img.poster").attr("src");
         return new Movie(movieId, title, href, rating, content, imageHref, minuten, new ArrayList<>(), null);
     }
 
-    public List
-            <WhenPlayDTO> whenMovie(String id) throws IOException {
+    public List<WhenPlayDTO> whenMovie(String id) throws IOException {
         if (documentLoader instanceof ExternalDocumentLoader && id != null) {
             // hmm looks like this voorstellingen url us not maintained anymore as i can not find the link on the site
             // so alternatively i could loop over all the cities
@@ -181,14 +190,16 @@ public class MoviesDocumentParser {
                     String title = titleElement.attr("title");
                     Matcher matcher = vanTot.matcher(title);
                     LocalDateTime endDate = startDate;
-                    if(matcher.find()){
+                    if (matcher.find()) {
                         String fields[] = title.split("Van ");
-                        if(fields.length== 2){
+                        if (fields.length == 2) {
                             String[] vanTot = fields[1].split("tot");
                             String van = vanTot[0].strip();
                             String tot = vanTot[1].strip();
-                            String end = startAt.replace(van, tot);
-                            endDate = LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME);
+                            if (StringUtils.isNotEmpty(tot)) {
+                                String end = startAt.replace(van, tot);
+                                endDate = LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME);
+                            }
                         }
                     }
 

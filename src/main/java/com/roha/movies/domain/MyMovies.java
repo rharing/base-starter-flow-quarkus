@@ -1,6 +1,8 @@
 package com.roha.movies.domain;
 
 
+import com.roha.movies.view.domain.MyMoviesAction;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -67,5 +69,9 @@ public class MyMovies {
             }
         }
         return false;
+    }
+
+    public boolean handle(MovieDTO dto, MyMoviesAction myMoviesAction) {
+        return myMoviesAction.handle(this, dto);
     }
 }

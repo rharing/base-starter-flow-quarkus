@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGH1XSDLV"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-FXGH1XSDLV');
@@ -13,7 +17,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width"/>
     <meta name="theme-color" content="#FFCC02">
 
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/apple-touch-icon-144x144-af857028c3108d31c1be3c58e48fb488b2aee4fe36160f5a674fa708427176df.png" sizes="144x144" />
@@ -22,24 +26,26 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/apple-touch-icon-57x57-c9186045566de4f7837e416a9312416d3cc5d448ab9bd5ea8a386ba591425012.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-f14929333e45d90d67a7e3a726f63f91dfe240a5bdad859a4d0fee48d211faa4.png" />
 
-    <link rel="preconnect" href="https://assets.filmladder.nl" />
-    <link rel="dns-prefetch" href="https://assets.filmladder.nl" />
+    <link rel="preconnect" href="https://assets.filmladder.nl"/>
+    <link rel="dns-prefetch" href="https://assets.filmladder.nl"/>
+    <link rel="preconnect" href="https://assets-filmladder-nl.b-cdn.net"/>
+    <link rel="dns-prefetch" href="https://assets-filmladder-nl.b-cdn.net"/>
 
-    <title>Als ik mijn ogen sluit | film | bioscoopagenda</title>
-    <meta name="description" content="Als ik mijn ogen sluit… is een documentaire over de vrouwen en meisjes die de Japanse kampen overleefden en hoe zij hier later in hun leven mee omgingen. Te zien in Amsterdam, Schiedam, Utrecht, Bussum en Zierikzee">
-    <meta name="keywords" content="als ik mijn ogen sluit, 2024, bioscoopagenda, filmagenda, biosagenda, filmladder, tijden, tickets, film, bioscoop, bios, synopsis, beschrijving, verhaal, recensie, review, movie, imdb, cast, regisseur, kijkwijzer, leeftijd, verwacht, premiere, online, cinema, release, de filmkrant, de volkskrant, nrc">
+    <title>The Naked Gun | film | bioscoopagenda</title>
+    <meta name="description" content="Slechts één man beschikt over de specifieke vaardigheden om Police Squad aan te voeren en de wereld te redden; Inspecteur Frank Drebin Jr. Te zien in Amsterdam, Rotterdam, Den Haag, Utrecht, Tilburg, Nijmegen, Eindhoven, Breda, Groningen, Arnhem en 72">
+    <meta name="keywords" content="the naked gun, 2025, bioscoopagenda, filmagenda, biosagenda, filmladder, tijden, tickets, film, bioscoop, bios, synopsis, beschrijving, verhaal, recensie, review, movie, imdb, cast, regisseur, kijkwijzer, leeftijd, verwacht, premiere, online, cinema, release">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Als ik mijn ogen sluit">
+    <meta property="og:title" content="The Naked Gun">
     <meta property="og:type" content="video.movie">
-    <meta property="og:url" content="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024">
-    <meta property="og:image" content="https://assets.filmladder.nl/uploads/depot_image/asset/001/033/876/1033876/medium_848c20c143209cd6.jpg">
-    <meta property="og:description" content="Als ik mijn ogen sluit… is een documentaire over de vrouwen en meisjes die de Japanse kampen overleefden en hoe zij hier later in hun leven mee omgingen.">
+    <meta property="og:url" content="https://www.filmladder.nl/film/the-naked-gun-2025">
+    <meta property="og:image" content="https://assets.filmladder.nl/uploads/depot_image/asset/001/065/046/1065046/medium_5519d7dac81160f1.jpg">
+    <meta property="og:description" content="Slechts één man beschikt over de specifieke vaardigheden om Police Squad aan te voeren en de wereld te redden; Inspecteur Frank Drebin Jr.">
     <meta name="publisher" content="https://www.filmladder.nl/over-ons">
     <meta name="author" content="https://www.filmladder.nl/over-ons">
-    <meta name="cannonical" content="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024">
+    <meta name="cannonical" content="https://www.filmladder.nl/film/the-naked-gun-2025">
 
     <meta name="csrf-param" content="authenticity_token" />
-    <meta name="csrf-token" content="O4SLLsaKm6CxNVrIegm/NpkGVetbUlMy/VeQ8DwNZ4H1wqYYFMggwKdhgL0BR8ht5+8oTJadoXogXhkQQwlKTw==" />
+    <meta name="csrf-token" content="xir3OPgpBA1phlFCRF/JsHyj3ZHnxSSmjAehrP2kRAZgsQwsOORbZDqMx8shBcnapaUH/GPsC9UHmLpm3nShEg==" />
 
     <link rel="stylesheet" media="all" href="/assets/application-2777e326b953f3c726972bff8dc463380439c84097a6b5a9cd5a1b5ba92349af.css" />
 
@@ -55,7 +61,7 @@
         function window_width() {
             var w = 0;
             // IE
-            if (typeof( window.innerWidth ) != 'number') {
+            if (typeof (window.innerWidth) != 'number') {
                 if (!(document.documentElement.clientWidth === 0)) {
                     // strict mode
                     w = document.documentElement.clientWidth;
@@ -72,26 +78,26 @@
 
         function responsive_mode() {
             var width = window_width();
-            if( width <= 414 ) return 'mobile';
-            if( width <= 667 ) return 'phablet';
-            if( width <= 860 ) return 'tablet';
+            if (width <= 414) return 'mobile';
+            if (width <= 667) return 'phablet';
+            if (width <= 860) return 'tablet';
             else return 'desktop'
         }
 
         function mobile() {
-            return responsive_mode()=='mobile';
+            return responsive_mode() == 'mobile';
         }
 
         function phablet() {
-            return responsive_mode()=='phablet';
+            return responsive_mode() == 'phablet';
         }
 
         function tablet() {
-            return responsive_mode()=='tablet';
+            return responsive_mode() == 'tablet';
         }
 
         function desktop() {
-            return responsive_mode()=='desktop';
+            return responsive_mode() == 'desktop';
         }
 
         function pocketsize() {
@@ -106,18 +112,19 @@
 
     <!--[if lt IE 10]>
     <style>
-        .city .cinemas li, .movie .cinemas li{
+        .city .cinemas li, .movie .cinemas li {
             float: left;
             width: 25%;
         }
-        @media only screen and  (max-width : 1150px) {
-            .city .cinemas li, .movie .cinemas li{
+
+        @media only screen and  (max-width: 1150px) {
+            .city .cinemas li, .movie .cinemas li {
                 width: 33.3%;
             }
         }
 
-        @media only screen and  (max-width : 667px) {
-            .city .cinemas li, .movie .cinemas li{
+        @media only screen and  (max-width: 667px) {
+            .city .cinemas li, .movie .cinemas li {
                 width: 50%;
             }
         }
@@ -127,9 +134,10 @@
 
     <style>
         @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-            .movies-matrix .movies li.movie{
+            .movies-matrix .movies li.movie {
                 float: left !important;
             }
+
             .movies-matrix .movies {
                 display: block !important;
             }
@@ -184,8 +192,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="unique-selling-points">
     <ul>
         <li><i class="fa fa-clock fa-fw" aria-hidden="true"></i> vanaf maandag het nieuwe programma</li>
-        <li><i class="fa fa-solid fa-check"></i> het complete overzicht van Nederland</li>
         <li><i class="fa fa-ticket-alt" aria-hidden="true"></i> koop direct je kaartjes</li>
+        <li><i class="fa fa-solid fa-check"></i> het complete overzicht van Nederland</li>
     </ul></div>
 <div class="banner banner-leaderboard">
     <!-- /21692912646/Desktop-Leaderboard -->
@@ -219,8 +227,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div></div>
             <a title="ga naar de homepage" href="/"><img class="logo" alt="Filmladder" width="92" height="32" src="/assets/filmladder-logo-99b25915cc4d088ca1ed6f46d1302321a350c10f2baced7a5943f8e07e5b8b9a.png" /></a>
             <div id="authentication">
-                <a target="blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.filmladder.nl%2Ffilm%2Fals-ik-mijn-ogen-sluit-2024&amp;text=Als+ik+mijn+ogen+sluit%E2%80%A6+is+een+documentaire+over+de+vrouwen+en+meisjes+die+de+Japanse+kampen+overleefden+en+hoe+zij+hier+later+in+hun+leven+mee+omgingen.%0A%0ATe+zien+in+Amsterdam%2C+Schiedam%2C+Utrecht%2C+Bussum+en+Zierikzee"><i class="fab fa-twitter"></i></a>
-                <a target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.filmladder.nl%2Ffilm%2Fals-ik-mijn-ogen-sluit-2024"><i class="fab fa-facebook"></i></a>
+                <a target="blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.filmladder.nl%2Ffilm%2Fthe-naked-gun-2025&amp;text=Slechts+%C3%A9%C3%A9n+man+beschikt+over+de+specifieke+vaardigheden+om+Police+Squad+aan+te+voeren+en+de+wereld+te+redden%3B+Inspecteur+Frank+Drebin+Jr.%0A%0ATe+zien+in+Amsterdam%2C+Rotterdam%2C+Den+Haag%2C+Utrecht%2C+Tilburg%2C+Nijmegen%2C+Eindhoven%2C+Breda%2C+Groningen%2C+Arnhem+en+72..."><i class="fab fa-twitter"></i></a>
+                <a target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.filmladder.nl%2Ffilm%2Fthe-naked-gun-2025"><i class="fab fa-facebook"></i></a>
 
             </div></div></div>
     <div id="menubar">
@@ -284,6 +292,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a title="Hoorn" class="hoorn" href="https://www.filmladder.nl/hoorn">Hoorn</a>
                     <a title="Houten" class="houten" href="https://www.filmladder.nl/houten">Houten</a>
                     <a title="Huizen" class="huizen" href="https://www.filmladder.nl/huizen">Huizen</a>
+                    <a title="Hulst" class="hulst" href="https://www.filmladder.nl/hulst">Hulst</a>
                     <a title="Kampen" class="kampen" href="https://www.filmladder.nl/kampen">Kampen</a>
                     <a title="Kerkrade" class="kerkrade" href="https://www.filmladder.nl/kerkrade">Kerkrade</a>
                     <a title="Klazienaveen" class="klazienaveen" href="https://www.filmladder.nl/klazienaveen">Klazienaveen</a>
@@ -346,11 +355,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="menumargin"></div>
     </div>
     <div id="back-to-top"><span></span><i class="fa fa-chevron-up"></i></div>
-    <div id="current-cinema" style="position:fixed"></div>
-</div>
+    <div id="current-cinema" style="position:fixed">
+    </div></div>
 
 <div class="canvas" itemscope="itemscope" itemtype="https://schema.org/Movie">
-    <div class="h1 movies"><h1 itemprop="name">Als ik mijn ogen sluit (2024)</h1></div>
+    <div class="h1 movies"><h1 itemprop="name">The Naked Gun (2025)</h1></div>
     <div id="main-container" class="content movies-matrix movies-sorting-name">
 
 
@@ -360,36 +369,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="tabs-bar">
                 <ul class="tabs tabs-3">
-                    <li id="tab-cities" class="tab active"><a title="Info over Als ik mijn ogen sluit" href="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024">over de film</a></li>
-                    <li id="tab-cities" class="tab "><a title="Trailer van Als ik mijn ogen sluit" href="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024/trailer">trailer</a></li>
-                    <li id="tab-cities" class="tab "><a title="Bioscopen waar Als ik mijn ogen sluit draait" href="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024/bioscopen">tijden &amp; tickets</a></li>
+                    <li id="tab-cities" class="tab active"><a title="Info over The Naked Gun" href="https://www.filmladder.nl/film/the-naked-gun-2025">over de film</a></li>
+                    <li id="tab-cities" class="tab "><a title="Trailer van The Naked Gun" href="https://www.filmladder.nl/film/the-naked-gun-2025/trailer">trailer</a></li>
+                    <li id="tab-cities" class="tab "><a title="Bioscopen waar The Naked Gun draait" href="https://www.filmladder.nl/film/the-naked-gun-2025/bioscopen">tijden &amp; tickets</a></li>
                 </ul></div>
 
 
             <div class="sheet movie-detail">
                 <div class="object-description">
-                    <img alt="Als ik mijn ogen sluit - still" class="still" src="https://assets.filmladder.nl/uploads/depot_image/asset/001/033/777/1033777/large_11d7363bd00090f9.jpg" />
+                    <img alt="The Naked Gun - still" class="still" src="https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/060/441/1060441/large_600dfdcb1ea04561.jpg" />
 
 
-                    <p class="synopsis" itemprop="description"><i>Als ik mijn ogen sluit…</i> is een documentaire over de vrouwen en meisjes die de Japanse kampen overleefden en hoe zij hier later in hun leven mee omgingen. De Japanse kampen lieten grote littekens na en veel van die littekens zijn nog niet genezen of verdwenen. Als de vrouwen hun ogen sluiten, komen deze verhalen bovendrijven. Wij als kijker kruipen hiermee in de hoofden van de vrouwen die de kampen hebben overleefd. Van de kampen bestaan weinig foto's en er is haast geen filmmateriaal. Wel zijn er door de vrouwen en kinderen in het kamp honderden tekeningen gemaakt. </p>
+                    <p class="synopsis" itemprop="description">Slechts één man beschikt over de specifieke vaardigheden om Police Squad aan te voeren en de wereld te redden; Inspecteur Frank Drebin Jr. treedt in de voetsporen van zijn vader.</p>
 
-                    <p class="movie-cities-sentence">De film 'Als ik mijn ogen sluit' is in de bioscoop te zien in Amsterdam, Schiedam, Utrecht, Bussum en Zierikzee. Ga naar tijden & tickets voor de volledige bioscoopagenda van deze film of bekijk eerst de trailer van deze film.</p>
+                    <p class="movie-cities-sentence">De film 'The Naked Gun' is in de bioscoop te zien in Amsterdam, Rotterdam, Den Haag, Utrecht, Tilburg, Nijmegen, Eindhoven, Breda, Groningen, Arnhem en <nobr>72 andere steden</nobr>. Ga naar tijden & tickets voor de volledige bioscoopagenda van deze film of bekijk eerst de trailer van deze film.</p>
 
                     <div class="movie-buttons">
-                        <a title="Filmtrailer van Als ik mijn ogen sluit" class="trailer-button" href="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024/trailer">filmtrailer <i class="fas fa-video"></i></a>
-                        <a title="Bioscopen waar Als ik mijn ogen sluit draait" class="times-and-tickets-button" href="https://www.filmladder.nl/film/als-ik-mijn-ogen-sluit-2024/bioscopen">tijden & tickets <i class="fa fa-ticket-alt" aria-hidden="true"></i></a>
+                        <a title="Filmtrailer van The Naked Gun" class="trailer-button" href="https://www.filmladder.nl/film/the-naked-gun-2025/trailer">filmtrailer <i class="fas fa-video"></i></a>
+                        <a title="Bioscopen waar The Naked Gun draait" class="times-and-tickets-button" href="https://www.filmladder.nl/film/the-naked-gun-2025/bioscopen">tijden & tickets <i class="fa fa-ticket-alt" aria-hidden="true"></i></a>
                     </div>
 
 
-                    <div id="short-details" class="mobile-only"><h3 title="Details Als ik mijn ogen sluit">details Als ik mijn ogen sluit</h3><span itemprop="contentRating" content="1" class="kijkwijzer" style="font-size: 1.9em; display: inline-block; line-height: 0">1</span> <div class="duration-button"><i class="fa fa-clock fa-fw" aria-hidden="true"></i> 95 minuten</div></div>
+                    <div id="short-details" class="mobile-only"><h3 title="Details The Naked Gun">details The Naked Gun</h3><span itemprop="contentRating" content="4GT" class="kijkwijzer" style="font-size: 1.9em; display: inline-block; line-height: 0">4GT</span><div title="Bekijk The Naked Gun op de Internet Movie Database" class="imdb-button" data-link="https://www.imdb.com/title/tt3402138">IMDb </div> <div class="duration-button"><i class="fa fa-clock fa-fw" aria-hidden="true"></i> 85 minuten</div></div>
 
-                    <div class="reviews">
-                        <h3>recensies Als ik mijn ogen sluit</h3>
-                        <a title="Recensie van Als ik mijn ogen sluit in De Filmkrant" class="review-link" data-link="https://filmkrant.nl/recensies/als-ik-mijn-ogen-sluit/" href="https://filmkrant.nl/recensies/als-ik-mijn-ogen-sluit/">De Filmkrant</a>
-                        <a title="Recensie van Als ik mijn ogen sluit in De Volkskrant" class="review-link" data-link="https://www.volkskrant.nl/films/in-de-aangrijpende-documentaire-als-ik-mijn-ogen-sluit-vertellen-vrouwen-hun-verhaal-over-de-japanse-kampen~ba0e16c8/" href="https://www.volkskrant.nl/films/in-de-aangrijpende-documentaire-als-ik-mijn-ogen-sluit-vertellen-vrouwen-hun-verhaal-over-de-japanse-kampen~ba0e16c8/">De Volkskrant</a>
-                        <a title="Recensie van Als ik mijn ogen sluit in NRC" class="review-link" data-link="https://www.nrc.nl/nieuws/2024/03/26/kalm-vertelde-getuigenissen-over-seksueel-geweld-in-de-jappenkampen-komen-des-te-harder-aan-in-als-ik-mijn-ogen-sluit-a4194258" href="https://www.nrc.nl/nieuws/2024/03/26/kalm-vertelde-getuigenissen-over-seksueel-geweld-in-de-jappenkampen-komen-des-te-harder-aan-in-als-ik-mijn-ogen-sluit-a4194258">NRC</a>
 
-                    </div>
 
                     <div class="banner-frame"><script>
                         if(mobile() || ''=='mobile-only'){
@@ -400,11 +403,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </script></div>
                 </div>
                 <div class="object-detail">
-                    <a data-featherlight="https://assets.filmladder.nl/uploads/depot_image/asset/001/033/876/1033876/medium_848c20c143209cd6.jpg" data-featherlight-close-on-click="anywhere" title="Klik voor een uitvergroting van de poster van Als ik mijn ogen sluit" href="#"><img alt="Als ik mijn ogen sluit - poster" class="poster" itemprop="image" src="https://assets.filmladder.nl/uploads/depot_image/asset/001/033/876/1033876/small_848c20c143209cd6.jpg" /><span class="poster-expand-link"><i class="fa fa-search-plus fa-fw" aria-hidden="true"></i> poster van Als ik mijn ogen sluit</span></a>
+                    <a data-featherlight="https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/065/046/1065046/medium_5519d7dac81160f1.jpg" data-featherlight-close-on-click="anywhere" title="Klik voor een uitvergroting van de poster van The Naked Gun" href="#"><img alt="The Naked Gun - poster" class="poster" itemprop="image" src="https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/065/046/1065046/small_5519d7dac81160f1.jpg" /><span class="poster-expand-link"><i class="fa fa-search-plus fa-fw" aria-hidden="true"></i> poster van The Naked Gun</span></a>
 
 
                     <div class="cast-and-crew">
-                        <h3 title="Kijkwijzer Als ik mijn ogen sluit" class="desktop-only">kijkwijzer Als ik mijn ogen sluit</h3><span itemprop="contentRating" content="1" class="kijkwijzer desktop-only" style="font-size: 1.8em;">1</span><h3 title="Cast &amp; crew Als ik mijn ogen sluit">cast &amp; crew Als ik mijn ogen sluit</h3><h4 title="Regisseur van Als ik mijn ogen sluit">regisseur</h4><p><span itemprop="director" itemscope="itemscope" itemtype="https://schema.org/Person"><span itemprop="name">Pieter van Huystee</span></span></p><h3 title="Details Als ik mijn ogen sluit">details Als ik mijn ogen sluit</h3><h4 title="Als ik mijn ogen sluit in première op">in première op</h4><p itemprop="dateCreated" content="2024-03-28">28-03-2024</p><h4>genre</h4><p itemprop="genre">documentaire</p><h4 title="Als ik mijn ogen sluit jaar">jaar</h4><p itemprop="copyrightYear" content="2024">2024</p><h4>speelduur</h4><p itemprop="duration" datetime="PT95M">95 minuten</p>
+                        <h3 title="Kijkwijzer The Naked Gun" class="desktop-only">kijkwijzer The Naked Gun</h3><span itemprop="contentRating" content="4GT" class="kijkwijzer desktop-only" style="font-size: 1.8em;">4GT</span><h3 title="IMDb The Naked Gun" class="desktop-only">IMDb The Naked Gun</h3><p class="desktop-only"><div title="Bekijk The Naked Gun op de Internet Movie Database" class="imdb-button" data-link="https://www.imdb.com/title/tt3402138">IMDb </div></p><h3 title="Cast &amp; crew The Naked Gun">cast &amp; crew The Naked Gun</h3><h4 title="Regisseur van The Naked Gun">regisseur</h4><p><span itemprop="director" itemscope="itemscope" itemtype="https://schema.org/Person"><span itemprop="name">Akiva Schaffer</span></span></p><h4 title="Acteurs van The Naked Gun">acteurs</h4><p><span itemprop="actor" itemscope="itemscope" itemtype="https://schema.org/Person"><span itemprop="name">Liam Neeson</span></span>, <span itemprop="actor" itemscope="itemscope" itemtype="https://schema.org/Person"><span itemprop="name">Pamela Anderson</span></span> en <span itemprop="actor" itemscope="itemscope" itemtype="https://schema.org/Person"><span itemprop="name">Paul Walter Hauser</span></span></p><h3 title="Details The Naked Gun">details The Naked Gun</h3><h4 title="The Naked Gun in première op">in première op</h4><p itemprop="dateCreated" content="2025-07-31">31-07-2025</p><h4>genres</h4><p itemprop="genre">actie en komedie</p><h4 title="The Naked Gun jaar">jaar</h4><p itemprop="copyrightYear" content="2025">2025</p><h4>speelduur</h4><p itemprop="duration" datetime="PT85M">85 minuten</p>
                     </div></div>
 
                 <div style="clear:both"></div>
@@ -432,17 +435,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>              <li>
                 <a title="Utrecht" href="https://www.filmladder.nl/utrecht/bioscopen">Utrecht</a>
             </li>              <li>
-                <a title="Haarlem" href="https://www.filmladder.nl/haarlem/bioscopen">Haarlem</a>
-            </li>              <li>
                 <a title="Eindhoven" href="https://www.filmladder.nl/eindhoven/bioscopen">Eindhoven</a>
             </li>              <li>
                 <a title="Tilburg" href="https://www.filmladder.nl/tilburg/bioscopen">Tilburg</a>
             </li>              <li>
                 <a title="Groningen" href="https://www.filmladder.nl/groningen/bioscopen">Groningen</a>
             </li>              <li>
-                <a title="Breda" href="https://www.filmladder.nl/breda/bioscopen">Breda</a>
+                <a title="Haarlem" href="https://www.filmladder.nl/haarlem/bioscopen">Haarlem</a>
             </li>              <li>
                 <a title="Nijmegen" href="https://www.filmladder.nl/nijmegen/bioscopen">Nijmegen</a>
+            </li>              <li>
+                <a title="Breda" href="https://www.filmladder.nl/breda/bioscopen">Breda</a>
             </li>              <li>
                 <a title="Enschede" href="https://www.filmladder.nl/enschede/bioscopen">Enschede</a>
             </li>              <li>
@@ -454,11 +457,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>              <li>
                 <a title="Helmond" href="https://www.filmladder.nl/helmond/bioscopen">Helmond</a>
             </li>              <li>
-                <a title="Leidschendam" href="https://www.filmladder.nl/leidschendam/bioscopen">Leidschendam</a>
-            </li>              <li>
                 <a title="Maastricht" href="https://www.filmladder.nl/maastricht/bioscopen">Maastricht</a>
             </li>              <li>
                 <a title="Schiedam" href="https://www.filmladder.nl/schiedam/bioscopen">Schiedam</a>
+            </li>              <li>
+                <a title="Zutphen" href="https://www.filmladder.nl/zutphen/bioscopen">Zutphen</a>
             </li></ul></div>
         <div>
             <strong>films in Nederland</strong>
@@ -474,56 +477,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul>
                 <li><a href="https://www.filmladder.nl/bioscopen">alle bioscopen</a></li>
                 <li>
-                    <a title="Pathé de Kuip" href="https://www.filmladder.nl/bioscoop/pathe-de-kuip-rotterdam">Pathé de Kuip</a>
+                    <a title="LAB111" href="https://www.filmladder.nl/bioscoop/lab111-amsterdam">LAB111</a>
                 </li>              <li>
                 <a title="Forum Groningen" href="https://www.filmladder.nl/bioscoop/forum-groningen-groningen">Forum Groningen</a>
             </li>              <li>
+                <a title="Filmhuis Den Haag" href="https://www.filmladder.nl/bioscoop/filmhuis-den-haag-den-haag">Filmhuis Den Haag</a>
+            </li>              <li>
+                <a title="Focus Filmtheater Arnhem" href="https://www.filmladder.nl/bioscoop/focus-filmtheater-arnhem-arnhem">Focus Filmtheater Arnhem</a>
+            </li>              <li>
                 <a title="Pathé Arena" href="https://www.filmladder.nl/bioscoop/pathe-arena-amsterdam">Pathé Arena</a>
-            </li>              <li>
-                <a title="EYE" href="https://www.filmladder.nl/bioscoop/eye-amsterdam">EYE</a>
-            </li>              <li>
-                <a title="Pathé de Munt" href="https://www.filmladder.nl/bioscoop/pathe-de-munt-amsterdam">Pathé de Munt</a>
-            </li>              <li>
-                <a title="Vue Kerkrade" href="https://www.filmladder.nl/bioscoop/vue-kerkrade-kerkrade">Vue Kerkrade</a>
-            </li>              <li>
-                <a title="Filmhallen" href="https://www.filmladder.nl/bioscoop/filmhallen-amsterdam">Filmhallen</a>
-            </li>              <li>
-                <a title="Pathé Arnhem" href="https://www.filmladder.nl/bioscoop/pathe-arnhem-arnhem">Pathé Arnhem</a>
-            </li>              <li>
-                <a title="Pathé Amsterdam Noord" href="https://www.filmladder.nl/bioscoop/pathe-amsterdam-noord-amsterdam">Pathé Amsterdam Noord</a>
-            </li>              <li>
-                <a title="Vue Den Bosch" href="https://www.filmladder.nl/bioscoop/vue-den-bosch-den-bosch">Vue Den Bosch</a>
-            </li>              <li>
-                <a title="Lumière" href="https://www.filmladder.nl/bioscoop/lumiere-maastricht">Lumière</a>
-            </li>              <li>
-                <a title="Pathé Zwolle" href="https://www.filmladder.nl/bioscoop/pathe-zwolle-zwolle">Pathé Zwolle</a>
-            </li>              <li>
-                <a title="LUX" href="https://www.filmladder.nl/bioscoop/lux-nijmegen">LUX</a>
-            </li>              <li>
-                <a title="Pathé Euroscoop Schiedam" href="https://www.filmladder.nl/bioscoop/pathe-euroscoop-schiedam-schiedam">Pathé Euroscoop Schiedam</a>
-            </li>              <li>
-                <a title="Vue Alkmaar" href="https://www.filmladder.nl/bioscoop/vue-alkmaar-alkmaar">Vue Alkmaar</a>
             </li>              <li>
                 <a title="Pathé Groningen" href="https://www.filmladder.nl/bioscoop/pathe-groningen-groningen">Pathé Groningen</a>
             </li>              <li>
-                <a title="Pathé Eindhoven" href="https://www.filmladder.nl/bioscoop/pathe-eindhoven-eindhoven">Pathé Eindhoven</a>
+                <a title="Lumière" href="https://www.filmladder.nl/bioscoop/lumiere-maastricht">Lumière</a>
             </li>              <li>
-                <a title="Pathé Euroscoop Tilburg" href="https://www.filmladder.nl/bioscoop/pathe-euroscoop-tilburg-tilburg">Pathé Euroscoop Tilburg</a>
+                <a title="EYE" href="https://www.filmladder.nl/bioscoop/eye-amsterdam">EYE</a>
+            </li>              <li>
+                <a title="LantarenVenster" href="https://www.filmladder.nl/bioscoop/lantarenvenster-rotterdam">LantarenVenster</a>
+            </li>              <li>
+                <a title="Lab-1" href="https://www.filmladder.nl/bioscoop/lab-1">Lab-1</a>
+            </li>              <li>
+                <a title="Cinerama" href="https://www.filmladder.nl/bioscoop/cinerama-rotterdam">Cinerama</a>
+            </li>              <li>
+                <a title="Pathé Spuimarkt" href="https://www.filmladder.nl/bioscoop/pathe-spuimarkt-den-haag">Pathé Spuimarkt</a>
+            </li>              <li>
+                <a title="Pathé Amsterdam Noord" href="https://www.filmladder.nl/bioscoop/pathe-amsterdam-noord-amsterdam">Pathé Amsterdam Noord</a>
+            </li>              <li>
+                <a title="Pathé Ede" href="https://www.filmladder.nl/bioscoop/pathe-ede-ede">Pathé Ede</a>
+            </li>              <li>
+                <a title="Vue Kerkrade" href="https://www.filmladder.nl/bioscoop/vue-kerkrade-kerkrade">Vue Kerkrade</a>
+            </li>              <li>
+                <a title="Verkadefabriek" href="https://www.filmladder.nl/bioscoop/verkadefabriek-den-bosch">Verkadefabriek</a>
+            </li>              <li>
+                <a title="Pathé Zwolle" href="https://www.filmladder.nl/bioscoop/pathe-zwolle-zwolle">Pathé Zwolle</a>
+            </li>              <li>
+                <a title="Pathé de Kuip" href="https://www.filmladder.nl/bioscoop/pathe-de-kuip-rotterdam">Pathé de Kuip</a>
             </li></ul></div>
         <div>
             <strong>films deze week in première</strong>
             <ul>
-                <li><a href="https://www.filmladder.nl/film/club-zero-2024">Club Zero</a></li>
-                <li><a href="https://www.filmladder.nl/film/challengers-2023">Challengers</a></li>
-                <li><a href="https://www.filmladder.nl/film/radical-2023">Radical</a></li>
-                <li><a href="https://www.filmladder.nl/film/woman-of-2023">Woman Of…</a></li>
-                <li><a href="https://www.filmladder.nl/film/bolero-2024">Boléro</a></li>
-                <li><a href="https://www.filmladder.nl/film/bed-breakfast-2023">Bed &amp; Breakfast</a></li>
-                <li><a href="https://www.filmladder.nl/film/tarot-2023">Tarot</a></li>
-                <li><a href="https://www.filmladder.nl/film/breathe-2024">Breathe</a></li>
-                <li><a href="https://www.filmladder.nl/film/a-few-mornings-an-evening-2024">A Few Mornings, an Evening</a></li>
-                <li><a href="https://www.filmladder.nl/film/garfield-nl-2024">Garfield (NL)</a></li>
-                <li><a href="https://www.filmladder.nl/film/garfield-ov-2024">Garfield (OV)</a></li>
+                <li><a href="https://www.filmladder.nl/film/matt-and-mara-2024">Matt and Mara</a></li>
+                <li><a href="https://www.filmladder.nl/film/the-north-2025">The North</a></li>
+                <li><a href="https://www.filmladder.nl/film/aicha-2023">Aïcha</a></li>
+                <li><a href="https://www.filmladder.nl/film/bring-her-back-2025">Bring Her Back</a></li>
+                <li><a href="https://www.filmladder.nl/film/the-naked-gun-2025">The Naked Gun</a></li>
+                <li><a href="https://www.filmladder.nl/film/la-pie-voleuse-2025">La Pie Voleuse</a></li>
+                <li><a href="https://www.filmladder.nl/film/dracula-2025">Dracula</a></li>
+                <li><a href="https://www.filmladder.nl/film/ciure-2022">Ciuré</a></li>
+                <li><a href="https://www.filmladder.nl/film/hoe-ik-per-ongeluk-een-boek-schreef-2024">Hoe ik per ongeluk een boek schreef</a></li>
+                <li><a href="https://www.filmladder.nl/film/the-bad-guys-2-ov-2025">The Bad Guys 2 (OV)</a></li>
+                <li><a href="https://www.filmladder.nl/film/de-bad-guys-2-nl-2025">De Bad Guys 2 (NL)</a></li>
             </ul></div>
     </div>
     <hr style="clear:both">
@@ -555,14 +558,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><a href="/privacy">privacy</a></li>
             </ul></div>
         <div>
-            <strong>&copy; Filmladder 2024</strong>
+            <strong>&copy; Filmladder 2025</strong>
         </div>
     </div></footer>
 
 <div class="modal fadex" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
     <div class="modal-dialog large" role="document">
         <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Sluit"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sluit">
+                <span aria-hidden="true">&times;</span></button>
             <div class="modal-body">
                 <div class="spinner"><i class="fa fa-refresh fa-spin"></i></div>
             </div>
@@ -573,7 +577,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="modal fade" id="modal-reviews" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
             <div class="modal-body">
                 <iframe src="" width="100%" height="700"></iframe>
             </div>
@@ -584,7 +589,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="modal fade" id="modal-mailchimp" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
             <div class="modal-body">
                 <!-- Begin MailChimp Signup Form -->
 
@@ -618,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="/assets/application-70f9c44a4f3bea8f2b1586cac59c1fdb5ec6beebd47bee9c8e79fa7cecbc4999.js"></script>
 
 <script type="text/javascript">
-    (function($) {
+    (function ($) {
 
         $('.haarlem').addClass('current-city')
         window.fnames = new Array();
@@ -657,6 +663,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e9f9ede1bbb24203a4f49a686cf62eb7"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e9f9ede1bbb24203a4f49a686cf62eb7"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
