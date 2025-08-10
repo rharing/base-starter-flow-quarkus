@@ -60,29 +60,6 @@ class MoviesFetcherTest {
     }
 
     @Test
-    public void checkingSpecialCharsLive() throws IOException {
-        DocumentLoader documentLoader = DocumentLoader.create("https://filmladder.nl/");
-        MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
-        // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
-        Clock clock = LONGTIMEAGO;
-
-        MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, new LocalMyMoviesRepositoryForTest(), clock);
-        List<PlayDTO> plays = null;
-        try {
-            moviesFetcher.setClock(Clock.systemUTC());
-            plays = moviesFetcher.loadPlays("haarlem");
-            assertThat(plays.size()).isGreaterThan(0);
-
-            List<PlayDTO> patheFilms = plays.stream().filter(play -> play.cinema().startsWith("Path")).toList();
-            assertThat(patheFilms.size()).isGreaterThan(0);
-            assertThat(patheFilms.get(0).cinema().equals("Pathé Haarlem"));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-    }
-
-    @Test
     public void completeFlow() throws IOException {
         BaseDataLoader baseDataLoader = new BaseDataLoader();
         DocumentLoader documentLoader = DocumentLoader.create(baseDataLoader.getExternalUrl("overview_haarlem.html").get());
@@ -146,6 +123,29 @@ class MoviesFetcherTest {
             MoviesFetcher moviesFetcher = new MoviesFetcher( new MoviesDocumentParser(DocumentLoader.create("http://www.filmladder.nl")), new LocalMyMoviesRepositoryForTest(), Clock.systemUTC());
             List<City> cities = moviesFetcher.loadCities();
             assertThat(cities).isNotEmpty();
+        }
+
+        @Test
+        @Tag("liveTests")
+        public void checkingSpecialCharsLive() throws IOException {
+            DocumentLoader documentLoader = DocumentLoader.create("https://filmladder.nl/");
+            MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
+            // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
+            Clock clock = LONGTIMEAGO;
+
+            MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, new LocalMyMoviesRepositoryForTest(), clock);
+            List<PlayDTO> plays = null;
+            try {
+                moviesFetcher.setClock(Clock.systemUTC());
+                plays = moviesFetcher.loadPlays("haarlem");
+                assertThat(plays.size()).isGreaterThan(0);
+
+                List<PlayDTO> patheFilms = plays.stream().filter(play -> play.cinema().startsWith("Path")).toList();
+                assertThat(patheFilms.size()).isGreaterThan(0);
+                assertThat(patheFilms.get(0).cinema().equals("Pathé Haarlem"));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
 
         @Test
