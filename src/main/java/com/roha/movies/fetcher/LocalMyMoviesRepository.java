@@ -18,7 +18,7 @@ public class LocalMyMoviesRepository implements MyMoviesRepository {
     private final String backendFile;
     private final AbstractResource storage;
     private MyMovies myMovies = null;
-    private Boolean useMemory = false;
+    private boolean useMemory = false;
 
     public LocalMyMoviesRepository() {
         this("my_movies.json");
