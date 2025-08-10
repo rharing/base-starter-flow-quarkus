@@ -128,43 +128,55 @@ public class MoviesDocumentParser {
             //https://next.filmladder.nl/film/peacock-2024
         }
         Document document = documentLoader.parse();
-        String json = document.select("script[type=application/ld+json]").get(0).getAllElements().get(0).data();
-        ObjectMapper objectMapper = new ObjectMapper();
-        FilmLadderContent filmLadderContent = objectMapper.readValue(json, FilmLadderContent.class);
-        String content = filmLadderContent.getDescription();
+        Elements ldJsonContent = document.select("script[type=application/ld+json]");
+        if (ldJsonContent.size() > 0) {
+            String json = ldJsonContent.get(0).getAllElements().get(0).data();
+            ObjectMapper objectMapper = new ObjectMapper();
+            FilmLadderContent filmLadderContent = objectMapper.readValue(json, FilmLadderContent.class);
+            return loadMovieFromLDJson(document, filmLadderContent, href);
+        } else {
+            return loadMovieFromHtml(document, href);
+        }
+    }
+
+    private Movie loadMovieFromHtml(Document document, String href) {
+
+        String content = document.select("p.synopsis").text();
+
         String title = document.select("div#short-details>h3").attr("title");
         if (title.startsWith("Details ")) {
             title = title.replace("Details ", "");
         }
-        if (StringUtils.isEmpty(title)) {
-            title = filmLadderContent.getName();
-        }
         String movieId = IdCreator.create(title);
-
         final Elements durationElement = document.select("p[itemprop=duration]");
         String duration = "";
         if (durationElement != null) {
             duration = durationElement.text();
-            if (duration == null || duration.isBlank()) {
+            if (duration == null) {
                 duration = "";
             }
         }
-        Integer minuten = 0;
+        Integer minuten =0;
         if (duration.endsWith("minuten")) {
             minuten = Integer.valueOf(duration.replace("minuten", "").strip());
         }
-        if (StringUtils.isEmpty(duration)) {
-            duration = "" + filmLadderContent.loadDuration();
-        }
+
         String rating = document.select("span[itemprop=ratingValue]").text();
-        if (rating == null || rating.isEmpty()) {
-            if (filmLadderContent.getAggregateRating() != null) {
-                rating = "" + filmLadderContent.getAggregateRating().getRatingValue();
-            }
+        if (rating == null) {
+            rating = "";
         }
 
         String imageHref = document.select("img.poster").attr("src");
         return new Movie(movieId, title, href, rating, content, imageHref, minuten, new ArrayList<>(), null);
+    }
+
+
+    private Movie loadMovieFromLDJson(Document document, FilmLadderContent filmLadderContent, String href) {
+        String content = filmLadderContent.getDescription();
+        String title = filmLadderContent.getName();
+        String id = IdCreator.create(title);
+
+        return new Movie(id, title, href, "" +filmLadderContent.getAggregateRating().getRatingValue(),content, filmLadderContent.getImage(), filmLadderContent.loadDuration(), new ArrayList<>(), null);
     }
 
     public List<WhenPlayDTO> whenMovie(String id) throws IOException {

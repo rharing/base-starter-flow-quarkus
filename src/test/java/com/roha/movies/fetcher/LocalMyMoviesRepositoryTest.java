@@ -15,7 +15,7 @@ class LocalMyMoviesRepositoryTest {
         LocalMyMoviesRepository localMyMoviesRepository = new LocalMyMoviesRepository();
         MyMovies myMovies = localMyMoviesRepository.load();
         assertThat(myMovies).isNotNull();
-        assertThat(myMovies.getWanted()).hasSize(45);
+        assertThat(myMovies.getWanted()).hasSize(59);
     }
 
     @Test

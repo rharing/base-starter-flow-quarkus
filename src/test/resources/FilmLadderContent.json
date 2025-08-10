@@ -1,0 +1,1131 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Movie",
+  "url": "https://next.filmladder.nl/film/peacock-2024/amsterdam",
+  "name": "Peacock",
+  "description": "Matthias is de perfecte +1. Ben je op zoek naar de perfecte zoon om indruk mee te maken? Een gesprekspartner die de juiste wijn kent en de juiste boeken heeft gelezen? Of zoek je iemand om mee te leren ruziën? Boek Matthias. Hij speelt iedereen met gemak. Behalve zichzelf.",
+  "datePublished": "2025-07-03",
+  "duration": "PT102M",
+  "image": "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg",
+  "director": [
+    {
+      "@type": "Person",
+      "name": "Bernhard Wenger"
+    }
+  ],
+  "actor": [
+    {
+      "@type": "Person",
+      "name": "Albrecht Schuch"
+    },
+    {
+      "@type": "Person",
+      "name": "Anton Noori"
+    },
+    {
+      "@type": "Person",
+      "name": "Julia Franz Richter"
+    }
+  ],
+  "event": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-07-30T14:00:00.000+02:00",
+      "endDate": "2025-07-30T15:57:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-22T01:24:28.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213489817",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-07-30T18:45:00.000+02:00",
+      "endDate": "2025-07-30T20:42:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-22T01:24:28.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213489818",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-07-31T11:50:00.000+02:00",
+      "endDate": "2025-07-31T13:47:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:11.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689025",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-07-31T19:15:00.000+02:00",
+      "endDate": "2025-07-31T21:12:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:24.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689250",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-01T16:45:00.000+02:00",
+      "endDate": "2025-08-01T18:42:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:38.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689533",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-01T18:30:00.000+02:00",
+      "endDate": "2025-08-01T20:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Rialto VU",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Boelelaan 1111",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Rialto VU te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Rialto VU",
+        "url": "https://next.filmladder.nl/bioscoop/rialto-vu-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:40.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689554",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-01T21:30:00.000+02:00",
+      "endDate": "2025-08-01T23:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "EYE",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "IJpromenade 1",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in EYE te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "EYE",
+        "url": "https://next.filmladder.nl/bioscoop/eye-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:48.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689692",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-02T11:35:00.000+02:00",
+      "endDate": "2025-08-02T13:32:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:50.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689733",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-02T16:45:00.000+02:00",
+      "endDate": "2025-08-02T18:42:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Rialto VU",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Boelelaan 1111",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Rialto VU te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Rialto VU",
+        "url": "https://next.filmladder.nl/bioscoop/rialto-vu-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:02:58.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689910",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-02T19:15:00.000+02:00",
+      "endDate": "2025-08-02T21:12:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:04.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213689998",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-02T21:30:00.000+02:00",
+      "endDate": "2025-08-02T23:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "EYE",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "IJpromenade 1",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in EYE te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "EYE",
+        "url": "https://next.filmladder.nl/bioscoop/eye-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:09.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690076",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-03T16:30:00.000+02:00",
+      "endDate": "2025-08-03T18:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Rialto VU",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Boelelaan 1111",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Rialto VU te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Rialto VU",
+        "url": "https://next.filmladder.nl/bioscoop/rialto-vu-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:21.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690298",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-03T16:45:00.000+02:00",
+      "endDate": "2025-08-03T18:42:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:22.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690313",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-04T11:50:00.000+02:00",
+      "endDate": "2025-08-04T13:47:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:32.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690493",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-04T16:00:00.000+02:00",
+      "endDate": "2025-08-04T17:57:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "EYE",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "IJpromenade 1",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in EYE te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "EYE",
+        "url": "https://next.filmladder.nl/bioscoop/eye-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:37.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690587",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-04T19:15:00.000+02:00",
+      "endDate": "2025-08-04T21:12:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:42.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690707",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-05T16:00:00.000+02:00",
+      "endDate": "2025-08-05T17:57:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "EYE",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "IJpromenade 1",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in EYE te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "EYE",
+        "url": "https://next.filmladder.nl/bioscoop/eye-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:53.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690923",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-05T16:45:00.000+02:00",
+      "endDate": "2025-08-05T18:42:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:55.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213690966",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-05T19:00:00.000+02:00",
+      "endDate": "2025-08-05T20:57:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Rialto VU",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Boelelaan 1111",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Rialto VU te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Rialto VU",
+        "url": "https://next.filmladder.nl/bioscoop/rialto-vu-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:03:58.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213691032",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-06T14:05:00.000+02:00",
+      "endDate": "2025-08-06T16:02:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Studio/K",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Timorplein",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Studio/K te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Studio/K",
+        "url": "https://next.filmladder.nl/bioscoop/studio-k-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:04:10.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213691229",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-06T16:30:00.000+02:00",
+      "endDate": "2025-08-06T18:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Rialto VU",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Boelelaan 1111",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Rialto VU te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Rialto VU",
+        "url": "https://next.filmladder.nl/bioscoop/rialto-vu-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:04:14.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213691310",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-07-31T13:30:00.000+02:00",
+      "endDate": "2025-07-31T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702081",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-01T13:30:00.000+02:00",
+      "endDate": "2025-08-01T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702082",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-02T13:30:00.000+02:00",
+      "endDate": "2025-08-02T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702083",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-03T12:00:00.000+02:00",
+      "endDate": "2025-08-03T13:57:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702084",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-04T13:30:00.000+02:00",
+      "endDate": "2025-08-04T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702085",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-05T13:30:00.000+02:00",
+      "endDate": "2025-08-05T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702086",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Peacock",
+      "startDate": "2025-08-06T13:30:00.000+02:00",
+      "endDate": "2025-08-06T15:27:00.000+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Filmhallen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hannie Dankbaarpassage 12",
+          "addressLocality": "Amsterdam",
+          "addressCountry": "NL"
+        }
+      },
+      "description": "Filmvoorstelling Peacock in Filmhallen te Amsterdam.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Filmhallen",
+        "url": "https://next.filmladder.nl/bioscoop/filmhallen-amsterdam"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "validFrom": "2025-07-28T14:28:20.000+02:00",
+        "url": "https://next.filmladder.nl/kaartjes/1213702087",
+        "availability": "https://schema.org/InStock"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Albrecht Schuch, Anton Noori en Julia Franz Richter"
+      },
+      "image": [
+        "https://assets-filmladder-nl.b-cdn.net/uploads/depot_image/asset/001/063/123/1063123/medium_730a9762a5d64ba1.jpg"
+      ]
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 7.2,
+    "bestRating": "10",
+    "worstRating": "0",
+    "ratingCount": 884
+  }
+}

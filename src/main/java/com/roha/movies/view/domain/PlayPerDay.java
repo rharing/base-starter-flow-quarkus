@@ -13,7 +13,7 @@ public record PlayPerDay(DayOfWeek day, LocalDateTime start,LocalDateTime end, S
         this(
             play.start().getDayOfWeek(),
             play.start(),
-            play.start().plusMinutes(play.movie().duration()),
+            play.end(),
             play.tickethref(),
                 play.cinema()
         );

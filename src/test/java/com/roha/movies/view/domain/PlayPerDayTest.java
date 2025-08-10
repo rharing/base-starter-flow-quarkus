@@ -19,7 +19,7 @@ class PlayPerDayTest {
         PlayPerDay playPerDay = new PlayPerDay(new Play("test", movie, start, end, "href", "cinema", "titleAddOn"));
 //        assertThat(playPerDay.day()).is(start.getDayOfWeek());
 //        assertThat(playPerDay.start()).is(start);
-        assertThat(playPerDay.toString()).isEqualTo("13:15");
+        assertThat(playPerDay.toString()).isEqualTo("13:15-14:45");
     }
 
 }

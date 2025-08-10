@@ -39,7 +39,7 @@ class BaseDataLoaderTest {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.findAndRegisterModules();
         MyMovies myMovies = objectMapper.readValue(jsonContent, MyMovies.class);
-        assertThat(myMovies.getWanted().size()).isEqualTo(45);
+        assertThat(myMovies.getWanted().size()).isEqualTo(59);
 
     }
 }
