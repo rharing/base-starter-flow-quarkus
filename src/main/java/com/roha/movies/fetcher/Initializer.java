@@ -1,10 +1,7 @@
 package com.roha.movies.fetcher;
 
 import com.google.common.base.Strings;
-import com.roha.movies.domain.Movie;
-import com.roha.movies.domain.MovieDTO;
-import com.roha.movies.domain.MyMovies;
-import com.roha.movies.domain.PlayDTO;
+import com.roha.movies.domain.*;
 import com.roha.movies.service.MailService;
 import com.roha.movies.view.domain.MyMoviesAction;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -14,13 +11,10 @@ import java.io.IOException;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneOffset;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @ApplicationScoped
-public class Initializer {
+public class Initializer implements WithLogger {
 
     @ConfigProperty(name = "useLive", defaultValue = "true")
     Boolean useLive;
@@ -59,17 +53,45 @@ public class Initializer {
         }
         if (useAws) {
             myMoviesRepository = new AwsMyMoviesRepository(bucket_name, region);
+            MyMovies myMovies = myMoviesRepository.load();
+            if (myMovies.getWanted().isEmpty()) {
+                logger().error("could not load myMovies from AWS");
+                System.exit(801);
+            }
         } else {
             Optional<String> externalUrl = baseDataLoader.getExternalUrl("my_movies.json");
             myMoviesRepository = new LocalMyMoviesRepository(externalUrl.get());
         }
-
         moviesFetcher = new MoviesFetcher(new MoviesDocumentParser(documentLoader), myMoviesRepository);
 
         if (!useLive) {
             moviesFetcher = new MoviesFetcher(new MoviesDocumentParser(documentLoader), new LocalMyMoviesRepositoryForTest());
             moviesFetcher.setClock(LONGTIMEAGO);
         }
+//        updateMyMovies();
+    }
+
+    private void updateMyMovies() throws IOException {
+        MyMovies myMovies = myMoviesRepository.load();
+        locateMovieDetails(myMovies.getWanted());
+        locateMovieDetails(myMovies.getSeen());
+        locateMovieDetails(myMovies.getSkipped());
+        myMoviesRepository.save(myMovies);
+    }
+
+    private Boolean locateMovieDetails(Map<String, MovieDTO> wanted) throws IOException {
+        Boolean updated = false;
+        for (MovieDTO movieDto : wanted.values()) {
+            if (movieDto.href() != null && movieDto.image() == null) {
+                Movie movie = loadMovie(movieDto);
+                if (movie.imageHref() != null) {
+                    movieDto = movie.asDTO();
+                    wanted.put(movieDto.id(), movieDto);
+                    updated = true;
+                }
+            }
+        }
+        return updated;
     }
 
     public void setMoviesFetcher(MoviesFetcher moviesFetcher) {
@@ -96,9 +118,9 @@ public class Initializer {
     public void updateMyMovie(MovieDTO movieDTO, MyMoviesAction action) throws IOException {
 //        Movie movie = loadMovie(movieDTO);
         MyMovies myMovies = myMoviesRepository.load();
-        if(action != null) {
+        if (action != null) {
             boolean updated = action.handle(myMovies, movieDTO);
-            if(updated) {
+            if (updated) {
                 myMoviesRepository.save(myMovies);
             }
         }
@@ -110,7 +132,7 @@ public class Initializer {
             return new Movie(movieId, movieId, movieDTO.href(), "unknown", "bogus content for " + movieId, "", 42, new ArrayList<>(), "");
         } else {
             Movie movie = getMoviesFetcher().loadMovie(movieDTO);
-            if(Strings.isNullOrEmpty(movie.content())) {
+            if (Strings.isNullOrEmpty(movie.content())) {
                 // @todo mailservice is still null, replace with eventbus thingie
 //                mailService.sendNoContentMovie(movie);
             }

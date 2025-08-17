@@ -58,6 +58,18 @@ class MoviesFetcherTest {
     public void testPlayComparator() {
 
     }
+    @Test
+    public void shouldLocateMovieContentSisterhood() throws IOException {
+        BaseDataLoader baseDataLoader = new BaseDataLoader();
+        DocumentLoader documentLoader = DocumentLoader.create(baseDataLoader.getExternalUrl("bug_sisterhood.html").get());
+        MoviesDocumentParser moviesDocumentParser = new MoviesDocumentParser(documentLoader);
+        // as overview is in the past, use a different clock to fetch movies, this will make none of the movies too late
+        Clock clock = (Clock) InstantSource.fixed(Instant.parse("2024-04-13T08:00:00+02:00"));
+        MyMoviesRepository myMoviesRepository = new LocalMyMoviesRepositoryForTest();
+        MoviesFetcher moviesFetcher = new MoviesFetcher(moviesDocumentParser, myMoviesRepository, clock);
+        Movie movie = moviesFetcher.loadMovie();
+        assertThat(movie).isNotNull();
+    }
 
     @Test
     public void completeFlow() throws IOException {

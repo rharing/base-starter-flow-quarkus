@@ -124,8 +124,10 @@ public class MoviesDocumentParser {
         if (href != null) {
             String movieId = href.split("/popup/")[0];
             movieId = movieId.replace("www", "next");
-            documentLoader = new ExternalDocumentLoader(movieId);
-            //https://next.filmladder.nl/film/peacock-2024
+            if(movieId.contains("/synopsis")) {
+                movieId = movieId.split("/synopsis")[0];
+            }
+            documentLoader = new ExternalDocumentLoader( movieId);
         }
         Document document = documentLoader.parse();
         Elements ldJsonContent = document.select("script[type=application/ld+json]");
@@ -156,7 +158,7 @@ public class MoviesDocumentParser {
                 duration = "";
             }
         }
-        Integer minuten =0;
+        Integer minuten = 0;
         if (duration.endsWith("minuten")) {
             minuten = Integer.valueOf(duration.replace("minuten", "").strip());
         }
@@ -176,7 +178,11 @@ public class MoviesDocumentParser {
         String title = filmLadderContent.getName();
         String id = IdCreator.create(title);
 
-        return new Movie(id, title, href, "" +filmLadderContent.getAggregateRating().getRatingValue(),content, filmLadderContent.getImage(), filmLadderContent.loadDuration(), new ArrayList<>(), null);
+        String rating = "unknown";
+        if (filmLadderContent.getAggregateRating() != null) {
+            rating = "" +filmLadderContent.getAggregateRating().getRatingValue();
+        }
+        return new Movie(id, title, href, rating, content, filmLadderContent.getImage(), filmLadderContent.loadDuration(), new ArrayList<>(), null);
     }
 
     public List<WhenPlayDTO> whenMovie(String id) throws IOException {

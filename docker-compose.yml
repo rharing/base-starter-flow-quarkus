@@ -1,0 +1,16 @@
+
+
+services:
+  backend:
+    image: htl-leonding/vehicle:latest
+    ports:
+      - "8080:8080"
+    networks:
+      - vehicle
+    environment:
+      - ACCESS_KEY:${ACCESS_KEY}
+      - ACCESS_SECRET:${ACCESS_SECRET}
+networks:
+  vehicle:
+    name: quarkus-vehicle-network
+

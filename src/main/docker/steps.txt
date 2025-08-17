@@ -1,0 +1,5 @@
+mvn clean package -DskipTests
+testing the build
+running it:
+java -jar target/quarkus-app/quarkus-run.jar met ww of gewoon run.bat
+docker build -f src/main/Docker/Dockerfile.jvm -t rharing:movies-vaadin

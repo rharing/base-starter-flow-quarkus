@@ -52,7 +52,7 @@ public class MeView extends VerticalLayout implements WithLogger {
         wanted.forEach((key, value) -> {
             if (value != null) {
                 Movie movie = value.asMovie();
-                logger().info(myMoviesAction + "Movie " + movie.title());
+                logger().info(myMoviesAction + " Movie " + movie.title());
                 movieView.add(new MovieWithPlaysDiv(initializer, movie, myMoviesAction));
             }
         });
