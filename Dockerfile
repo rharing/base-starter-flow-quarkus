@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk as build
+FROM eclipse-temurin:17-jdk AS build
 COPY target/quarkus-app/lib/ /deployments/lib/
 COPY target/quarkus-app/*.jar /deployments/
 COPY target/quarkus-app/app/ /deployments/app/
