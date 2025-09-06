@@ -26,6 +26,10 @@ public class Initializer implements WithLogger {
     String bucket_name;
     @ConfigProperty(name = "s3_region")
     String region;
+    @ConfigProperty(name = "access_key")
+    String key;
+    @ConfigProperty(name = "access_secret")
+    String secret;
     private MoviesFetcher moviesFetcher;
     private MailService mailService;
     private MyMoviesRepository myMoviesRepository;
@@ -52,7 +56,10 @@ public class Initializer implements WithLogger {
 
         }
         if (useAws) {
-            myMoviesRepository = new AwsMyMoviesRepository(bucket_name, region);
+            logger().info("got key: " + key);
+            logger().info("got secret: " + secret);
+            myMoviesRepository = new AwsMyMoviesRepository(bucket_name, region, key, secret);
+
             MyMovies myMovies = myMoviesRepository.load();
             if (myMovies.getWanted().isEmpty()) {
                 logger().error("could not load myMovies from AWS");

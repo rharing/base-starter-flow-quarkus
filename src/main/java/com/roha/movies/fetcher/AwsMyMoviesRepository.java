@@ -5,48 +5,84 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3Object;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roha.movies.domain.MyMovies;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.core.sync.RequestBody;
+import software.amazon.awssdk.core.sync.ResponseTransformer;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.GetObjectRequest;
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 public class AwsMyMoviesRepository implements MyMoviesRepository {
 
+    private static final Logger log = LoggerFactory.getLogger(com.roha.movies.service.AwsMyMoviesRepository.class);
     String bucketName;
     String region;
+    String key;
+    String secret;
 
     public AwsMyMoviesRepository() {
     }
 
-    public AwsMyMoviesRepository(@ConfigProperty(name ="s3_bucket") String bucketName) {
+    public AwsMyMoviesRepository(@ConfigProperty(name = "s3_bucket") String bucketName) {
         this.bucketName = bucketName;
     }
 
-    public AwsMyMoviesRepository(@ConfigProperty(name ="s3_bucket") String bucketName,@ConfigProperty(name ="s3_region") String region) {
+    public AwsMyMoviesRepository(@ConfigProperty(name = "s3_bucket") String bucketName, @ConfigProperty(name = "s3_region") String region, @ConfigProperty(name = "access_key") String key, @ConfigProperty(name = "access_secret") String secret) {
+        this.bucketName = bucketName;
+        this.region = region;
+        this.key = key;
+        this.secret = secret;
+    }
+
+    public AwsMyMoviesRepository(@ConfigProperty(name = "s3_bucket") String bucketName, @ConfigProperty(name = "s3_region") String region) {
         this.bucketName = bucketName;
         this.region = region;
     }
 
-    @Override
-    public MyMovies load() {
-        final Bucket bucket = getBucket(bucketName);
-        MyMovies myMovies = null;
+    public Optional<MyMovies> loadMyMovies() {
+        Optional<MyMovies> myMovies = Optional.empty();
 
-        if (bucket != null) {
-            final AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(region).build();
-            S3Object s3Object = s3.getObject(bucketName, "my_movies.json");
+        if (bucketName != null) {
+            S3Client s3 = createS3Client();
+            GetObjectRequest getObjectRequest = GetObjectRequest.builder()
+                    .bucket(bucketName)
+                    .key("my_movies.json")
+                    .build();
+
+            String myMoviesContent = s3.getObject(getObjectRequest, ResponseTransformer.toBytes()).asUtf8String();
+
+            ObjectMapper objectMapper = new ObjectMapper();
             try {
-                String fileContent = new String(s3Object.getObjectContent().readAllBytes(), "UTF-8");
-                ObjectMapper objectMapper = new ObjectMapper();
-                myMovies = objectMapper.readValue(fileContent, MyMovies.class);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+                myMovies = Optional.of(objectMapper.readValue(myMoviesContent, MyMovies.class));
+                log.info("Loaded my movies from s3");
+            } catch (JsonProcessingException e) {
+                log.info("loaded the file but there was an json exception", e);
             }
         }
-
         return myMovies;
+    }
+
+    private S3Client createS3Client() {
+        return S3Client.builder()
+                .credentialsProvider(StaticCredentialsProvider.create(
+                        software.amazon.awssdk.auth.credentials.AwsBasicCredentials.create(
+                                key,
+                                secret
+                        )
+                ))
+                .region(Region.EU_CENTRAL_1)
+                .build();
     }
 
     public Bucket getBucket(String bucket_name) {
@@ -61,17 +97,27 @@ public class AwsMyMoviesRepository implements MyMoviesRepository {
         return named_bucket;
     }
 
+
+    @Override
+    public MyMovies load() {
+        return loadMyMovies().orElse(new MyMovies());
+    }
+
     @Override
     public void save(MyMovies myMovies) {
-        final Bucket bucket = getBucket(bucketName);
 
-        if (bucket != null) {
+        if (bucketName != null) {
             try {
                 ObjectMapper objectMapper = new ObjectMapper();
                 objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
                 String json = objectMapper.writeValueAsString(myMovies);
-                final AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(region).build();
-                s3.putObject(bucketName, "my_movies.json", json);
+                S3Client s3 = createS3Client();
+                PutObjectRequest putObjectRequest = PutObjectRequest.builder()
+                        .bucket(bucketName)
+                        .key("my_movies.json")
+                        .build();
+
+                s3.putObject(putObjectRequest, RequestBody.fromString(json));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
